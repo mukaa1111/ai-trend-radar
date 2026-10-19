@@ -23,7 +23,7 @@
   - 확인: 폰 텔레그램에 브리프가 도착했다
 
 ## 3단계 · 자동 실행 (클라우드 루틴)
-- [ ] **(채팅)** "루틴 지시문 써줘" → `docs/ROUTINE.md`에 루틴 설정·지시문·재생성 절차 기록 ("주말 뭐하지?" ROUTINE.md와 같은 틀)
+- [x] **(채팅)** "루틴 지시문 써줘" → `docs/ROUTINE.md`에 루틴 설정·지시문·재생성 절차 기록 (2026-10-19)
 - [ ] **(직접)** https://github.com/apps/claude/installations/select_target 에서 `ai-trend-radar` 저장소에도 Claude 앱 허용
 - [ ] **(채팅)** 루틴 만들기: 매일 07:00 한국 = cron `0 22 * * *`, 모델 claude-sonnet-5-5, 환경 변수 `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`
 - [ ] **(채팅)** "지금 실행"으로 시험 → 텔레그램 도착 + GitHub에 `briefs/` 커밋 확인
