@@ -11,7 +11,7 @@
 | 텔레그램 봇 (@ai_hrd_rader_bot) + 토큰·chat id | 내 텔레그램 계정 | 그대로 |
 | 자동 실행 루틴 | Claude 계정 (지금은 팀 계정) | **새 계정에서 다시 만들기** (아래 설정 그대로) |
 | Claude ↔ GitHub 연결 | Claude 계정 | 새 계정에서 다시 연결 + Claude GitHub App 설치 |
-| 루틴 환경 변수(토큰·chat id) | Claude 계정 | 새 계정 루틴에 다시 넣기 (값은 PC `.env`에 있음) |
+| 클라우드 환경 변수(토큰·chat id) | Claude 계정의 환경(Default) 설정 | 새 계정 환경에 다시 넣기 (값은 PC `.env`에 있음) |
 | 클라우드 환경 네트워크 설정 | Claude 계정 | 새 계정에서 다시 설정 |
 
 ## 루틴 설정
@@ -20,15 +20,16 @@
 - **모델**: claude-sonnet-5-5 (글 고르는 품질이 아쉬우면 claude-opus-5-5로 올릴 수 있음, 비용은 더 듦)
 - **저장소**: https://github.com/mukaa1111/ai-trend-radar (브랜치 main에 바로 커밋)
 - **도구**: Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
-- **환경 변수 (비밀값)**: `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` — 값은 PC의 `.env` 파일에 있음. 저장소에는 절대 올리지 않음.
-- **현재 루틴 주소**: (만든 뒤 여기에 적기)
+- **환경 변수 (비밀값, 루틴이 아니라 클라우드 환경 설정에 넣음)**: `RADAR_TELEGRAM_BOT_TOKEN`(이 봇의 토큰), `TELEGRAM_CHAT_ID`(주말 뭐하지?와 같은 값이라 이미 있음) — 값은 PC의 `.env` 파일에 있음. 저장소에는 절대 올리지 않음.
+  루틴 설정 자체에는 환경 변수를 넣을 수 없다(API가 거부함). 환경(Default) 설정 화면에서 넣는다.
+- **현재 루틴 주소**: https://claude.ai/code/routines/trig_018rT68dY4eQyV6RK2BwqeLb (팀 계정, 2026-10-19 생성)
 
 ## 처음 만들 때 / 새 계정에서 다시 만들 때 순서
 1. Claude 계정으로 https://claude.ai/code 로그인 → "저장소"에서 GitHub 연결 (이미 돼 있으면 건너뜀)
 2. **(직접)** https://github.com/apps/claude/installations/select_target 에서 mukaa1111 선택 → 저장소 목록에 **ai-trend-radar 추가** → Save
    (주말 뭐하지?의 weekend-events만 허용돼 있으면 이 저장소에는 푸시를 못 함)
-3. claude.ai/code 환경(Default) 설정에서 네트워크 접근을 "전체 허용"으로 (출처가 30곳이라 도메인을 하나씩 적기 어려움)
-4. Claude Code에게 "docs/ROUTINE.md대로 루틴 만들어줘"라고 말하기 → 아래 지시문 그대로, 환경 변수 2개 입력
+3. claude.ai/code 환경(Default) 설정에서 (a) 환경 변수 `RADAR_TELEGRAM_BOT_TOKEN`(값은 PC `.env`)과 `TELEGRAM_CHAT_ID`를 넣고 (b) 네트워크 접근을 "전체 허용"으로 (출처가 30곳이라 도메인을 하나씩 적기 어려움)
+4. Claude Code에게 "docs/ROUTINE.md대로 루틴 만들어줘"라고 말하기 → 아래 지시문 그대로
 5. 만든 뒤 한 번 "지금 실행"해서 (a) 텔레그램 도착 (b) GitHub `briefs/`에 새 파일 커밋 확인
 6. 루틴 주소를 위 "현재 루틴 주소"에 적기
 
@@ -67,7 +68,7 @@
 5. 각 글은 반드시 **원문 페이지를 직접 열어** 제목·날짜·내용을 확인한 뒤에만 쓴다. 검색 결과 요약만 보고 쓰지 않는다. 열지 못한 글은 후보에서 뺀다. 날짜를 모르면 "날짜 불확실"이라고 쓴다. 숫자는 원문에 있는 것만 쓴다.
 6. `docs/FORMAT.md` 양식대로 `briefs/YYYY-MM-DD.md`를 쓴다. 꼬리에 "🧪 오늘 해볼 것"(오늘 고른 글 중 하나에서 나온 30분짜리 실험 1개)과 "🔥 요즘 기술 화제"(F절에서 찾은 현상 1건, 비개발자용 3줄 + 일·학습·조직에 뜻하는 것 한 줄)를 붙인다. 기술 화제가 정말 없으면 그 코너는 "오늘은 없음"이라고 쓴다. 맨 아래에 "못 연 출처" 한 줄을 쓴다. 전체 길이는 4,500자 안쪽.
 7. `data/items.json`에 오늘 고른 글(더 보기·기술 화제 포함)을 FORMAT.md의 항목 형식으로 **뒤에 추가**한다. 기존 항목은 지우지 않는다. `python3 -c "import json;json.load(open('data/items.json',encoding='utf-8'))"`가 오류 없이 끝나야 한다.
-8. 텔레그램으로 보낸다: `python3 scripts/send_brief.py briefs/YYYY-MM-DD.md` (토큰·chat id는 환경 변수 `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`에 있다). "sent n message(s)"가 출력돼야 한다. 실패하면 한 번 더 시도하고, 그래도 실패하면 요약에 '텔레그램 발송 실패: (오류)'라고 분명히 적는다. 브리프 파일과 커밋은 발송 실패와 상관없이 남긴다.
+8. 텔레그램으로 보낸다: `python3 scripts/send_brief.py briefs/YYYY-MM-DD.md` (토큰·chat id는 환경 변수 `RADAR_TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`에 있다). "sent n message(s)"가 출력돼야 한다. 실패하면 한 번 더 시도하고, 그래도 실패하면 요약에 '텔레그램 발송 실패: (오류)'라고 분명히 적는다. 브리프 파일과 커밋은 발송 실패와 상관없이 남긴다.
 9. 변경된 파일(`briefs/`, `data/items.json`, 필요하면 `docs/SOURCES.md`의 메모 칸)을 커밋하고 `main`에 바로 푸시한다 (PR 만들지 않는다). 커밋 메시지 예: `브리프 2026-10-20: 5건 + 기술 화제 1건`. **골라낼 글이 하나도 없어도 "오늘은 추천할 글이 없음" 브리프를 만들고 보내고 커밋한다.** 이 커밋이 루틴이 살아 있다는 증거다.
 10. `docs/SOURCES.md`는 출처가 안 열리거나 주소가 바뀐 경우에만 메모 칸을 갱신한다. 출처를 멋대로 지우거나 추가하지 않는다.
 
