@@ -8,7 +8,7 @@
 - [x] **(직접)** 텔레그램 봇 만들기 (@ai_hrd_rader_bot, 2026-10-19): 텔레그램에서 `@BotFather` 검색 → `/newbot` → 이름(예: AI HRD 레이더) → 아이디(예: `ai_hrd_radar_bot`) → 받은 **토큰**을 메모장에 복사해 두기
 - [x] **(직접)** 만든 봇을 열어 `/start` 한 번 보내기 (그래야 봇이 나에게 말을 걸 수 있어요)
 - [x] **(채팅)** "텔레그램 chat id 찾아줘" → 토큰으로 내 chat id를 확인해 `.env` 파일에 저장 (토큰은 절대 저장소에 올리지 않음)
-- [ ] **(채팅)** "GitHub 저장소 만들어줘" → 이 폴더를 git 저장소로 만들고 `mukaa1111/ai-trend-radar`(비공개)에 연결
+- [x] **(채팅)** "GitHub 저장소 만들어줘" → 이 폴더를 git 저장소로 만들고 `mukaa1111/ai-trend-radar`(비공개)에 연결 (2026-10-19)
   - 확인: https://github.com/mukaa1111/ai-trend-radar 에 docs 폴더가 보인다
 
 ## 1단계 · 손으로 한 번 만들어 보기 (양식 확정)
