@@ -246,5 +246,100 @@
     "paid": false,
     "coi": "",
     "published": "2026-10-18"
+  },
+  {
+    "date": "2026-10-20",
+    "title": "AI로 일이 빨라졌는데, 사람은 배웠을까?",
+    "source": "Chief Learning Officer",
+    "url": "https://www.chieflearningofficer.com/2026/10/19/ai-can-improve-performance-but-did-anyone-learn/",
+    "lang": "en",
+    "tags": [
+      "학습변화관리"
+    ],
+    "summary": [
+      "AI로 빨라진 성과가 직원 본인의 역량 향상을 뜻하지는 않는다고 짚는다.",
+      "메타분석(86건)·CHI 2025 연구(319명, 사례 936건) 등을 근거로 든다.",
+      "정답 기계가 아닌 학습 파트너로 쓰는 방식과 CLO 점검 질문 5개를 제시한다."
+    ],
+    "why": "AI 교육 지표를 사용량에서 도구 없이도 되는가로 옮길 근거가 된다.",
+    "paid": false,
+    "coi": "",
+    "published": "2026-10-19"
+  },
+  {
+    "date": "2026-10-20",
+    "title": "새로 나온 Claude Haiku 5.5, 반복 업무 자동화 실험에 쓰기 좋은 값",
+    "source": "Anthropic",
+    "url": "https://www.anthropic.com/news/claude-haiku-5-5",
+    "lang": "en",
+    "tags": [
+      "해볼것"
+    ],
+    "summary": [
+      "입력 100만 토큰당 $0.10·출력 $0.50, Haiku 4.5 대비 평균 약 75% 저렴하다고 밝힌다.",
+      "처음으로 effort 수준 조절을 지원하고 요약·분류·브라우저 사용이 용도다.",
+      "OSWorld 2.1 오프라인 일부 72.4%(Haiku 4.5는 15.7%), 자사 보고."
+    ],
+    "why": "양은 많고 판단은 가벼운 업무를 싸게 실험할 문턱이 낮아졌다.",
+    "paid": false,
+    "coi": "Anthropic 자사 발표",
+    "published": "2026-10-07"
+  },
+  {
+    "date": "2026-10-20",
+    "title": "AI 성과를 내려면 먼저 업무 흐름부터 그려라",
+    "source": "HBR",
+    "url": "https://hbr.org/2026/11/for-real-performance-gains-with-ai-start-by-mapping-your-workflows",
+    "lang": "en",
+    "tags": [
+      "work_redesign"
+    ],
+    "summary": [
+      "기업들이 AI를 어디에 써야 성과가 나는지 찾는 데 애를 먹는다고 시작한다.",
+      "515개 기업 연구에서 업무 재설계 사례를 접한 기업의 결과가 달랐다고 한다(결론은 유료).",
+      "본문은 유료 벽 뒤라 확인하지 못했다."
+    ],
+    "why": "교육 이전에 업무 흐름 재설계 사례를 보여 주는 것이 먼저라는 가설이다.",
+    "paid": true,
+    "coi": "",
+    "published": "날짜 불확실(11-12월호)"
+  },
+  {
+    "date": "2026-10-20",
+    "title": "EY, 8주 인턴십을 8~12개월 유급 커리어 레지던시로 교체",
+    "source": "Charter",
+    "url": "https://www.charterworks.com/inside-eys-plan-to-replace-the-eight-week-internship/",
+    "lang": "en",
+    "tags": [
+      "work_redesign"
+    ],
+    "summary": [
+      "EY가 2026년 8월 여름 감사·세무 인턴십 교체를 발표했다.",
+      "8~12개월 유급 커리어 레지던시이며 지원은 9월부터 받는다.",
+      "EY 책임자는 고객사 수십 곳이 문의했다고 말했다. 이후는 유료."
+    ],
+    "why": "신입 육성을 제도로 다시 설계한 사례라 온보딩·실습 설계의 비교 대상이다.",
+    "paid": true,
+    "coi": "",
+    "published": "2026-10-15"
+  },
+  {
+    "date": "2026-10-20",
+    "title": "LLM이 못 쓰는 프로그래밍 언어를 만들었다",
+    "source": "Hacker News(블로그 Dominik Picheta)",
+    "url": "https://blog.picheta.me/post/killswitch-lang/",
+    "lang": "en",
+    "tags": [
+      "기술화제"
+    ],
+    "summary": [
+      "AI가 읽고 쓰기 어렵게 설계한 언어 KillSwitch를 만들어 주요 AI를 시험했다.",
+      "AI의 코딩 실력이 이해인지 암기인지 가려 보려는 실험이다.",
+      "최고점은 Claude Opus 5의 66.8점이고 일부 모델은 안전장치가 과민했다."
+    ],
+    "why": "낯선 상황에서의 판단을 보는 평가·교육 설계가 필요하다.",
+    "paid": false,
+    "coi": "",
+    "published": "2026-10-17"
   }
 ]
