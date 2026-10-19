@@ -1,0 +1,136 @@
+[
+ {
+  "date": "2026-10-19",
+  "title": "책임 있는 AI의 진짜 과제는 사람 판단을 어디에 남길지 설계하는 것",
+  "source": "MIT Sloan Management Review",
+  "url": "https://sloanreview.mit.edu/article/the-defining-challenge-of-responsible-ai-is-designing-systems-that-preserve-human-judgment-when-and-where-it-counts/",
+  "lang": "en",
+  "tags": [
+   "work_redesign"
+  ],
+  "summary": [
+   "전문가 패널 26명 중 65%가 인간 판단 보존을 핵심 과제로 꼽았다.",
+   "사람 판단은 목표·가드레일·에스컬레이션 기준을 정하는 상류 단계에서 가치가 크다.",
+   "고위험 결정에 검토를 집중하고 일부 저위험 결정은 사람에게 남겨 판단력을 유지하라고 권한다."
+  ],
+  "why": "AI에 맡길 일과 사람이 남길 일을 가르는 기준표로 쓸 수 있다.",
+  "paid": false,
+  "coi": "BCG 소속 저자 2명",
+  "published": "2026-10-15"
+ },
+ {
+  "date": "2026-10-19",
+  "title": "신입 직무를 AI 시대에 맞게 다시 설계하는 법",
+  "source": "Charter",
+  "url": "https://www.charterworks.com/how-to-redesign-entry-level-jobs-for-the-age-of-ai/",
+  "lang": "en",
+  "tags": [
+   "work_redesign"
+  ],
+  "summary": [
+   "AI 노출이 큰 업종에서 신입 채용 공고가 크게 줄었다.",
+   "신입을 줄이면 7~8년 뒤 시니어 파이프라인이 끊긴다고 경고한다.",
+   "신입 직무에 새 과업을 넣어 경제성을 유지하라고 제안한다."
+  ],
+  "why": "신입이 배우던 반복 업무를 AI가 가져가면 어디서 배우나는 HRD가 먼저 답해야 할 질문이다.",
+  "paid": false,
+  "coi": "",
+  "published": "2026-10-11"
+ },
+ {
+  "date": "2026-10-19",
+  "title": "직원이 AI를 받아들이게 하려면 생산성 도구라고 팔지 마라",
+  "source": "Stanford HAI",
+  "url": "https://hai.stanford.edu/news/want-employees-to-embrace-ai-stop-selling-it-as-a-productivity-tool",
+  "lang": "en",
+  "tags": [
+   "학습변화관리"
+  ],
+  "summary": [
+   "직원 184명 인터뷰와 로펌 두 부서 2년 관찰을 비교했다.",
+   "직무 풍부화로 소개한 부서가 사용량 58%, 실험 70% 더 많았다.",
+   "효과는 교육·탐색 시간·지식 공유가 뒷받침될 때만 나타났다."
+  ],
+  "why": "AI 도입 메시지와 교육 설계를 바꾸는 근거다.",
+  "paid": false,
+  "coi": "",
+  "published": "2026-10-07"
+ },
+ {
+  "date": "2026-10-19",
+  "title": "AI 교육은 활용률은 올리지만 생산성은 보장하지 않는다",
+  "source": "California Management Review",
+  "url": "https://cmr.berkeley.edu/2026/10/why-ai-training-is-driving-adoption-but-not-sustainable-productivity/",
+  "lang": "en",
+  "tags": [
+   "학습변화관리"
+  ],
+  "summary": [
+   "LSE·Protiviti 설문 3,000명+와 후속 859명을 분석했다.",
+   "교육받은 직원 93%가 AI를 쓰지만 시간 절감은 교육 여부와 무관하게 주 0~3시간이다.",
+   "절감 시간을 고부가 업무에 재투입하는 비율은 54~57%다(재투입 격차)."
+  ],
+  "why": "교육 성과 지표를 수료율에서 절감 시간의 사용처로 옮겨야 한다는 논거다.",
+  "paid": false,
+  "coi": "설문 일부가 컨설팅사 Protiviti 자료",
+  "published": "2026-10-02"
+ },
+ {
+  "date": "2026-10-19",
+  "title": "수업을 놓친 학생을 따라잡게 해 주는 대학의 AI 에이전트",
+  "source": "Microsoft News",
+  "url": "https://news.microsoft.com/source/emea/features/missed-a-lecture-this-ai-agent-at-bar-ilan-university-helps-students-catch-up/",
+  "lang": "en",
+  "tags": [
+   "해볼것"
+  ],
+  "summary": [
+   "Bar-Ilan 대학이 Moodle에 AI 에이전트를 붙여 71개 강좌, 학생 약 2,400명이 썼다.",
+   "교수 자료만 근거로 답하고 요약·퀴즈를 만든다.",
+   "한 학생은 복습 시간이 하루 5~6시간에서 3시간으로 줄었다고 했다(대학 측 발언)."
+  ],
+  "why": "우리 교안만 근거로 답하는 학습 도우미는 사내 교육에 먼저 옮겨 볼 수 있는 에이전트 형태다.",
+  "paid": false,
+  "coi": "Microsoft 자사 고객 사례",
+  "published": "2026-10-15"
+ },
+ {
+  "date": "2026-10-19",
+  "title": "Josh Bersin: 직무를 과업으로 분해해 AI를 붙이는 Dynamic Work Design 5단계",
+  "source": "Josh Bersin",
+  "url": "https://joshbersin.com/2026/10/what-is-task-or-work-intelligence-and-can-we-decompose-every-job-for-ai/",
+  "lang": "en",
+  "tags": [
+   "work_redesign",
+   "더보기"
+  ],
+  "summary": [
+   "직무를 과업 단위로 쪼개 AI에 적용하는 흐름이 되살아났다.",
+   "Dynamic Work Design 5단계(목표, 결과물, 규칙형/판단형 구분, 과업 연결, 필요 역량)를 제안한다.",
+   "수치는 없고 자사 제품 홍보가 섞여 있다."
+  ],
+  "why": "직무→과업 분해 틀로 참고할 만하다.",
+  "paid": false,
+  "coi": "자사 제품 Galileo·Workday 제휴 홍보",
+  "published": "2026-10-19"
+ },
+ {
+  "date": "2026-10-19",
+  "title": "게임 리버스 엔지니어링 커뮤니티, AI 때문에 너무 쉬워져서 문을 닫다",
+  "source": "404 Media",
+  "url": "https://www.404media.co/video-game-reverse-engineering-community-shuts-down-because-ai-has-made-it-too-easy/",
+  "lang": "en",
+  "tags": [
+   "기술화제"
+  ],
+  "summary": [
+   "옛 게임 코드를 함께 거꾸로 풀던 커뮤니티 decomp.dev가 문을 닫는다고 알렸다.",
+   "최신 AI가 이 작업을 훨씬 빠르게 해 사람 작업과 AI 결과물을 구분하기 어려워졌다.",
+   "프로젝트를 복사해 AI로 마무리해 공개하는 일이 늘며 협업 문화가 무너졌다."
+  ],
+  "why": "전문가의 일이 며칠로 줄면 누가 했고 믿을 수 있나를 검증하는 일과 협업 문화가 먼저 흔들린다.",
+  "paid": false,
+  "coi": "",
+  "published": "2026-10-15"
+ }
+]

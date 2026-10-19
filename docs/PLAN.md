@@ -12,7 +12,7 @@
   - 확인: https://github.com/mukaa1111/ai-trend-radar 에 docs 폴더가 보인다
 
 ## 1단계 · 손으로 한 번 만들어 보기 (양식 확정)
-- [ ] **(채팅)** "오늘 브리프 한 번 만들어줘" → Claude Code가 SOURCES.md를 돌아 `briefs/2026-10-xx.md` 작성
+- [x] **(채팅)** "오늘 브리프 한 번 만들어줘" → Claude Code가 SOURCES.md를 돌아 `briefs/2026-10-19.md` 작성 (2026-10-19, docs/FORMAT.md도 작성)
 - [ ] **(직접)** 읽어 보고 고칠 점 말하기: 글 개수, 요약 길이, "왜 중요한지" 문장, 해볼 것 코너
 - [ ] **(채팅)** 피드백 반영해 `docs/FORMAT.md`(브리프 양식)와 INTERESTS.md 다듬기
   - 확인: "이대로 매일 받으면 좋겠다" 싶은 브리프가 한 편 있다
