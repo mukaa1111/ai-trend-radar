@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI HRD 레이더 보관함</title>
+<meta name="description" content="매일 아침 텔레그램으로 받은 AI HRD 브리프를 날짜별로 모아 두고 검색하는 페이지">
+<style>
+  :root {
+    --bg: #f7f6f2; --card: #ffffff; --text: #1f2328; --muted: #6b7280; --line: #e5e3dc;
+    --accent: #b4532a; --accent-soft: #f6e6de; --chip: #efede6; --chip-on: #1f2328; --chip-on-text: #ffffff;
+    --tag-work: #b4532a; --tag-try: #2f7a4f; --tag-learn: #2c5fa8; --tag-tech: #7a4bb3; --tag-more: #6b7280;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #15171a; --card: #1e2126; --text: #e8e6e1; --muted: #9aa0a8; --line: #2c3037;
+      --accent: #e0825a; --accent-soft: #3a2a22; --chip: #2a2e35; --chip-on: #e8e6e1; --chip-on-text: #15171a;
+      --tag-work: #e0825a; --tag-try: #5fb783; --tag-learn: #6f9ee6; --tag-tech: #ad86e0; --tag-more: #9aa0a8;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #15171a; --card: #1e2126; --text: #e8e6e1; --muted: #9aa0a8; --line: #2c3037;
+    --accent: #e0825a; --accent-soft: #3a2a22; --chip: #2a2e35; --chip-on: #e8e6e1; --chip-on-text: #15171a;
+    --tag-work: #e0825a; --tag-try: #5fb783; --tag-learn: #6f9ee6; --tag-tech: #ad86e0; --tag-more: #9aa0a8;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.55 -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", system-ui, sans-serif; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+  header h1 { font-size: 22px; margin: 0 0 4px; letter-spacing: -0.01em; }
+  header p { margin: 0; color: var(--muted); font-size: 14px; }
+  .tools { position: sticky; top: 0; background: var(--bg); padding: 12px 0 10px; z-index: 2; border-bottom: 1px solid var(--line); margin-bottom: 16px; }
+  .search { width: 100%; padding: 11px 14px; font-size: 16px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); color: var(--text); }
+  .search:focus { outline: 2px solid var(--accent); border-color: transparent; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+  .chip { border: 0; background: var(--chip); color: var(--text); border-radius: 999px; padding: 6px 12px; font-size: 13px; cursor: pointer; }
+  .chip[aria-pressed="true"] { background: var(--chip-on); color: var(--chip-on-text); }
+  .count { color: var(--muted); font-size: 13px; margin-top: 8px; }
+  .day { margin: 22px 0 10px; display: flex; align-items: baseline; gap: 10px; }
+  .day h2 { font-size: 15px; margin: 0; color: var(--muted); font-weight: 600; }
+  .day a { font-size: 13px; color: var(--accent); text-decoration: none; }
+  .item { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; margin-bottom: 10px; }
+  .item h3 { font-size: 16px; margin: 0 0 4px; line-height: 1.4; }
+  .item h3 a { color: var(--text); text-decoration: none; }
+  .item h3 a:hover { color: var(--accent); }
+  .meta { font-size: 13px; color: var(--muted); margin-bottom: 8px; display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; }
+  .tag { font-size: 12px; padding: 2px 8px; border-radius: 999px; color: #fff; }
+  .t-work_redesign { background: var(--tag-work); } .t-해볼것 { background: var(--tag-try); }
+  .t-학습변화관리 { background: var(--tag-learn); } .t-기술화제 { background: var(--tag-tech); } .t-더보기 { background: var(--tag-more); }
+  .paid { color: var(--accent); font-weight: 600; }
+  .item ul { margin: 0 0 8px; padding-left: 18px; font-size: 15px; }
+  .item li { margin: 2px 0; }
+  .why { font-size: 14px; background: var(--accent-soft); border-radius: 8px; padding: 8px 10px; margin: 0; }
+  .coi { font-size: 12px; color: var(--muted); margin-top: 6px; }
+  .link { font-size: 13px; margin-top: 8px; word-break: break-all; }
+  .link a { color: var(--accent); }
+  .empty { color: var(--muted); text-align: center; padding: 40px 0; }
+  footer { margin-top: 32px; font-size: 13px; color: var(--muted); }
+  footer a { color: var(--accent); }
+  mark { background: #ffe9a8; color: inherit; border-radius: 2px; }
+  :root[data-theme="dark"] mark { background: #6b5a1a; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) mark { background: #6b5a1a; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>📡 AI HRD 레이더 보관함</h1>
+    <p>매일 아침 텔레그램으로 온 브리프의 글을 날짜별로 모아 둔 곳. 제목·요약·출처로 검색할 수 있어요.</p>
+  </header>
+
+  <div class="tools">
+    <input class="search" id="q" type="search" placeholder="검색: 예) work redesign, 신입, 교육 효과, Stanford" autocomplete="off">
+    <div class="chips" id="chips" role="group" aria-label="태그 필터"></div>
+    <div class="count" id="count"></div>
+  </div>
+
+  <div id="list"></div>
+
+  <footer>
+    글 단위 기록은 <a href="data/items.json">data/items.json</a>, 날짜별 브리프 원문은 <a href="briefs/">briefs/</a> 폴더에 있어요.
+    기준과 출처는 <a href="docs/INTERESTS.md">INTERESTS.md</a> · <a href="docs/SOURCES.md">SOURCES.md</a>.
+  </footer>
+</div>
+
+<script>
+(function () {
+  var TAGS = [
+    ["all", "전체"], ["work_redesign", "work redesign"], ["해볼것", "해볼 것"],
+    ["학습변화관리", "학습·변화관리"], ["기술화제", "기술 화제"], ["더보기", "더 보기"]
+  ];
+  var items = [], tag = "all", q = "";
+  var $ = function (id) { return document.getElementById(id); };
+
+  try { tag = localStorage.getItem("radar.tag") || "all"; } catch (e) {}
+
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+  function hl(s) {
+    s = esc(s);
+    if (!q) return s;
+    var re = new RegExp("(" + q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "ig");
+    return s.replace(re, "<mark>$1</mark>");
+  }
+  function fmtDate(d) {
+    var p = d.split("-"); if (p.length < 3) return d;
+    var dt = new Date(+p[0], +p[1] - 1, +p[2]);
+    var w = ["일", "월", "화", "수", "목", "금", "토"][dt.getDay()];
+    return p[0] + "." + p[1] + "." + p[2] + " (" + w + ")";
+  }
+  function matches(it) {
+    if (tag !== "all" && (it.tags || []).indexOf(tag) < 0) return false;
+    if (!q) return true;
+    var hay = [it.title, it.source, it.why, (it.summary || []).join(" "), (it.tags || []).join(" "), it.coi].join(" ").toLowerCase();
+    return hay.indexOf(q.toLowerCase()) >= 0;
+  }
+  function render() {
+    var shown = items.filter(matches);
+    var byDate = {};
+    shown.forEach(function (it) { (byDate[it.date] = byDate[it.date] || []).push(it); });
+    var dates = Object.keys(byDate).sort().reverse();
+    var html = "";
+    dates.forEach(function (d) {
+      html += '<div class="day"><h2>' + fmtDate(d) + '</h2><a href="briefs/' + esc(d) + '.md">브리프 원문</a></div>';
+      byDate[d].forEach(function (it) {
+        var tags = (it.tags || []).map(function (t) { return '<span class="tag t-' + esc(t) + '">' + esc(labelOf(t)) + '</span>'; }).join("");
+        html += '<article class="item">' +
+          '<h3><a href="' + esc(it.url) + '" target="_blank" rel="noopener">' + hl(it.title) + '</a></h3>' +
+          '<div class="meta">' + tags + '<span>' + hl(it.source) + '</span>' +
+          (it.lang === "en" ? "<span>영어</span>" : "") +
+          (it.published && it.published !== it.date ? "<span>발행 " + esc(it.published) + "</span>" : "") +
+          (it.paid ? '<span class="paid">유료</span>' : "") + '</div>' +
+          '<ul>' + (it.summary || []).map(function (s) { return "<li>" + hl(s) + "</li>"; }).join("") + '</ul>' +
+          (it.why ? '<p class="why">→ ' + hl(it.why) + '</p>' : "") +
+          (it.coi ? '<div class="coi">이해관계: ' + hl(it.coi) + '</div>' : "") +
+          '<div class="link"><a href="' + esc(it.url) + '" target="_blank" rel="noopener">' + esc(it.url) + '</a></div>' +
+          '</article>';
+      });
+    });
+    $("list").innerHTML = html || '<p class="empty">맞는 글이 없어요. 검색어나 태그를 바꿔 보세요.</p>';
+    $("count").textContent = "글 " + shown.length + "개 · " + dates.length + "일치" + (items.length !== shown.length ? " (전체 " + items.length + "개)" : "");
+  }
+  function labelOf(t) { for (var i = 0; i < TAGS.length; i++) if (TAGS[i][0] === t) return TAGS[i][1]; return t; }
+  function renderChips() {
+    $("chips").innerHTML = TAGS.map(function (t) {
+      return '<button class="chip" data-tag="' + t[0] + '" aria-pressed="' + (tag === t[0]) + '">' + esc(t[1]) + '</button>';
+    }).join("");
+  }
+  $("chips").addEventListener("click", function (e) {
+    var b = e.target.closest("button[data-tag]"); if (!b) return;
+    tag = b.getAttribute("data-tag");
+    try { localStorage.setItem("radar.tag", tag); } catch (err) {}
+    renderChips(); render();
+  });
+  $("q").addEventListener("input", function (e) { q = e.target.value.trim(); render(); });
+
+  renderChips();
+  fetch("data/items.json", { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (d) {
+    items = Array.isArray(d) ? d : [];
+    render();
+  }).catch(function () {
+    $("list").innerHTML = '<p class="empty">data/items.json 을 불러오지 못했어요. 웹 주소(GitHub Pages)로 열어야 해요.</p>';
+  });
+})();
+</script>
+</body>
+</html>
