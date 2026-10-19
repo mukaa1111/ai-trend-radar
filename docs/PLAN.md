@@ -24,10 +24,10 @@
 
 ## 3단계 · 자동 실행 (클라우드 루틴)
 - [x] **(채팅)** "루틴 지시문 써줘" → `docs/ROUTINE.md`에 루틴 설정·지시문·재생성 절차 기록 (2026-10-19)
-- [ ] **(직접)** https://github.com/apps/claude/installations/select_target 에서 `ai-trend-radar` 저장소에도 Claude 앱 허용
-- [ ] **(채팅)** 루틴 만들기: 매일 07:00 한국 = cron `0 22 * * *`, 모델 claude-sonnet-5-5, 환경 변수 `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`
-- [ ] **(채팅)** "지금 실행"으로 시험 → 텔레그램 도착 + GitHub에 `briefs/` 커밋 확인
-  - 확인: 다음 날 아침 7시에 손대지 않았는데 브리프가 왔다
+- [x] **(직접)** GitHub Claude 앱에 `ai-trend-radar` 저장소 허용 (2026-10-19)
+- [x] **(채팅)** 루틴 만들기: 매일 07:00 한국 = cron `0 22 * * *`, 모델 claude-sonnet-5-5 (2026-10-19). 토큰은 클라우드 환경 설정에 `RADAR_TELEGRAM_BOT_TOKEN`으로 넣음 (루틴에는 못 넣음)
+- [x] **(채팅)** "지금 실행"으로 시험 → 텔레그램 도착 + GitHub에 `briefs/` 커밋 확인 (2026-10-19, 3분, 성공)
+  - [ ] 확인: 다음 날(10/20 화) 아침 7시에 손대지 않았는데 브리프가 왔다
 
 ## 4단계 · 지난 브리프 찾아보는 웹페이지
 - [ ] **(채팅)** "보관함 웹페이지 만들어줘" → `index.html` 한 장: `data/items.json`을 읽어 날짜별 목록 + 검색창 + 태그 필터
