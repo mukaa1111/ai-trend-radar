@@ -436,5 +436,119 @@
     "paid": false,
     "coi": "",
     "published": "2026-10-20"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "What Is Task or Work Intelligence And Can We Decompose Every Job For AI?",
+    "source": "Josh Bersin",
+    "url": "https://joshbersin.com/2026/10/what-is-task-or-work-intelligence-and-can-we-decompose-every-job-for-ai/",
+    "lang": "en",
+    "tags": [
+      "work_redesign"
+    ],
+    "summary": [
+      "직무-과업 분석이 AI 에이전트 설계를 위해 다시 주목받고 있다.",
+      "과업마다 AI·IT 자동화·외주·사람 중 어디에 둘지 정해야 하고 과업 목록은 쉽게 낡는다.",
+      "동적 업무 설계 5단계를 제시한다."
+    ],
+    "why": "직무 재설계를 필요 역량 도출로 잇는 틀이다.",
+    "paid": false,
+    "coi": "Galileo·Workday 제휴 소개",
+    "published": "2026-10-19"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "The Deployment Failure Holding Back Your AI Investments",
+    "source": "HBR",
+    "url": "https://hbr.org/2026/10/the-deployment-failure-holding-back-your-ai-investments",
+    "lang": "en",
+    "tags": [
+      "work_redesign"
+    ],
+    "summary": [
+      "AI 투자 대비 생산성 효과가 안 보이는 것은 도구가 기능 안에만 머물기 때문이라는 주장.",
+      "NBER 조사에서 약 90%가 측정 가능한 효과 없음, McKinsey 88% 사용·39% EBIT 영향.",
+      "본문은 유료라 확인하지 못했다."
+    ],
+    "why": "도구 교육과 업무 흐름 재설계를 묶어야 한다는 근거다.",
+    "paid": true,
+    "coi": "저자 중 한 명 AI 기업 Auger 소속",
+    "published": "2026-10-21"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Humans and AI Engage in Meaningful Collaborations",
+    "source": "Stanford HAI",
+    "url": "https://hai.stanford.edu/news/humans-and-ai-engage-in-meaningful-collaborations",
+    "lang": "en",
+    "tags": [
+      "학습변화관리"
+    ],
+    "summary": [
+      "Claude 대화 약 25만 건 분석, 56%가 중대 이상 과업.",
+      "약 3분의 2가 AI에 추론 설명을 요청, 부정적 마찰 대화의 거의 80%에서 복구 시도.",
+      "AI 리터러시 확대 권고, 탈숙련·불평등 우려."
+    ],
+    "why": "설명 요구·검증·복구 습관을 교육 목표로 잡을 근거다.",
+    "paid": false,
+    "coi": "Anthropic 도구·데이터 사용",
+    "published": "2026-10-12"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Beyond personalized learning: Capability development requires more than AI recommendations",
+    "source": "Chief Learning Officer",
+    "url": "https://www.chieflearningofficer.com/2026/10/21/beyond-personalized-learning-capability-development-requires-more-than-ai-recommendations/",
+    "lang": "en",
+    "tags": [
+      "학습변화관리"
+    ],
+    "summary": [
+      "개인화가 콘텐츠 추천에 머물고 수료는 수행 능력을 보여주지 않는다.",
+      "준비도를 지식·연습·수행 3질문과 복수 증거로 판단하되 감시는 경계.",
+      "CLO의 세 결정: 관찰 가능한 역량, 연습 위치, 신뢰할 증거."
+    ],
+    "why": "완료율 대신 관찰 가능한 행동으로 역량을 정의하는 출발점이다.",
+    "paid": false,
+    "coi": "발행사 연수·인증 사업 병행",
+    "published": "2026-10-21"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Gemini 4 Argon is now available in the Gemini app (더 보기)",
+    "source": "Google",
+    "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+    "lang": "en",
+    "tags": [
+      "해볼것"
+    ],
+    "summary": [
+      "10/13 Gemini 앱과 개발자용 동시 공개.",
+      "자리를 비워도 일하는 Tasks 모드, 40여 개 앱 연결.",
+      "AI Pro·Ultra 구독 대상, 벤치마크·가격은 글에 없음."
+    ],
+    "why": "에이전트형 업무 위임 실험 재료다.",
+    "paid": false,
+    "coi": "Google 자사 발표",
+    "published": "2026-10-13"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "가짜 통계 5만 페이지를 올렸더니 ChatGPT와 논문, 은행 보고서가 인용했다",
+    "source": "Peec AI 블로그",
+    "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+    "lang": "en",
+    "tags": [
+      "기술화제"
+    ],
+    "summary": [
+      "AI로 만든 가짜 통계 5만 페이지를 약 50달러로 올렸다.",
+      "Google은 색인에서 뺐지만 ChatGPT는 계속 인용했고 논문·은행 리서치에도 나타났다.",
+      "330개 이상 도메인에서 링크됐다."
+    ],
+    "why": "AI 답의 숫자는 원문을 찾아 확인하는 습관이 필수 리터러시다.",
+    "paid": false,
+    "coi": "작성자가 AI 검색 모니터링 회사 소속",
+    "published": "2026-10-07"
   }
 ]
