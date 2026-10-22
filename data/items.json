@@ -550,5 +550,100 @@
     "paid": false,
     "coi": "작성자가 AI 검색 모니터링 회사 소속",
     "published": "2026-10-07"
+  },
+  {
+    "date": "2026-10-23",
+    "title": "AI로 득을 보는 사람의 조건은 발언권과 관리자의 행동 — 찰터 AI 펄스",
+    "source": "Charter",
+    "url": "https://www.charterworks.com/introducing-the-charter-ai-pulse/",
+    "lang": "en",
+    "tags": [
+      "학습변화관리"
+    ],
+    "summary": [
+      "미국 AI 사용자 5,002명 설문과 91명 인터뷰.",
+      "혜택의 최강 예측 요인은 주도권, 상위 14개 중 11개가 관리자 행동.",
+      "3분의 1 넘게 AI 사용을 숨긴 적 있고 21.4%는 회사에 AI 교육 없음."
+    ],
+    "why": "교육과 함께 관리자 시연·공개 분위기를 변화관리 과제로 넣을 근거.",
+    "paid": false,
+    "coi": "",
+    "published": "2026-10-21"
+  },
+  {
+    "date": "2026-10-23",
+    "title": "맡기면 알아서 일하고 먼저 말을 거는 에이전트 — 클로드 듀엣",
+    "source": "Anthropic",
+    "url": "https://claude.com/product/claude-duet",
+    "lang": "en",
+    "tags": [
+      "해볼것"
+    ],
+    "summary": [
+      "메시지로 맡기면 연결 앱으로 클라우드에서 처리하는 연구 프리뷰.",
+      "민감한 작업은 사용자 승인을 받는다.",
+      "대기자 명단, 미국 Pro·Max 대상, Team·Enterprise 제외."
+    ],
+    "why": "위임·승인·점검 습관을 AI 교육에 넣을 재료.",
+    "paid": false,
+    "coi": "Anthropic 자사 제품 페이지",
+    "published": "날짜 불확실"
+  },
+  {
+    "date": "2026-10-23",
+    "title": "AI 노출 직군 신입 고용, 실시간으로 본다 — 스탠퍼드 HAI",
+    "source": "Stanford HAI",
+    "url": "https://hai.stanford.edu/news/tracking-ais-real-time-footprint-on-the-labor-market",
+    "lang": "en",
+    "tags": [
+      "work_redesign"
+    ],
+    "summary": [
+      "AI 노출 직군 고용이 올해 4% 넘게 감소, 22~25세는 최근 4.4%.",
+      "대시보드 3종을 매달 갱신.",
+      "거시지표는 아직 폭발적 성장 신호가 약하고 일부 결과는 예비적."
+    ],
+    "why": "신입 과업이 먼저 흔들린다는 데이터로 주니어 학습 경로와 직무 재설계를 함께 다룰 근거.",
+    "paid": false,
+    "coi": "분석 일부가 Anthropic Economic Index 데이터",
+    "published": "2026-10-21"
+  },
+  {
+    "date": "2026-10-23",
+    "title": "바이브 코딩 시제품을 회사가 쓸 수 있는 도구로 만들려면",
+    "source": "HBR",
+    "url": "https://hbr.org/2026/10/turn-vibe-coded-prototypes-into-tools-your-company-can-actually-use",
+    "lang": "en",
+    "tags": [
+      "work_redesign"
+    ],
+    "summary": [
+      "AI로 소프트웨어 만들기가 거의 공짜처럼 느껴진다는 문제의식.",
+      "어려운 부분은 시제품을 믿을 수 있는 도구로 바꾸는 일.",
+      "본문은 유료로 확인하지 못함."
+    ],
+    "why": "비개발 직원이 만든 도구의 운영·책임이 다음 교육 주제(본문 미확인).",
+    "paid": true,
+    "coi": "저자 중 컨설팅·기업 소속 포함",
+    "published": "2026-10-16"
+  },
+  {
+    "date": "2026-10-23",
+    "title": "PHP2Shell: AI가 PHP의 오래된 치명 결함을 찾아 공격 코드까지",
+    "source": "Wiz Research",
+    "url": "https://www.wiz.io/blog/php2shell-php-rce",
+    "lang": "en",
+    "tags": [
+      "기술화제"
+    ],
+    "summary": [
+      "PHP 핵심부 결함이 10/21 패치와 함께 공개됐다.",
+      "AI가 발견·공격 코드·패치 검증에 쓰였다.",
+      "404 Media는 공개 직후 공격 시도가 수백만 건으로 늘었다고 전한다."
+    ],
+    "why": "패치 속도가 곧 위험이라 IT 담당에게 업데이트 현황 확인을 요청할 일.",
+    "paid": false,
+    "coi": "보안 업체 자사 글, 자사 AI 도구 사용",
+    "published": "2026-10-21"
   }
 ]
