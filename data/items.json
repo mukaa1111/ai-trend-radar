@@ -645,5 +645,119 @@
     "paid": false,
     "coi": "보안 업체 자사 글, 자사 AI 도구 사용",
     "published": "2026-10-21"
+  },
+  {
+    "date": "2026-10-24",
+    "title": "우버, 직원 3만 명 전원에 챗GPT 워크 도입",
+    "source": "AI타임스",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=216597",
+    "lang": "ko",
+    "tags": [
+      "work_redesign"
+    ],
+    "summary": [
+      "10/22 OpenAI·우버 확대 도입 발표, 1,000명 시범에서 초기 사용자 약 80%가 비개발 직군.",
+      "용도를 정하지 않고 팀별 실험, 가이드·교육 제공, AI 엔지니어 30명 팀별 2주 배치.",
+      "사용량·새 업무 흐름·생산성 추적 예정, 비용 미공개."
+    ],
+    "why": "도입 방식을 우리 AI 교육·채택 설계와 견줘 볼 수 있다.",
+    "paid": false,
+    "coi": "OpenAI·우버 발표 기반 보도",
+    "published": "2026-10-23"
+  },
+  {
+    "date": "2026-10-24",
+    "title": "AI 전환을 멈추게 하는 경영진의 행동",
+    "source": "HBR",
+    "url": "https://hbr.org/2026/10/the-c-suite-behaviors-that-stall-ai-transformations",
+    "lang": "en",
+    "tags": [
+      "학습변화관리"
+    ],
+    "summary": [
+      "의사결정 권한을 혼자 쥐는 것과 전문 밖이라며 물러서는 것을 지목.",
+      "CIO가 사전 협의 없이 로드맵을 발표해 CHRO가 리스킬링 계획을 묻는 사례.",
+      "본문은 유료라 확인하지 못함."
+    ],
+    "why": "AI 전환 로드맵 초기에 인사·교육 부서가 들어가야 한다는 근거(본문 미확인).",
+    "paid": true,
+    "coi": "저자: 임원 코치·자문가",
+    "published": "2026-10-23"
+  },
+  {
+    "date": "2026-10-24",
+    "title": "리더십 프로그램은 성공했는데 왜 행동은 안 바뀌었을까",
+    "source": "Chief Learning Officer",
+    "url": "https://www.chieflearningofficer.com/2026/10/23/the-leadership-program-worked-why-didnt-behavior-change/",
+    "lang": "en",
+    "tags": [
+      "학습변화관리"
+    ],
+    "summary": [
+      "지식 부족인지 먼저 확인, 압박 속에서 행동을 접는 경우엔 두려움·습관을 다룬다.",
+      "실제 업무 속 반복 연습과 피드백, 옛 행동을 보상하는 조직 체계가 걸림돌.",
+      "만족도 대신 목표 행동을 약 6개월 뒤 주변에 묻는 측정."
+    ],
+    "why": "AI 교육 후 안 쓰는 이유를 진단하는 점검표로 쓸 수 있다.",
+    "paid": false,
+    "coi": "",
+    "published": "2026-10-23"
+  },
+  {
+    "date": "2026-10-24",
+    "title": "앤트로픽, 에이전트 스킬 표준을 Agentic AI Foundation에 기증",
+    "source": "Anthropic",
+    "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+    "lang": "en",
+    "tags": [
+      "해볼것"
+    ],
+    "summary": [
+      "스킬은 SKILL.md가 든 폴더로 특정 업무 절차를 에이전트에게 가르친다.",
+      "70개 넘는 플랫폼 지원, 게시 스킬 100만 개, 설치 약 2억 8천만 건(Anthropic 집계).",
+      "Anthropic·Google·OpenAI 등 엔지니어가 개인 자격으로 관리."
+    ],
+    "why": "반복 업무 절차를 제품에 묶이지 않는 사내 자산으로 만들 시도를 해볼 수 있다.",
+    "paid": false,
+    "coi": "Anthropic 자사 발표",
+    "published": "2026-10-22"
+  },
+  {
+    "date": "2026-10-24",
+    "title": "The Batch 376: ChatGPT for Teens와 학습 효과 논쟁",
+    "source": "The Batch",
+    "url": "https://www.deeplearning.ai/the-batch/issue-376",
+    "lang": "en",
+    "tags": [
+      "학습변화관리"
+    ],
+    "summary": [
+      "OpenAI가 청소년용 학습 기능을 내놓고 Common Sense Media가 '수용 불가'로 평가.",
+      "터키 고교생 약 1,000명 실험에서 제한 없는 GPT-4로 연습한 학생이 AI 없는 시험에서 17% 낮음(인용).",
+      "청소년 대상이라 업무 직접 관련은 약함."
+    ],
+    "why": "AI 학습 설계에서 답을 바로 주는 것의 위험을 참고.",
+    "paid": false,
+    "coi": "",
+    "published": "2026-10-23"
+  },
+  {
+    "date": "2026-10-24",
+    "title": "ns2jb: AI 에이전트와 함께 만든 닌텐도 스위치 2 소프트웨어 탈옥",
+    "source": "pepsipu 블로그",
+    "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+    "lang": "en",
+    "tags": [
+      "기술화제"
+    ],
+    "summary": [
+      "개인 개발자가 스위치 2 최신 펌웨어에서 비공식 프로그램 실행 방법을 공개, 본인은 최초라 주장.",
+      "코덱스 여러 개가 병렬 작업, 컨트롤러 입력·화면 영상 장치로 사람 없이 시도.",
+      "핵심 작업 약 2주, 시연용 수정판은 하루."
+    ],
+    "why": "AI가 시행착오를 돌리는 환경을 설계하는 능력이 전문가 작업의 핵심이 되고 있다.",
+    "paid": false,
+    "coi": "제작자 본인 글",
+    "published": "2026-10-18"
   }
 ]
