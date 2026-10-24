@@ -759,5 +759,100 @@
     "paid": false,
     "coi": "제작자 본인 글",
     "published": "2026-10-18"
+  },
+  {
+    "date": "2026-10-25",
+    "title": "바클레이즈, AI 도입하며 5,000명 감원 — CEO는 'AI는 케이크 위 장식'",
+    "source": "AI타임스",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=216590",
+    "lang": "ko",
+    "tags": [
+      "work_redesign"
+    ],
+    "summary": [
+      "올해 약 5,000명(약 5%) 감원, 약 60%는 개발자 등 지원 부서.",
+      "CFO는 AI 생산성을 언급, CEO는 효율 대부분이 플랫폼 현대화·통합·절차 단순화에서 나왔다고 설명.",
+      "스탠다드차타드·JPMorgan 사례를 함께 다룸."
+    ],
+    "why": "AI 전환 성과를 AI 단독 효과로 포장하지 않을 기준 근거.",
+    "paid": false,
+    "coi": "바클레이즈 실적 발표·ITV 인터뷰 기반 보도",
+    "published": "2026-10-23"
+  },
+  {
+    "date": "2026-10-25",
+    "title": "AI 시대의 핵심 과제는 '판단력을 어디서 지킬 것인가'",
+    "source": "MIT Sloan Management Review",
+    "url": "https://sloanreview.mit.edu/article/the-defining-challenge-of-responsible-ai-is-designing-systems-that-preserve-human-judgment-when-and-where-it-counts/",
+    "lang": "en",
+    "tags": [
+      "work_redesign"
+    ],
+    "summary": [
+      "전문가 26인 중 65% 동의, 19% 반대, 15% 중립.",
+      "'사람이 검토'만으로는 부족, 형식적 검토가 될 수 있음.",
+      "권고 5가지: 판단 지점 설계, 연습 기회 유지, 직급별 교육, 개입 결과 추적."
+    ],
+    "why": "직급별 판단 근육 유지를 교육 설계 과제로 전환.",
+    "paid": false,
+    "coi": "BCG 소속 저자 공저(자문업)",
+    "published": "2026-10-15"
+  },
+  {
+    "date": "2026-10-25",
+    "title": "AI로 성과는 올랐는데, 배운 사람은 있나",
+    "source": "Chief Learning Officer",
+    "url": "https://www.chieflearningofficer.com/2026/10/19/ai-can-improve-performance-but-did-anyone-learn/",
+    "lang": "en",
+    "tags": [
+      "학습변화관리"
+    ],
+    "summary": [
+      "성과와 학습은 다른 결과, 적절한 인지적 노력은 학습에 필요.",
+      "AI를 정답 기계가 아닌 학습 파트너로 쓰는 법과 인용 연구(86개 메타분석, 319명 연구).",
+      "AI 학습 도입 전 5가지 질문."
+    ],
+    "why": "AI 교육과정 설계 점검표.",
+    "paid": false,
+    "coi": "",
+    "published": "2026-10-19"
+  },
+  {
+    "date": "2026-10-25",
+    "title": "Why Even Your Best Employees Override AI Systems That Work",
+    "source": "HBR",
+    "url": "https://hbr.org/2026/11/why-even-your-best-employees-override-ai-systems-that-work",
+    "lang": "en",
+    "tags": [
+      "학습변화관리"
+    ],
+    "summary": [
+      "거버넌스 재설계 없이 도입해 AI가 조언자에 머문다는 주장(공개 부분).",
+      "문제는 기술이 아닌 조직 불신.",
+      "본문 유료, 미확인."
+    ],
+    "why": "제목 수준 참고.",
+    "paid": true,
+    "coi": "저자는 HBS 교수",
+    "published": "날짜 불확실"
+  },
+  {
+    "date": "2026-10-25",
+    "title": "LLM이 훨씬 더 큰 규모의 소프트웨어 정형 검증을 가능하게 하고 있음",
+    "source": "Anthropic",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "lang": "en",
+    "tags": [
+      "기술화제"
+    ],
+    "summary": [
+      "Claude가 오픈소스 라이브러리 123개를 수학적으로 검증, 수백 건 버그 수정.",
+      "정형 검증은 기존에 커널 하나에 약 20인년 수준으로 비쌌음.",
+      "단일 스레드 등 전제가 있고 버그 전무를 보장하진 않음."
+    ],
+    "why": "전문가 소수의 고비용 검증이 AI로 일반화되면 사람의 역할은 무엇을 증명할지 판단하는 일로 이동.",
+    "paid": false,
+    "coi": "Anthropic 자사 발표",
+    "published": "2026-10-22"
   }
 ]
