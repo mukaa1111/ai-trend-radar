@@ -1353,5 +1353,101 @@
     "area": "AI 거버넌스·윤리 교육",
     "paid": false,
     "coi": ""
+  },
+  {
+    "date": "2026-10-29",
+    "title": "앤트로픽, 신약 개발 6곳과 Claude 시험 — 서류 검토 89% 단축",
+    "source": "Anthropic",
+    "url": "https://www.anthropic.com/research/early-progress-drug-development",
+    "lang": "en",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "엔베다는 1,061쪽 문서에서 사람이 찾은 11건을 모두 잡고 7건을 더 찾아 검토 시간이 25시간에서 3시간 미만이 됐다.",
+      "대부분 전임상 단계이고 임상 활용은 계획일 뿐이다."
+    ],
+    "why": "AI는 문서 검토·초안 같은 서류 일부터 바꾼다.",
+    "reaction": "병목은 분자 설계가 아니라 임상이라는 회의론과 IPO용 홍보라는 시선(Hacker News).",
+    "area": "",
+    "paid": false,
+    "coi": "Anthropic 자사 발표"
+  },
+  {
+    "date": "2026-10-29",
+    "title": "사이먼 윌리슨 \"10월은 바이브 게임 개발의 변곡점\"",
+    "source": "Simon Willison",
+    "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+    "lang": "en",
+    "tags": [
+      "AI트렌드",
+      "해볼것"
+    ],
+    "summary": [
+      "Claude Opus 5.5로 브라우저 게임 4종을 각 4시간 이내 본인 작업으로 만들었다.",
+      "\"더 재미있게 만들어\"라는 지시만으로 품질이 크게 올랐다."
+    ],
+    "why": "비개발자도 학습용 미니게임을 하루 만에 만드는 때가 왔다.",
+    "reaction": "글쓴이 스스로 너무 쉬워서 떳떳하지 않다고 적었다.",
+    "area": "",
+    "paid": false,
+    "coi": ""
+  },
+  {
+    "date": "2026-10-29",
+    "title": "회의 중 말 끊기가 조직문화를 말해 준다",
+    "source": "MIT Sloan Management Review",
+    "url": "https://sloanreview.mit.edu/article/what-interruptions-say-about-your-organizational-culture/",
+    "lang": "en",
+    "tags": [
+      "학습변화관리"
+    ],
+    "summary": [
+      "말 끊기는 누구 의견이 존중받는지 알려 주는 신호이며 설문 지표에는 거의 잡히지 않는다.",
+      "실험·설문·인터뷰·회의 녹화를 분석했고 회의 진행 방식을 바꾸라고 권한다."
+    ],
+    "why": "AI 시도가 안 나오는 이유가 회의 분위기일 수 있다.",
+    "reaction": "",
+    "area": "",
+    "paid": true,
+    "coi": ""
+  },
+  {
+    "date": "2026-10-29",
+    "title": "HR 기술이 회사 전략을 갉아먹고 있지 않나",
+    "source": "MIT Sloan Management Review",
+    "url": "https://sloanreview.mit.edu/article/is-hr-tech-undermining-your-strategy/",
+    "lang": "en",
+    "tags": [
+      "탐색주제"
+    ],
+    "summary": [
+      "HR 도구가 쌓이면 데이터가 갈라지고 기본 설정이 채용·승계 결정을 좁힌다.",
+      "4단계 전략 점검을 권하고 AI가 만든 도구는 보안·안정성에 조심하라고 한다."
+    ],
+    "why": "교육 운영에 AI 도구를 더하기 전에 구조부터 봐야 한다.",
+    "reaction": "",
+    "area": "HR 자체의 AX",
+    "paid": false,
+    "coi": ""
+  },
+  {
+    "date": "2026-10-29",
+    "title": "OpenAI \"수학·컴퓨터과학·물리 새 발견 3건\" 발표",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=50251344",
+    "lang": "en",
+    "tags": [
+      "기술화제"
+    ],
+    "summary": [
+      "AI가 연구 문제를 풀었다는 발표에 1,100점 넘게 몰렸다.",
+      "연구자 공로 인정과 데이터 사용을 둘러싼 논쟁이 뜨겁다."
+    ],
+    "why": "결과를 검증·책임지는 사람의 판단력이 더 값져진다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": ""
   }
 ]
