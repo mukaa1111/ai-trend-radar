@@ -1,9 +1,9 @@
 # 출처 목록 (SOURCES)
 
-작성일: 2026-10-16 · 접속 요령 갱신: 2026-10-19 (첫 수집 결과 반영). 매일 돌아볼 곳이에요. 한 줄 추가·삭제하면 다음 브리프부터 반영됩니다.
+작성일: 2026-10-16 · 접속 요령 갱신: 2026-10-19 · G절(새 서비스·반응) 추가: 2026-10-28. 매일 돌아볼 곳이에요. 한 줄 추가·삭제하면 다음 브리프부터 반영됩니다.
 `사용: 아니오`로 바꾸면 건너뜁니다. 하루에 같은 출처에서 2건 이상 고르지 않습니다.
 
-## A. AI 기술 변화 (새 모델·기능 출시, "그래서 뭘 해 볼까"의 재료)
+## A. AI 트렌드 (새 모델·기능·서비스 출시, "그래서 뭘 해 볼까"의 재료) — 2026-10-28부터 가장 큰 비중
 | 이름 | 주소 | 언어 | 메모 | 사용 |
 |---|---|---|---|---|
 | Anthropic News | https://www.anthropic.com/news | 영 | Claude 제작사. 자사 발표는 사실로만, 효과 평가 근거로 쓰지 않음 | 예 |
@@ -14,7 +14,7 @@
 | The Batch (DeepLearning.AI) | https://www.deeplearning.ai/the-batch/ | 영 | 주간, 균형 잡힌 요약 | 예 |
 | Import AI (Jack Clark) | https://importai.substack.com/archive | 영 | 저자는 Anthropic 공동창업자 — 표시할 것. 첫 화면엔 목록이 없어 /archive 로 볼 것 | 예 |
 | Simon Willison | https://simonwillison.net/ | 영 | 새 모델·도구를 직접 써 본 기록, "해볼 것" 재료 | 예 |
-| GeekNews | https://news.hada.io/ | 한 | 국내 개발자 커뮤니티, 새 도구 소식 빠름 | 예 |
+| GeekNews (핵심 출처) | https://news.hada.io/ | 한 | 국내 개발자 커뮤니티. **매일 반드시** 첫 화면을 읽고, AI 관련 글은 토론 페이지(댓글)까지 열어 반응을 본다. 새 도구·서비스 소식이 가장 빠름 | 예 |
 
 ## B. AI × 일·학습 (work redesign, 연구·조사)
 | 이름 | 주소 | 언어 | 메모 | 사용 |
@@ -67,6 +67,20 @@
 
 기술 화제 보완 검색 (최근 7일): "AI reverse engineering game", "AI decompile", "vibe coded clone app",
 "AI generated patch Windows bug", "AI 리버스 엔지니어링", "AI로 만든 카피 게임", "바이브 코딩 화제"
+
+## G. 새 AI 서비스 · 얼리어답터 반응 (AI 트렌드 코너의 재료)
+| 이름 | 주소 | 언어 | 메모 | 사용 |
+|---|---|---|---|---|
+| Hacker News — Show HN | https://news.ycombinator.com/show | 영 | 만든 사람이 직접 올린 새 서비스. 댓글이 곧 얼리어답터 반응 | 예 |
+| Product Hunt — AI | https://www.producthunt.com/topics/artificial-intelligence | 영 | 그날 출시된 AI 제품. 직접 접속이 막히면 `site:producthunt.com` 검색 | 예 |
+| Ben's Bites | https://www.bensbites.com/ | 영 | 매일 나오는 AI 제품·도구 뉴스레터, 가볍고 빠름 | 예 |
+| 디스콰이엇 | https://disquiet.io/ | 한 | 국내 메이커들이 만든 제품 올리는 곳. 한국 새 AI 서비스와 반응 | 예 |
+| 요즘IT (A/D에도 있음) | https://yozm.wishket.com/magazine/ | 한 | "써 봤다" 류 후기 글 | 예 |
+| YouTube·X(트위터) | — | 혼합 | 직접 수집 안 함. 서비스 이름 + "후기" / "review" 검색으로만 | 아니오 |
+
+새 서비스·반응 보완 검색 (최근 7일): "<서비스명> 후기", "<서비스명> review early adopters", "Show HN AI this week",
+"새로 나온 AI 서비스 써봤다", "AI 에이전트 앱 후기", "AI 서비스 출시 반응 GeekNews"
+(예: 피클 → "피클 AI 에이전트 후기", "Pickle personal AI agent review")
 
 ## 나중에 검토할 후보 (지금은 안 씀)
 - Latent Space, Ben's Bites, Every (Dan Shipper) — 개발자·빌더 성향이 강함
