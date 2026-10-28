@@ -21,8 +21,8 @@ from datetime import datetime, timedelta, timezone
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LIMIT = 4000
-TAG_EMOJI = {"AI트렌드": "🟡", "work_redesign": "🟠", "해볼것": "🟢", "학습변화관리": "🔵", "기술화제": "🟣", "더보기": "⚪"}
-TAG_LABEL = {"AI트렌드": "AI 트렌드", "work_redesign": "work redesign", "해볼것": "해볼 것", "학습변화관리": "학습·변화관리", "기술화제": "기술 화제", "더보기": "더 보기"}
+TAG_EMOJI = {"AI트렌드": "🟡", "탐색주제": "🟤", "work_redesign": "🟠", "해볼것": "🟢", "학습변화관리": "🔵", "기술화제": "🟣", "더보기": "⚪"}
+TAG_LABEL = {"AI트렌드": "AI 트렌드", "탐색주제": "탐색", "work_redesign": "work redesign", "해볼것": "해볼 것", "학습변화관리": "학습·변화관리", "기술화제": "기술 화제", "더보기": "더 보기"}
 URL_RE = re.compile(r"https?://[^\s<>\"')\]]+")
 TAIL_HEADS = ("📎", "🧪", "🔥", "📂")
 
@@ -110,7 +110,7 @@ def fmt_item(block):
     # 태그 찾기
     tag = None
     for s in body:
-        m = re.search(r"#(AI트렌드|work_redesign|해볼것|학습변화관리|기술화제|더보기)\b", s)
+        m = re.search(r"#(AI트렌드|탐색주제|work_redesign|해볼것|학습변화관리|기술화제|더보기)\b", s)
         if m:
             tag = m.group(1); break
     out = []
@@ -120,7 +120,7 @@ def fmt_item(block):
     for s in body:
         if not s:
             continue
-        s2 = re.sub(r"\s*#(AI트렌드|work_redesign|해볼것|학습변화관리|기술화제|더보기)\b", "", s).strip()
+        s2 = re.sub(r"\s*#(AI트렌드|탐색주제|work_redesign|해볼것|학습변화관리|기술화제|더보기)\b", "", s).strip()
         if not meta_done and not s2.startswith(("•", "→", "🔗")):
             if tag:
                 s2 = TAG_LABEL[tag] + " · " + s2

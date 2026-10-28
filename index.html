@@ -9,19 +9,19 @@
   :root {
     --bg: #f7f6f2; --card: #ffffff; --text: #1f2328; --muted: #6b7280; --line: #e5e3dc;
     --accent: #b4532a; --accent-soft: #f6e6de; --chip: #efede6; --chip-on: #1f2328; --chip-on-text: #ffffff;
-    --tag-trend: #a8780a; --tag-work: #b4532a; --tag-try: #2f7a4f; --tag-learn: #2c5fa8; --tag-tech: #7a4bb3; --tag-more: #6b7280;
+    --tag-trend: #a8780a; --tag-explore: #6b4f3a; --tag-work: #b4532a; --tag-try: #2f7a4f; --tag-learn: #2c5fa8; --tag-tech: #7a4bb3; --tag-more: #6b7280;
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
       --bg: #15171a; --card: #1e2126; --text: #e8e6e1; --muted: #9aa0a8; --line: #2c3037;
       --accent: #e0825a; --accent-soft: #3a2a22; --chip: #2a2e35; --chip-on: #e8e6e1; --chip-on-text: #15171a;
-      --tag-trend: #e2b94a; --tag-work: #e0825a; --tag-try: #5fb783; --tag-learn: #6f9ee6; --tag-tech: #ad86e0; --tag-more: #9aa0a8;
+      --tag-trend: #e2b94a; --tag-explore: #b08968; --tag-work: #e0825a; --tag-try: #5fb783; --tag-learn: #6f9ee6; --tag-tech: #ad86e0; --tag-more: #9aa0a8;
     }
   }
   :root[data-theme="dark"] {
     --bg: #15171a; --card: #1e2126; --text: #e8e6e1; --muted: #9aa0a8; --line: #2c3037;
     --accent: #e0825a; --accent-soft: #3a2a22; --chip: #2a2e35; --chip-on: #e8e6e1; --chip-on-text: #15171a;
-    --tag-trend: #e2b94a; --tag-work: #e0825a; --tag-try: #5fb783; --tag-learn: #6f9ee6; --tag-tech: #ad86e0; --tag-more: #9aa0a8;
+    --tag-trend: #e2b94a; --tag-explore: #b08968; --tag-work: #e0825a; --tag-try: #5fb783; --tag-learn: #6f9ee6; --tag-tech: #ad86e0; --tag-more: #9aa0a8;
   }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.55 -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", system-ui, sans-serif; }
@@ -44,7 +44,7 @@
   .item h3 a:hover { color: var(--accent); }
   .meta { font-size: 13px; color: var(--muted); margin-bottom: 8px; display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; }
   .tag { font-size: 12px; padding: 2px 8px; border-radius: 999px; color: #fff; }
-  .t-AI트렌드 { background: var(--tag-trend); } .t-work_redesign { background: var(--tag-work); } .t-해볼것 { background: var(--tag-try); }
+  .t-AI트렌드 { background: var(--tag-trend); } .t-탐색주제 { background: var(--tag-explore); } .t-work_redesign { background: var(--tag-work); } .t-해볼것 { background: var(--tag-try); }
   .t-학습변화관리 { background: var(--tag-learn); } .t-기술화제 { background: var(--tag-tech); } .t-더보기 { background: var(--tag-more); }
   .paid { color: var(--accent); font-weight: 600; }
   .item ul { margin: 0 0 8px; padding-left: 18px; font-size: 15px; }
@@ -85,8 +85,8 @@
 <script>
 (function () {
   var TAGS = [
-    ["all", "전체"], ["AI트렌드", "AI 트렌드"], ["해볼것", "해볼 것"], ["학습변화관리", "학습·변화관리"],
-    ["work_redesign", "work redesign"], ["기술화제", "기술 화제"], ["더보기", "더 보기"]
+    ["all", "전체"], ["AI트렌드", "AI 트렌드"], ["학습변화관리", "학습·변화관리"], ["탐색주제", "탐색 주제"],
+    ["work_redesign", "work redesign"], ["해볼것", "해볼 것"], ["기술화제", "기술 화제"], ["더보기", "더 보기"]
   ];
   var items = [], tag = "all", q = "";
   var $ = function (id) { return document.getElementById(id); };
@@ -109,7 +109,7 @@
   function matches(it) {
     if (tag !== "all" && (it.tags || []).indexOf(tag) < 0) return false;
     if (!q) return true;
-    var hay = [it.title, it.source, it.why, it.reaction, (it.summary || []).join(" "), (it.tags || []).join(" "), it.coi].join(" ").toLowerCase();
+    var hay = [it.title, it.source, it.why, it.reaction, it.area, (it.summary || []).join(" "), (it.tags || []).join(" "), it.coi].join(" ").toLowerCase();
     return hay.indexOf(q.toLowerCase()) >= 0;
   }
   function render() {
@@ -125,6 +125,7 @@
         html += '<article class="item">' +
           '<h3><a href="' + esc(it.url) + '" target="_blank" rel="noopener">' + hl(it.title) + '</a></h3>' +
           '<div class="meta">' + tags + '<span>' + hl(it.source) + '</span>' +
+          (it.area ? "<span>탐색: " + hl(it.area) + "</span>" : "") +
           (it.lang === "en" ? "<span>영어</span>" : "") +
           (it.published && it.published !== it.date ? "<span>발행 " + esc(it.published) + "</span>" : "") +
           (it.paid ? '<span class="paid">유료</span>' : "") + '</div>' +
