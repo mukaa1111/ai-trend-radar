@@ -2,3 +2,4 @@
 .bkit/
 .claude/
 .pull.log
+__pycache__/
