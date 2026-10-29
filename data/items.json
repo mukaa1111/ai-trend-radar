@@ -1449,5 +1449,100 @@
     "area": "",
     "paid": false,
     "coi": ""
+  },
+  {
+    "date": "2026-10-30",
+    "title": "구글 '제미나이 4 카본', 며칠씩 일하는 에이전트 모델",
+    "source": "Google",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+    "lang": "en",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "장기 에이전트 작업과 보안에 강점. 지능지수 순위 1위(59점)이고, 지시가 모호하면 먼저 자료를 확인한다.",
+      "지금은 보안 담당자 일부에게만 열렸고 일반 공개는 '곧'이다. 소개가격은 100만 토큰당 입력 2달러·출력 10달러."
+    ],
+    "why": "한국 사용 여부는 미확인. 공개되면 장기 업무 위임 실험의 기준 모델이 된다.",
+    "reaction": "성능은 인정하나 접근도 이름도 헷갈리고 한도가 금방 찬다는 불만이 많다(Hacker News).",
+    "area": "",
+    "paid": false,
+    "coi": "Google 자사 발표"
+  },
+  {
+    "date": "2026-10-30",
+    "title": "미스트랄, 1조 파라미터 '라지 4' 가중치 공개",
+    "source": "Mistral",
+    "url": "https://mistral.ai/news/mistral-large-4-oss/",
+    "lang": "en",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "수정 MIT류 라이선스로 상업 이용 가능. 단, 서비스로 되파는 기업은 별도 계약이 필요하다.",
+      "활성 약 520억 개 추정이며 가장 작은 양자화도 VRAM 약 256GB가 든다. 한국어는 따로 언급 없음."
+    ],
+    "why": "사내 데이터를 밖에 못 내보내는 조직의 자체 호스팅 선택지가 늘었다.",
+    "reaction": "'오픈소스가 아니라 가중치 공개일 뿐'이라는 논쟁, 비싸고 추론이 느리다는 평(Hacker News).",
+    "area": "",
+    "paid": false,
+    "coi": "Mistral 자사 발표"
+  },
+  {
+    "date": "2026-10-30",
+    "title": "캐피털원, AI 적용마다 교육을 붙여 성과를 냈다",
+    "source": "MIT Sloan Management Review",
+    "url": "https://sloanreview.mit.edu/article/ai-is-thriving-at-capital-one/",
+    "lang": "en",
+    "tags": [
+      "학습변화관리"
+    ],
+    "summary": [
+      "감사 보조 도구로 품질 오류 85% 감소, 감사 5,000시간 절감. 5시간 걸리던 작업이 3분으로 줄었다.",
+      "개인 생산성 도구보다 업무 영역 단위로 도입하고, 새 활용 사례마다 교육을 따로 투자한다."
+    ],
+    "why": "'도구 배포 뒤 교육'이 아니라 활용 사례마다 교육을 붙이는 설계 모델이다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": "저자들은 자문업 병행"
+  },
+  {
+    "date": "2026-10-30",
+    "title": "HR 플랫폼이 AI 에이전트의 관문이 된다 — 학습도 그 안으로",
+    "source": "Josh Bersin",
+    "url": "https://joshbersin.com/2026/10/ai-makes-the-hcm-market-hot-again-workday-sap-oracle-and-more/",
+    "lang": "en",
+    "tags": [
+      "탐색주제"
+    ],
+    "summary": [
+      "워크데이는 에이전트 17종, SAP는 HR 에이전트 40종 이상을 내놓았다. 학습 도구가 HR 시스템 안으로 합쳐지는 중이다.",
+      "에이전트에 직원 데이터를 쓰기 전 권한·감사 기록·모니터링부터 따지라고 권한다."
+    ],
+    "why": "별도 학습 플랫폼이 계속 필요한지, 에이전트 권한 설계는 누가 맡을지 점검할 때다.",
+    "reaction": "",
+    "area": "학습 방식의 변화",
+    "paid": false,
+    "coi": "Workday 제휴·자사 AI 판매"
+  },
+  {
+    "date": "2026-10-30",
+    "title": "AI가 매시간 서비스를 고치는 회사 '스포운'",
+    "source": "Simon Willison",
+    "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+    "lang": "en",
+    "tags": [
+      "기술화제"
+    ],
+    "summary": [
+      "게임 회사 대표가 AI 에이전트가 운영 코드를 직접 고쳐 매시간 배포한다고 밝혔다(자사 주장).",
+      "월 토큰비가 인건비의 30배라 한다."
+    ],
+    "why": "사람 역할이 코딩에서 판단·결정으로 옮겨 간다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": ""
   }
 ]
