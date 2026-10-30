@@ -1544,5 +1544,100 @@
     "area": "",
     "paid": false,
     "coi": ""
+  },
+  {
+    "date": "2026-10-31",
+    "title": "오픈AI, 고가 챗GPT 구독자에게 구독료만큼 API 크레딧 제공",
+    "source": "Simon Willison",
+    "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
+    "lang": "영어",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "월 100·200·500달러 플랜 구독자는 구독료와 같은 금액을 API 크레딧으로 받아 직접 만든 도구에 쓸 수 있다.",
+      "앤트로픽도 이달 초 맥스·팀 구독자에게 비슷한 혜택을 냈다고 한다. 한국 적용 여부는 미확인."
+    ],
+    "why": "구독자가 사내 업무 자동화를 직접 만들어 볼 비용 부담이 줄어든다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": "오픈AI 자사 혜택 소개"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "클로드 엔터프라이즈, AI 성과·설문·예산 관리 기능 공개",
+    "source": "Anthropic",
+    "url": "https://claude.com/blog/smart-reports-surveys-pooled-budgets",
+    "lang": "영어",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "팀 대화 표본을 분석해 업무별 비용·결과물·막힌 지점을 보여 주는 '스마트 리포트'가 나왔다.",
+      "사용 중 뜨는 설문(가치·절약 시간)과 팀 공동 월 예산도 함께 열렸다. 개인 평가용은 아니라고 한다."
+    ],
+    "why": "\"교육했는데 쓰나\"를 사용 데이터와 설문으로 볼 도구다. 한국 제공은 미확인.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": "Anthropic 자사 발표"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "가장 호기심 많은 직원이 전환을 이끈다",
+    "source": "HBR",
+    "url": "https://hbr.org/2026/10/empower-your-most-curious-employees-to-drive-your-digital-transformation",
+    "lang": "영어",
+    "tags": [
+      "학습변화관리"
+    ],
+    "summary": [
+      "저자들은 AI를 먼저 실험하는 직원(주로 젊은 층·주니어)을 '길잡이'로 보고 조직이 놓치고 있다고 말한다.",
+      "이들의 호기심을 리더가 활용하면 디지털 전환이 빨라진다는 주장이다(공개 요약에 수치는 없다)."
+    ],
+    "why": "AI 교육의 전파자를 교육 이수자가 아니라 이미 써 보는 사람에서 찾을 수 있다.",
+    "reaction": "",
+    "area": "",
+    "paid": true,
+    "coi": "하버드 경영대 저자"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "조직을 평평하게 한다고 AI 문제가 풀리진 않는다",
+    "source": "Charter",
+    "url": "https://www.charterworks.com/the-case-against-flattening-the-org-chart/",
+    "lang": "영어",
+    "tags": [
+      "탐색주제"
+    ],
+    "summary": [
+      "스탠퍼드 할레비 교수는 \"평평한 조직은 규모를 키우는 일과 맞지 않다\"며 문제는 망가진 위계라고 본다.",
+      "정보 전달은 AI가 해도 영향력·멘토링·의미 부여는 위계의 몫이며, 리더와 직원의 AI 낙관 격차도 짚는다."
+    ],
+    "why": "중간 관리자 축소 논의 전에 코칭·멘토링 역할을 누가 맡을지 정해야 한다.",
+    "reaction": "",
+    "area": "리더·관리자",
+    "paid": false,
+    "coi": "HiBob 후원 뉴스레터"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "AI 모델 안에 닌텐도 게임기를 통째로 심었다",
+    "source": "Simon Willison",
+    "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
+    "lang": "영어",
+    "tags": [
+      "기술화제"
+    ],
+    "summary": [
+      "개발자가 AI 비서에게 시켜 40억 파라미터 모델 안에서 슈퍼마리오가 도는 에뮬레이터를 만들었다(매우 느림).",
+      "검증 시험만 있으면 \"재미로\" 만드는 일의 문턱이 낮아진다."
+    ],
+    "why": "검증 시험만 있으면 \"재미로\" 만드는 일의 문턱이 낮아진다.",
+    "reaction": "Hacker News: \"창의적\"이라는 칭찬과 \"150배 느려 의미 없다\"는 회의가 맞선다.",
+    "area": "",
+    "paid": false,
+    "coi": ""
   }
 ]
