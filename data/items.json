@@ -1639,5 +1639,101 @@
     "area": "",
     "paid": false,
     "coi": ""
+  },
+  {
+    "date": "2026-11-01",
+    "title": "제미나이 채팅에서 문서·PDF를 바로 고친다",
+    "source": "구글 블로그",
+    "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/",
+    "lang": "영",
+    "tags": [
+      "AI트렌드",
+      "해볼것"
+    ],
+    "summary": [
+      "제미나이 채팅에서 문서·PDF·시트·슬라이드를 만들고 직접 수정하거나 AI에 수정을 시킨다.",
+      "손글씨 강의 노트를 PDF 학습 자료로 만드는 예가 소개됐다. 한국 제공은 명시 없음."
+    ],
+    "why": "교육 자료 초안·개정을 대화창 안에서 끝내 볼 수 있다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": "구글 자사 발표"
+  },
+  {
+    "date": "2026-11-01",
+    "title": "앤트로픽, 미 정부에 클로드 40% 할인…유타주 시범 사례 공개",
+    "source": "Anthropic",
+    "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+    "lang": "영",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "연방·주·지방 정부가 클로드 제품을 40% 할인받는다. 약 500개 정부 기관이 쓰는 중이다.",
+      "유타주 개발자 34명 시범: 71%가 4주간 20시간 넘게 절약했다고 답했다(자체 보고)."
+    ],
+    "why": "소규모 4주 시범 후 자기보고 시간 절약을 보는 방식은 사내 파일럿에 참고된다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": "Anthropic 자사 발표"
+  },
+  {
+    "date": "2026-11-01",
+    "title": "프로톤 CEO, 직원 'AI 재면접' 취소했지만 압박은 유지",
+    "source": "404 Media",
+    "url": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
+    "lang": "영",
+    "tags": [
+      "학습변화관리"
+    ],
+    "summary": [
+      "CEO가 직원에게 AI 활용법을 설명하는 재면접을 잡았고, 직원들은 해고 위협으로 받아들였다고 한다.",
+      "보도 뒤 취소했으나 \"계속 밀어붙이겠다\"고 했다. 직원 증언 기반이다."
+    ],
+    "why": "강제 도입은 불안과 이탈을 부른다. 학습 설계가 먼저다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": ""
+  },
+  {
+    "date": "2026-11-01",
+    "title": "시스코, 27세 엔지니어에게 AI 토큰 무제한 주고 레거시 코드 맡겼다",
+    "source": "Fortune",
+    "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+    "lang": "영",
+    "tags": [
+      "탐색주제"
+    ],
+    "summary": [
+      "인수로 합류한 27세가 2인 팀으로 24개월 안에 레거시 코드 98% 리팩터링을 목표로 한다.",
+      "사장은 \"경험자와 신입 사이 긴장이 좋다\"며 마찰을 일부러 만든다고 말했다."
+    ],
+    "why": "주니어에게 권한과 도구를 주면 학습 경로가 바뀐다. 검증은 별개다.",
+    "reaction": "HN(367댓글) \"채용 감소 걱정\"과 \"AI 덕에 2주 만에 이식\" 후기가 맞선다.",
+    "area": "신입·주니어 육성",
+    "paid": false,
+    "coi": ""
+  },
+  {
+    "date": "2026-11-01",
+    "title": "AI는 SRE를 대체하지 않고 숙련도를 떨어뜨린다",
+    "source": "SigNoz",
+    "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+    "lang": "영",
+    "tags": [
+      "기술화제"
+    ],
+    "summary": [
+      "장애 대응 엔지니어가 AI에 맡기다 직접 파악하는 기술을 잃고, 주니어는 아예 못 배운다는 주장이다.",
+      "(2/28 글, HN 643점·GeekNews 10/31)"
+    ],
+    "why": "AI를 쓰되 손으로 하는 연습을 일부러 남겨야 한다.",
+    "reaction": "HN: \"항공 자동조종과 같다\"는 공감과 \"기술 재배치일 뿐\"이라는 반론이 나뉜다.",
+    "area": "",
+    "paid": false,
+    "coi": ""
   }
 ]
