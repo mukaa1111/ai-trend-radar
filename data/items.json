@@ -1735,5 +1735,81 @@
     "area": "",
     "paid": false,
     "coi": ""
+  },
+  {
+    "date": "2026-11-02",
+    "title": "구글, 기업용 제미나이 에이전트를 검색·앱으로 넓힌다",
+    "source": "구글 블로그",
+    "url": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q3-2026/",
+    "lang": "영",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "기업용으로 먼저 낸 제미나이 에이전트를 검색과 제미나이 앱으로 넓힌다. 앱 이용자는 10억 명 이상이다.",
+      "출시일·가격·국가는 밝히지 않았다. 보안·거버넌스 기준이 높아 기업용부터 냈다고 한다."
+    ],
+    "why": "직원이 개인 앱에서 에이전트를 먼저 만난다. 사내 사용 지침을 점검할 때다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": "구글 자사 발표"
+  },
+  {
+    "date": "2026-11-02",
+    "title": "마이크로소프트의 자발적 퇴직은 해고가 아니라는 해석",
+    "source": "Josh Bersin",
+    "url": "https://joshbersin.com/2026/10/microsofts-voluntary-exit-is-not-a-layoff-its-a-new-model-of-management/",
+    "lang": "영",
+    "tags": [
+      "학습변화관리"
+    ],
+    "summary": [
+      "MS가 미국·캐나다·인도·영국 약 6만 명에게 자발적 퇴직을 열었다. 일반 퇴직금, 정원 목표는 없다.",
+      "베르신은 \"서로 안 맞는 사람의 출구\"로 보고, 빈 자리는 AI 핵심 역할로 재배치된다고 말한다."
+    ],
+    "why": "변화관리에서 '떠날 선택지'를 어떻게 설계하느냐가 신뢰를 가른다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": "Bersin: 자문·플랫폼 사업 병행, 자사 연구 홍보"
+  },
+  {
+    "date": "2026-11-02",
+    "title": "클로드가 게임 리버스 엔지니어링 요청을 중간에 끊는다는 논란",
+    "source": "Kotaku",
+    "url": "https://kotaku.com/claudes-reverse-engineering-capabilities-used-to-recompile-games-may-have-been-quietly-nerfed-2000749320",
+    "lang": "영",
+    "tags": [
+      "기술화제"
+    ],
+    "summary": [
+      "사용자들이 클로드가 지적재산 리버스 엔지니어링 중 안전장치로 끊긴다고 보고했다.",
+      "앤트로픽은 변경을 확인하지 않았다."
+    ],
+    "why": "도구 제공자의 정책 하나가 우리가 할 수 있는 일을 바꾼다.",
+    "reaction": "HN: \"소송 위험 때문\"이라는 이해와 \"훈련 데이터는 어쩌고\"라는 위선 비판이 맞선다.",
+    "area": "",
+    "paid": false,
+    "coi": ""
+  },
+  {
+    "date": "2026-11-02",
+    "title": "오픈AI가 공개한 '일할 때 챗GPT에 시키는 것' 데이터",
+    "source": "PPC Land",
+    "url": "https://ppc.land/americans-use-chatgpt-at-work-most-to-make-decisions-1-in-5-requests/",
+    "lang": "영",
+    "tags": [
+      "탐색주제"
+    ],
+    "summary": [
+      "업무 요청 165종 분류, 약 100개국 분기 자료다. 미국은 \"창의적 사고\" 11.8→15.6%, \"조언 제공\" 5.5→9.0%로 늘었다.",
+      "기업 계정·코덱스는 빠졌고 표본 크기·분류 방식은 공개되지 않았다. 점유율이지 사용량이 아니다."
+    ],
+    "why": "\"무엇에 쓰나\"를 쪼개 보는 것이 활용 지표와 교육 설계의 출발점이다.",
+    "reaction": "",
+    "area": "측정",
+    "paid": false,
+    "coi": "OpenAI 개인 계정 데이터"
   }
 ]
