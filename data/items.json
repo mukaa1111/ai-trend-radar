@@ -1811,5 +1811,99 @@
     "area": "측정",
     "paid": false,
     "coi": "OpenAI 개인 계정 데이터"
+  },
+  {
+    "date": "2026-11-03",
+    "title": "챗GPT 계정 탈취 가능했던 취약점, 수정 완료",
+    "source": "Simon Willison 블로그(Parameter Labs 보고)",
+    "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+    "lang": "en",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "챗GPT HTML 미리보기의 허점을 이어 붙이면 공유 링크만 열어도 로그인 사용자의 데이터를 빼내거나 대신 행동할 수 있었다.",
+      "OpenAI는 수정했고 보상금은 5,000달러다. 윌리슨은 \"싸다\"고 평했다."
+    ],
+    "why": "직원이 받은 공유 링크 위험까지 사내 AI 사용 교육에 넣어야 한다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": ""
+  },
+  {
+    "date": "2026-11-03",
+    "title": "美 인구조사국 조사: 대기업 AI 사용 40%, 문항은 또 바뀜",
+    "source": "Simon Willison 블로그",
+    "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+    "lang": "en",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "250명 이상 기업의 AI 사용 응답은 2026년 2월 약 30%, 10월 40.7%다. 소규모는 21~28%다.",
+      "문항이 두 번 바뀌어(2025.11, 2026.10 \"초지능\" 표기) 과거 수치와 직접 비교는 어렵다."
+    ],
+    "why": "\"AI 쓴다\"는 응답은 정의에 따라 달라진다. 우리 지표 문항부터 점검하자.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": ""
+  },
+  {
+    "date": "2026-11-03",
+    "title": "AI 시대 리더의 다섯 가지 마인드셋 'Flux 5'",
+    "source": "Chief Learning Officer",
+    "url": "https://www.chieflearningofficer.com/2026/11/02/adaptive-before-algorithmic-5-leader-mindsets-for-the-ai-era/",
+    "lang": "en",
+    "tags": [
+      "학습변화관리"
+    ],
+    "summary": [
+      "탐구·인간화·시스템·실험·공정성 다섯 가지를 제시하고, 주간·월간 실천 리듬을 붙였다.",
+      "생성형 AI 파일럿 약 95%가 손익 효과가 없었다는 MIT NANDA 연구를 인용, 학습 격차 문제로 본다."
+    ],
+    "why": "도구 교육보다 리더의 사고방식·실천 주기를 설계하라는 틀이다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": ""
+  },
+  {
+    "date": "2026-11-03",
+    "title": "일을 먼저 이해해야 AI용으로 다시 짠다: 드라웁 대담",
+    "source": "Josh Bersin 팟캐스트",
+    "url": "https://joshbersin.com/podcast/draup-ceo-vijay-swami-helps-companies-transform-work-for-ai/",
+    "lang": "en",
+    "tags": [
+      "탐색주제"
+    ],
+    "summary": [
+      "드라웁은 직무·스킬 대신 과업·워크플로를 분석해 AI 자동화 효과를 모의실험하는 제품을 냈다.",
+      "한 병원 고객의 AI 기회를 26~28억 달러로 추정했다고 한다(업체 주장)."
+    ],
+    "why": "직무기술서가 아닌 과업 단위로 일을 쪼개는 관점의 사례다.",
+    "reaction": "",
+    "area": "Work redesign",
+    "paid": false,
+    "coi": "Bersin 자문업, 대담 상대 제품 소개"
+  },
+  {
+    "date": "2026-11-03",
+    "title": "수학자 커뮤니티 \"수학이 바뀌었다, 그에 맞게 행동하자\"",
+    "source": "Terence Tao 블로그(F. Calegari)",
+    "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+    "lang": "en",
+    "tags": [
+      "기술화제"
+    ],
+    "summary": [
+      "AI가 중요한 수학 문제를 풀기 시작하자, 논문 목록 대신 대면 면접·비전으로 채용하자는 제안이 나왔다."
+    ],
+    "why": "산출물이 쉬워지면 평가는 '왜 중요한가'를 설명하는 힘으로 옮겨 간다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": ""
   }
 ]
