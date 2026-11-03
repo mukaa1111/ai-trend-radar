@@ -1926,5 +1926,100 @@
     "area": "",
     "paid": false,
     "coi": ""
+  },
+  {
+    "date": "2026-11-03",
+    "lang": "영어",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "학습 없이 Qwen3.5-0.8B 가중치의 0.016%만 고쳐 MATH-500이 7.9%에서 48.1%로 올랐다.",
+      "기존 능력을 막던 반복 오류는 풀었지만, 새 능력은 못 더했고 소형 모델 실험에 그쳤다."
+    ],
+    "why": "AI가 AI를 직접 손보기 시작했다. 'AI 활용법' 교육의 수명을 다시 보자.",
+    "reaction": "GeekNews \"기존 기법과 비슷한데 과장\" 회의와 \"해석 연구에 의미\" 기대가 맞섰다.",
+    "area": "",
+    "paid": false,
+    "coi": "모델 제작사 밝히지 않음",
+    "title": "GPT-6 아스트라, 작은 모델의 가중치를 직접 고쳐 성능을 올렸다",
+    "source": "MIT CSAIL 연구진 블로그",
+    "url": "https://rikiyat.github.io/blog/weight-space-programming/"
+  },
+  {
+    "date": "2026-11-03",
+    "title": "소리 없이 입만 움직여 글자로 바꾸는 안경 '서브보컬'",
+    "source": "Subvocal(HN 쇼케이스·GeekNews 정리)",
+    "url": "https://subvocal.company/",
+    "lang": "영어",
+    "tags": [
+      "AI트렌드",
+      "해볼것"
+    ],
+    "summary": [
+      "안경테 안테나가 혀·입술의 전파 변화를 읽어 무음 발화를 글자로 바꾼다. 아직 프로토타입이다.",
+      "분당 200단어·지연 500ms 미만이라 주장하나 정확도 수치는 없다. 첫 500대 사전주문, 2027년 1분기 배송 목표."
+    ],
+    "why": "소음 없이 AI에 말 걸 수 있으면 사무실 AI 활용 습관이 달라질 수 있다.",
+    "reaction": "HN 601점. \"클라우드 처리라 프라이버시 걱정\", \"정확도 불명이라 스노우오일 같다\"는 비판.",
+    "area": "",
+    "paid": false,
+    "coi": "제작사 사전주문 홍보"
+  },
+  {
+    "date": "2026-11-03",
+    "title": "'사람이 검토하면 된다'는 설계가 사람의 역할을 줄인다",
+    "source": "HBR(산지트 폴 초더리)",
+    "url": "https://hbr.org/2026/11/the-human-in-the-loop-fallacy",
+    "lang": "영어",
+    "tags": [
+      "탐색주제"
+    ],
+    "summary": [
+      "AI가 일을 맡을수록 기업은 직원에게 AI 결과 검토와 예외 처리를 시킨다.",
+      "저자는 이 방식이 사람의 역할을 줄어들게 만든다고 주장한다(공개 요약만 확인, 본문은 유료)."
+    ],
+    "why": "에이전트 권한을 설계할 때 '검토자'로만 둔 인간 역할을 점검하자.",
+    "reaction": "",
+    "area": "AI 거버넌스·윤리 교육",
+    "paid": true,
+    "coi": ""
+  },
+  {
+    "date": "2026-11-03",
+    "lang": "영어",
+    "tags": [
+      "학습변화관리"
+    ],
+    "summary": [
+      "개인 챗GPT 실험으로 시작해 사내 승인 경로로 옮겼고, 리더 1,300명에 시범 배포했다.",
+      "깊이 쓴 리더의 순추천지수는 +54(자체 집계). 기술 대신 '중요한 순간' 중심 메시지가 통했다."
+    ],
+    "why": "거버넌스 통과·후원자 공백 같은 현실적 단계가 담긴 확산 사례다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": "",
+    "title": "개인 실험에서 1,300명 리더용 AI 코치까지 2.5년",
+    "source": "Chief Learning Officer(프로비던스 사내 사례)",
+    "url": "https://www.chieflearningofficer.com/2026/11/02/from-idea-to-impact-what-it-takes-for-an-ai-agent-to-survive-the-journey-to-enterprise-scale/"
+  },
+  {
+    "date": "2026-11-03",
+    "lang": "영어",
+    "tags": [
+      "기술화제"
+    ],
+    "summary": [
+      "명세만 사람이 쓰고 AI가 구현해, 인증 서버·CRM의 호환 오픈소스를 10월에 공개했다(초기 단계)."
+    ],
+    "why": "명세·검수 능력이 코드 작성보다 값진 기술이 된다.",
+    "reaction": "HN 496점, 댓글 308개",
+    "area": "",
+    "paid": false,
+    "coi": "",
+    "title": "해고된 엔지니어들이 AI로 SaaS 대체품을 만든다 'OccupySaaS'",
+    "source": "occupysaas.com·GeekNews·HN",
+    "url": "https://occupysaas.com/"
   }
 ]
