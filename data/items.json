@@ -2021,5 +2021,100 @@
     "title": "해고된 엔지니어들이 AI로 SaaS 대체품을 만든다 'OccupySaaS'",
     "source": "occupysaas.com·GeekNews·HN",
     "url": "https://occupysaas.com/"
+  },
+  {
+    "date": "2026-11-04",
+    "title": "오픈AI, 12월부터 챗GPT·코덱스 사용량 한 통으로 합친다",
+    "source": "AI타임스",
+    "url": "https://m.aitimes.com/news/articleView.html?idxno=216934",
+    "lang": "한",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "Plus·Pro·Business는 12월부터 챗GPT와 코덱스가 사용 한도 하나를 같이 쓴다.",
+      "일반 대화와 업무 자동화(Work)도 합쳐지고, 옛 맥 앱은 2027년 1월 30일 종료된다."
+    ],
+    "why": "팀 AI 구독을 쓰는 방식(대화·코딩 혼용)을 다시 따져 볼 때다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": ""
+  },
+  {
+    "date": "2026-11-04",
+    "title": "포스트맨이 코딩 에이전트에 플러그인을 몰래 깔았다는 신고",
+    "source": "GitHub 이슈",
+    "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+    "lang": "영",
+    "tags": [
+      "AI트렌드",
+      "해볼것"
+    ],
+    "summary": [
+      "12.33.4 실행 뒤 코덱스·클로드 코드 설정에 포스트맨 플러그인과 시작 훅이 추가됐다고 한다.",
+      "신고자는 동의 절차 없는 설치와 자체 훅 승인 시도를 문제 삼았다(정보 유출 주장은 없음)."
+    ],
+    "why": "에이전트 도구에 누가 무엇을 심는지 점검하는 사내 기준이 필요하다.",
+    "reaction": "이슈 댓글은 분노와 \"다른 API 클라이언트로 옮기자\"가 중심(GitHub 이슈).",
+    "area": "",
+    "paid": false,
+    "coi": "신고자 주장, 포스트맨 공식 답 없음"
+  },
+  {
+    "date": "2026-11-04",
+    "title": "교육 받아도 옛 방식으로 돌아간다 '습관 끌어안기'",
+    "source": "HR Dive",
+    "url": "https://www.hrdive.com/news/workers-are-habit-hugging-despite-new-training/873252/",
+    "lang": "영",
+    "tags": [
+      "학습변화관리"
+    ],
+    "summary": [
+      "직원 1,500명 조사에서 미국 직원 절반 미만만 교육 뒤 새 방식을 꾸준히 쓴다.",
+      "관리자가 쓰면 직원 49%가 따라 쓰고, 관리자가 안 쓰면 22%였다."
+    ],
+    "why": "AI 교육 효과는 교육장 밖 관리자의 실제 사용에 달렸다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": "학습 플랫폼사 TalentLMS 조사"
+  },
+  {
+    "date": "2026-11-04",
+    "title": "SKT 직원 4천 명이 만든 에이전트, '1인 1에이전트'로",
+    "source": "AI타임스",
+    "url": "https://m.aitimes.com/news/articleView.html?idxno=216945",
+    "lang": "한",
+    "tags": [
+      "탐색주제"
+    ],
+    "summary": [
+      "사내 공모 'AX 스파크'에 석 달간 173건이 출품됐고 심사와 직원 투표로 5건을 뽑았다.",
+      "4,000명 넘는 직원이 직접 에이전트를 만들었고 약 1,500개가 상시 쓰인다."
+    ],
+    "why": "위에서 내리는 교육 대신 직원이 만들고 서로 뽑는 방식이 실험 문화를 키운다.",
+    "reaction": "",
+    "area": "조직문화·심리적 안전감",
+    "paid": false,
+    "coi": "SKT 발표 인용"
+  },
+  {
+    "date": "2026-11-04",
+    "title": "노트북 속 소형 모델이 신경망 가중치만 보고 어떤 게임인지 맞혔다",
+    "source": "Simon Willison",
+    "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+    "lang": "영",
+    "tags": [
+      "기술화제"
+    ],
+    "summary": [
+      "17GB 로컬 모델이 숫자 덩어리만 보고 4개 중 3개 게임을 맞혔지만, 한 번에 약 1시간씩 걸렸다."
+    ],
+    "why": "\"AI가 AI를 읽는다\"는 과장은 직접 재현해 확인하는 습관이 필요하다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": ""
   }
 ]
