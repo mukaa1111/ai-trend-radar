@@ -1,6 +1,27 @@
 {
-  "reactions": [],
-  "memos": [],
+  "reactions": [
+    {
+      "date": "2026-11-03",
+      "url": "https://joshbersin.com/podcast/draup-ceo-vijay-swami-helps-companies-transform-work-for-ai/",
+      "liked": true,
+      "memo": "팀공유",
+      "private": false
+    },
+    {
+      "date": "2026-11-03",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "liked": true,
+      "memo": "카파시햄이 만든 큐레이션 방식 유튜브 (직접 저장)",
+      "private": false
+    }
+  ],
+  "memos": [
+    {
+      "date": "2026-11-03",
+      "text": "Llm위키 유지 방식",
+      "private": false
+    }
+  ],
   "experiments": [
     {
       "brief": "2026-10-19",
