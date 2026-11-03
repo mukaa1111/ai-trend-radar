@@ -35,6 +35,19 @@
   .chip { border: 0; background: var(--chip); color: var(--text); border-radius: 999px; padding: 6px 12px; font-size: 13px; cursor: pointer; }
   .chip[aria-pressed="true"] { background: var(--chip-on); color: var(--chip-on-text); }
   .count { color: var(--muted); font-size: 13px; margin-top: 8px; }
+  .views { display: flex; gap: 6px; margin-bottom: 10px; }
+  .view { flex: 1; border: 1px solid var(--line); background: var(--card); color: var(--text); border-radius: 10px; padding: 9px 0; font-size: 15px; cursor: pointer; }
+  .view[aria-pressed="true"] { background: var(--chip-on); color: var(--chip-on-text); border-color: var(--chip-on); }
+  .topic { display: block; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 16px; margin-bottom: 8px; color: var(--text); text-decoration: none; }
+  .topic b { font-size: 16px; }
+  .topic .n { float: right; color: var(--muted); font-size: 13px; }
+  .topic .d { display: block; color: var(--muted); font-size: 13px; margin-top: 2px; }
+  .topic.zero { opacity: .55; }
+  .back { display: inline-block; color: var(--accent); text-decoration: none; font-size: 14px; margin: 4px 0 8px; }
+  .thead h2 { font-size: 20px; margin: 0 0 2px; }
+  .thead p { margin: 0 0 14px; color: var(--muted); font-size: 14px; }
+  .mine { font-size: 14px; margin: 6px 0 0; }
+  .tbadge { font-size: 12px; padding: 2px 8px; border-radius: 999px; background: var(--chip); }
   .day { margin: 22px 0 10px; display: flex; align-items: baseline; gap: 10px; }
   .day h2 { font-size: 15px; margin: 0; color: var(--muted); font-weight: 600; }
   .day a { font-size: 13px; color: var(--accent); text-decoration: none; }
@@ -65,10 +78,14 @@
 <div class="wrap">
   <header>
     <h1>📡 AI HRD 레이더 보관함</h1>
-    <p>매일 아침 텔레그램으로 온 브리프의 글을 날짜별로 모아 둔 곳. 제목·요약·출처로 검색할 수 있어요.</p>
+    <p>매일 아침 텔레그램으로 온 브리프의 글을 날짜별·주제별로 모아 둔 곳. 제목·요약·출처로 검색할 수 있어요.</p>
   </header>
 
   <div class="tools">
+    <div class="views" role="tablist">
+      <button class="view" data-view="date" aria-pressed="true">📅 날짜별</button>
+      <button class="view" data-view="topic" aria-pressed="false">📚 주제별</button>
+    </div>
     <input class="search" id="q" type="search" placeholder="검색: 예) work redesign, 신입, 교육 효과, Stanford" autocomplete="off">
     <div class="chips" id="chips" role="group" aria-label="태그 필터"></div>
     <div class="count" id="count"></div>
@@ -77,7 +94,7 @@
   <div id="list"></div>
 
   <footer>
-    글 단위 기록은 <a href="data/items.json">data/items.json</a>, 날짜별 브리프 원문은 <a href="briefs/">briefs/</a> 폴더에 있어요.
+    글 단위 기록은 <a href="data/items.json">data/items.json</a>, 내 반응은 <a href="data/notes.json">data/notes.json</a>, 날짜별 브리프 원문은 <a href="briefs/">briefs/</a>, 주제별 위키는 <a href="wiki/">wiki/</a> 폴더에 있어요.
     기준과 출처는 <a href="docs/INTERESTS.md">INTERESTS.md</a> · <a href="docs/SOURCES.md">SOURCES.md</a>.
   </footer>
 </div>
@@ -88,10 +105,49 @@
     ["all", "전체"], ["AI트렌드", "AI 트렌드"], ["학습변화관리", "학습·변화관리"], ["탐색주제", "탐색 주제"],
     ["work_redesign", "work redesign"], ["해볼것", "해볼 것"], ["기술화제", "기술 화제"], ["더보기", "더 보기"]
   ];
-  var items = [], tag = "all", q = "";
+  // 주제 12개 — scripts/build_wiki.py 의 TOPICS 와 같은 순서·같은 분류 규칙
+  var TOPICS = [
+    ["AI 트렌드", "새 모델·기능·에이전트·도구·서비스 출시와 \"그래서 내가 뭘 해 볼 수 있나\"."],
+    ["학습·변화관리", "AI/AX 시대의 성인학습·변화관리: 리스킬링, 학습 전이, 저항과 수용, 리더십, 조직문화, 측정."],
+    ["기술 화제", "AI 때문에 \"예전엔 전문가만 하던 일\"이 갑자기 쉬워진 기술 현상."],
+    ["Work redesign", "AI를 넣어 직무·역할·팀을 다시 짜는 방법론과 사례."],
+    ["스킬 기반 조직", "AI 시대의 역량 프레임워크·스킬 데이터·직무 정의 재설계."],
+    ["학습 방식의 변화", "AI 코치·튜터·시뮬레이션·롤플레이 등 \"가르치는 방식\" 자체가 바뀌는 사례."],
+    ["리더·관리자", "관리자 역할 변화, 리더 대상 AI 교육, 임원의 AI 활용 시범."],
+    ["측정", "학습 효과·채택률·생산성 지표, 학습 분석, \"교육했는데 안 쓴다\" 문제."],
+    ["AI 거버넌스·윤리 교육", "사내 가이드라인, 책임 있는 사용 교육, 에이전트 권한 설계."],
+    ["신입·주니어 육성", "AI가 반복 업무를 가져간 뒤의 경력 초기 학습 파이프라인."],
+    ["조직문화·심리적 안전감", "실험 문화, 실패 허용, AI 도입 저항의 정서적 측면."],
+    ["HR 자체의 AX", "채용·평가·온보딩·교육 운영에 AI를 쓰는 HR 부서 사례."]
+  ];
+  var TOPIC_NAMES = TOPICS.map(function (t) { return t[0]; });
+  var items = [], notes = { reactions: [] }, tag = "all", q = "", view = "date", topic = "";
   var $ = function (id) { return document.getElementById(id); };
 
   try { tag = localStorage.getItem("radar.tag") || "all"; } catch (e) {}
+  try { view = localStorage.getItem("radar.view") || "date"; } catch (e) {}
+  (function readHash() {                       // #topic=측정 로 바로 열기 (텔레그램 링크용)
+    var m = /topic=([^&]*)/.exec(location.hash);
+    if (m) { view = "topic"; topic = decodeURIComponent(m[1]); }
+  })();
+
+  function normUrl(u) { return String(u || "").trim().replace(/\/+$/, "").toLowerCase().replace(/^https?:\/\/(www\.)?/, "").replace(/[?#].*$/, ""); }
+  function topicsOf(it) {
+    var out = [], area = (it.area || "").trim(), tags = it.tags || [];
+    if (area) { var a = /^work[ _]redesign$/i.test(area) ? "Work redesign" : area; if (TOPIC_NAMES.indexOf(a) >= 0) out.push(a); }
+    if (tags.indexOf("work_redesign") >= 0) out.push("Work redesign");
+    if (tags.indexOf("AI트렌드") >= 0 || tags.indexOf("해볼것") >= 0 || tags.indexOf("더보기") >= 0) out.push("AI 트렌드");
+    if (tags.indexOf("학습변화관리") >= 0) out.push("학습·변화관리");
+    if (tags.indexOf("기술화제") >= 0) out.push("기술 화제");
+    if (tags.indexOf("탐색주제") >= 0 && !out.length) out.push("학습·변화관리");
+    var u = []; out.forEach(function (t) { if (u.indexOf(t) < 0) u.push(t); });
+    return u.length ? u : ["AI 트렌드"];
+  }
+  function reactionsOf(it) {
+    var k = normUrl(it.url);
+    return (notes.reactions || []).filter(function (r) { return !r.private && normUrl(r.url) === k; });
+  }
+  function short(d) { return d && d.length >= 10 ? d.slice(5, 7) + "/" + d.slice(8, 10) : (d || ""); }
 
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
   function hl(s) {
@@ -112,7 +168,28 @@
     var hay = [it.title, it.source, it.why, it.reaction, it.area, (it.summary || []).join(" "), (it.tags || []).join(" "), it.coi].join(" ").toLowerCase();
     return hay.indexOf(q.toLowerCase()) >= 0;
   }
-  function render() {
+  function card(it, withTopics, withDate) {
+    var tags = (it.tags || []).map(function (t) { return '<span class="tag t-' + esc(t) + '">' + esc(labelOf(t)) + '</span>'; }).join("");
+    var tb = withTopics ? topicsOf(it).map(function (t) { return '<a class="tbadge" href="#topic=' + encodeURIComponent(t) + '">' + esc(t) + '</a>'; }).join("") : "";
+    var mine = reactionsOf(it).map(function (r) {
+      return '<p class="mine">' + (r.liked === false ? "👎" : "👍") + " 내 반응 (" + esc(short(r.date)) + ")" + (r.memo ? ": " + hl(r.memo) : "") + "</p>";
+    }).join("");
+    return '<article class="item">' +
+      '<h3><a href="' + esc(it.url) + '" target="_blank" rel="noopener">' + hl(it.title) + '</a></h3>' +
+      '<div class="meta">' + (withDate ? "<span>" + esc(short(it.date)) + "</span>" : "") + tags + tb + '<span>' + hl(it.source) + '</span>' +
+      (it.area && !withTopics && it.area !== topic ? "<span>탐색: " + hl(it.area) + "</span>" : "") +
+      (it.lang === "en" || it.lang === "영" ? "<span>영어</span>" : "") +
+      (it.published && it.published !== it.date ? "<span>발행 " + esc(it.published) + "</span>" : "") +
+      (it.paid ? '<span class="paid">유료</span>' : "") + '</div>' +
+      '<ul>' + (it.summary || []).map(function (s) { return "<li>" + hl(s) + "</li>"; }).join("") + '</ul>' +
+      (it.why ? '<p class="why">→ ' + hl(it.why) + '</p>' : "") +
+      (it.reaction ? '<p class="why">👀 ' + hl(it.reaction) + '</p>' : "") +
+      mine +
+      (it.coi ? '<div class="coi">이해관계: ' + hl(it.coi) + '</div>' : "") +
+      '<div class="link"><a href="' + esc(it.url) + '" target="_blank" rel="noopener">' + esc(it.url) + '</a></div>' +
+      '</article>';
+  }
+  function renderDate() {
     var shown = items.filter(matches);
     var byDate = {};
     shown.forEach(function (it) { (byDate[it.date] = byDate[it.date] || []).push(it); });
@@ -120,25 +197,54 @@
     var html = "";
     dates.forEach(function (d) {
       html += '<div class="day"><h2>' + fmtDate(d) + '</h2><a href="briefs/' + esc(d) + '.md">브리프 원문</a></div>';
-      byDate[d].forEach(function (it) {
-        var tags = (it.tags || []).map(function (t) { return '<span class="tag t-' + esc(t) + '">' + esc(labelOf(t)) + '</span>'; }).join("");
-        html += '<article class="item">' +
-          '<h3><a href="' + esc(it.url) + '" target="_blank" rel="noopener">' + hl(it.title) + '</a></h3>' +
-          '<div class="meta">' + tags + '<span>' + hl(it.source) + '</span>' +
-          (it.area ? "<span>탐색: " + hl(it.area) + "</span>" : "") +
-          (it.lang === "en" ? "<span>영어</span>" : "") +
-          (it.published && it.published !== it.date ? "<span>발행 " + esc(it.published) + "</span>" : "") +
-          (it.paid ? '<span class="paid">유료</span>' : "") + '</div>' +
-          '<ul>' + (it.summary || []).map(function (s) { return "<li>" + hl(s) + "</li>"; }).join("") + '</ul>' +
-          (it.why ? '<p class="why">→ ' + hl(it.why) + '</p>' : "") +
-          (it.reaction ? '<p class="why">👀 ' + hl(it.reaction) + '</p>' : "") +
-          (it.coi ? '<div class="coi">이해관계: ' + hl(it.coi) + '</div>' : "") +
-          '<div class="link"><a href="' + esc(it.url) + '" target="_blank" rel="noopener">' + esc(it.url) + '</a></div>' +
-          '</article>';
-      });
+      byDate[d].forEach(function (it) { html += card(it, false, false); });
     });
     $("list").innerHTML = html || '<p class="empty">맞는 글이 없어요. 검색어나 태그를 바꿔 보세요.</p>';
     $("count").textContent = "글 " + shown.length + "개 · " + dates.length + "일치" + (items.length !== shown.length ? " (전체 " + items.length + "개)" : "");
+  }
+  function searchOnly(it) {
+    if (!q) return true;
+    var hay = [it.title, it.source, it.why, it.reaction, it.area, (it.summary || []).join(" "), (it.tags || []).join(" "), it.coi,
+      reactionsOf(it).map(function (r) { return r.memo || ""; }).join(" ")].join(" ").toLowerCase();
+    return hay.indexOf(q.toLowerCase()) >= 0;
+  }
+  function renderTopic() {
+    var html = "";
+    if (!topic && !q) {                                   // 주제 목록
+      var cnt = {}, last = {};
+      items.forEach(function (it) { topicsOf(it).forEach(function (t) { cnt[t] = (cnt[t] || 0) + 1; if (!last[t] || it.date > last[t]) last[t] = it.date; }); });
+      TOPICS.forEach(function (t) {
+        var n = cnt[t[0]] || 0;
+        html += '<a class="topic' + (n ? "" : " zero") + '" href="#topic=' + encodeURIComponent(t[0]) + '">' +
+          '<span class="n">' + (n ? n + "건 · " + esc(short(last[t[0]])) : "아직 없음") + '</span><b>' + esc(t[0]) + '</b><span class="d">' + esc(t[1]) + '</span></a>';
+      });
+      $("list").innerHTML = html;
+      $("count").textContent = "주제 " + TOPICS.length + "개 · 글 " + items.length + "개. 주제를 누르면 글이 새 것부터 보여요.";
+      return;
+    }
+    var shown = items.filter(function (it) { return (!topic || topicsOf(it).indexOf(topic) >= 0) && searchOnly(it); });
+    shown.sort(function (a, b) { return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; });
+    html += '<a class="back" href="#topic=">← 주제 목록</a>';
+    if (topic) {
+      var desc = ""; TOPICS.forEach(function (t) { if (t[0] === topic) desc = t[1]; });
+      html += '<div class="thead"><h2>' + esc(topic) + '</h2><p>' + esc(desc) + '</p></div>';
+    } else {
+      html += '<div class="thead"><h2>전체 주제에서 검색</h2><p>글 옆의 주제 이름을 누르면 그 주제로 가요.</p></div>';
+    }
+    var month = "";
+    shown.forEach(function (it) {
+      var m = it.date.slice(0, 7);
+      if (m !== month) { month = m; html += '<div class="day"><h2>' + m.slice(0, 4) + "년 " + String(+m.slice(5, 7)) + "월</h2></div>"; }
+      html += card(it, !topic, true);
+    });
+    if (!shown.length) html += '<p class="empty">' + (topic ? "아직 이 주제의 글이 없어요. 레이더가 고르면 쌓여요." : "맞는 글이 없어요.") + '</p>';
+    $("list").innerHTML = html;
+    $("count").textContent = "글 " + shown.length + "개" + (topic ? " · " + topic : "");
+  }
+  function render() {
+    document.querySelectorAll(".view").forEach(function (b) { b.setAttribute("aria-pressed", String(b.getAttribute("data-view") === view)); });
+    $("chips").style.display = view === "date" ? "" : "none";
+    if (view === "topic") renderTopic(); else renderDate();
   }
   function labelOf(t) { for (var i = 0; i < TAGS.length; i++) if (TAGS[i][0] === t) return TAGS[i][1]; return t; }
   function renderChips() {
@@ -153,10 +259,27 @@
     renderChips(); render();
   });
   $("q").addEventListener("input", function (e) { q = e.target.value.trim(); render(); });
+  document.querySelector(".views").addEventListener("click", function (e) {
+    var b = e.target.closest("button[data-view]"); if (!b) return;
+    view = b.getAttribute("data-view");
+    try { localStorage.setItem("radar.view", view); } catch (err) {}
+    if (view === "date") { topic = ""; if (location.hash) history.replaceState(null, "", location.pathname + location.search); }
+    render(); window.scrollTo(0, 0);
+  });
+  window.addEventListener("hashchange", function () {
+    var m = /topic=([^&]*)/.exec(location.hash);
+    if (!m) return;
+    view = "topic"; topic = decodeURIComponent(m[1]);
+    try { localStorage.setItem("radar.view", view); } catch (err) {}
+    render(); window.scrollTo(0, 0);
+  });
 
   renderChips();
-  fetch("data/items.json", { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (d) {
-    items = Array.isArray(d) ? d : [];
+  var getItems = fetch("data/items.json", { cache: "no-store" }).then(function (r) { return r.json(); });
+  var getNotes = fetch("data/notes.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; });
+  Promise.all([getItems, getNotes]).then(function (res) {
+    items = Array.isArray(res[0]) ? res[0] : [];
+    notes = res[1] && typeof res[1] === "object" ? res[1] : {};
     render();
   }).catch(function () {
     $("list").innerHTML = '<p class="empty">data/items.json 을 불러오지 못했어요. 웹 주소(GitHub Pages)로 열어야 해요.</p>';

@@ -3,3 +3,4 @@
 .claude/
 .pull.log
 __pycache__/
+.obsidian/

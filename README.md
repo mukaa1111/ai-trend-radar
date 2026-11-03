@@ -3,6 +3,7 @@
 AI HRD 담당자·변화관리자가 오늘 읽을 만한 글 5개를 매일 아침 7시 텔레그램으로 보내 주는 개인용 서비스.
 
 - 기획: [docs/PRD.md](docs/PRD.md) · 만들 순서: [docs/PLAN.md](docs/PLAN.md)
+- 확장(2026-11~): AI 트렌드 위키 — 브리프를 주제별 지식베이스로 자동 축적. [docs/wiki/PRD.md](docs/wiki/PRD.md) · [docs/wiki/PLAN.md](docs/wiki/PLAN.md)
 - 출처 목록: [docs/SOURCES.md](docs/SOURCES.md) · 고르는 기준: [docs/INTERESTS.md](docs/INTERESTS.md)
 - 브리프 보관: `briefs/` (날짜별 파일), `data/items.json` (글 단위 기록)
 - 폰에서 지난 브리프 찾아보기: https://mukaa1111.github.io/ai-trend-radar/
