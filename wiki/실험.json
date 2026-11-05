@@ -1,5 +1,17 @@
 [
  {
+  "brief": "2026-11-06",
+  "date": "2026-11-06",
+  "label": "맡기기 전 '완료 기준' 한 줄",
+  "text": "AI에 일을 시키기 전, 내가 확인할 완료 기준을 한 줄 적고 결과와 맞춰 본다.",
+  "minutes": "30분",
+  "article": "",
+  "done": false,
+  "result": "",
+  "resultDate": "",
+  "private": false
+ },
+ {
   "brief": "2026-11-05",
   "date": "2026-11-05",
   "label": "AI 사용 한도가 실험 막나 묻기",
