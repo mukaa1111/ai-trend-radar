@@ -37,7 +37,7 @@
 ## 파일
 - `briefs/YYYY-MM-DD.md` — 위 내용 그대로 (맨 위에 `# 2026-10-19 브리프` 제목, 맨 아래 "못 연 출처" 한 줄)
 - `data/items.json` — 글 단위 기록. 한 글 = `{ "date", "title", "source", "url", "lang", "tags": [], "summary": [2줄], "why", "reaction": "", "area": "", "paid": false, "coi": "" }` (reaction은 👀 줄, area는 탐색 주제 글의 영역 이름. 없으면 빈 문자열)
-  내 반응은 `scripts/sync_reactions.py`가 채운다: `my_reaction`(like/dislike/note), `my_note`, `my_reacted_at`. 봇에게 "3번 좋아", "2번 별로", "1번 메모…"라고 답하면 된다. 전체 기록은 `data/reactions.json`.
+  내 반응은 items.json이 아니라 `data/notes.json`(reactions)에 쌓인다. 봇에게 "3번 좋아", "어제 2번 별로", 링크, "실험 했음: …"이라고 답하면 아침 7시·저녁 9시 루틴이 반영한다. 규칙은 `docs/wiki/FORMAT.md`.
   기술 화제 코너는 `tags: ["기술화제"]`, 해볼 것은 글이 아니라 `briefs/` 파일에만 둔다 (위키 스크립트가 🧪 줄을 읽어 `wiki/실험.md`에 모은다).
 - `data/notes.json` — 내 반응·메모·실험 결과. `wiki/` — 주제별 위키(스크립트가 그림). 규칙은 `docs/wiki/FORMAT.md`.
 - 같은 `url`이 최근 30일 items.json에 있으면 다시 보내지 않는다.
