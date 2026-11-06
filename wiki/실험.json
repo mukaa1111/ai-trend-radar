@@ -1,5 +1,17 @@
 [
  {
+  "brief": "2026-11-07",
+  "date": "2026-11-07",
+  "label": "AI 도구 접근 권한 점검",
+  "text": "내가 쓰는 AI 도구가 읽고 보낼 수 있는 이메일·파일·계정 설정을 한 번 훑어본다.",
+  "minutes": "30분",
+  "article": "",
+  "done": false,
+  "result": "",
+  "resultDate": "",
+  "private": false
+ },
+ {
   "brief": "2026-11-06",
   "date": "2026-11-06",
   "label": "맡기기 전 '완료 기준' 한 줄",

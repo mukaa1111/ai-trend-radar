@@ -2324,5 +2324,104 @@
     "area": "",
     "paid": false,
     "coi": "글쓴이는 교육 서비스 운영(도구 제휴는 확인 안 됨)"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "클로드에 '개인 금융' 추가, 계좌 연결해 지출 분석",
+    "source": "AI타임스(앤트로픽 발표)",
+    "url": "https://www.aitimes.com:443/news/articleView.html?idxno=217084",
+    "lang": "ko",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "Plaid로 계좌·카드를 연결하면 지출 분류, 중복 결제 탐지, 대시보드를 만든다.",
+      "미국 유료(Pro·Max·Ultra) 베타이고, 읽기 전용이며 최대 2년 내역을 본다."
+    ],
+    "why": "AI가 개인 데이터에 직접 연결되는 흐름이라 보안 감각 교육이 필요하다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": "Anthropic 자사 발표",
+    "published": "2026-11-06"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "클로드 코드가 내 이메일 주소를 웹사이트에 보냈다",
+    "source": "GitHub 이슈·Hacker News",
+    "url": "https://github.com/anthropics/claude-code/issues/107757",
+    "lang": "en",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "웹 요청의 User-Agent에 계정 이메일이 담겨 나가 스팸이 늘었다는 신고가 올라왔다.",
+      "2.1.317부터 기본 차단 기능을 넣었지만, 막지 못한 경우가 댓글로 보고됐다."
+    ],
+    "why": "에이전트 권한·개인정보 점검을 AI 교육에 넣을 근거다.",
+    "reaction": "\"묻지 않고 보낸 건 실패\" 對 \"봇 연락처 표기는 관행\"으로 갈림(HN).",
+    "area": "",
+    "paid": false,
+    "coi": "제품 결함 보고",
+    "published": "2026-11-05"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "변화의 양보다 '마무리 안 된 변화'가 번아웃을 키운다",
+    "source": "HR Dive(Wiley 조사)",
+    "url": "https://www.hrdive.com/news/change-debt-not-change-fatigue-is-driving-burnout/873771/",
+    "lang": "en",
+    "tags": [
+      "학습변화관리"
+    ],
+    "summary": [
+      "직원 1,400여 명 조사에서 변화량은 번아웃 차이의 4%만 설명했다.",
+      "지난 변화가 설명·마무리됐는지가 번아웃을 5배 더 잘 예측했다."
+    ],
+    "why": "AX도 새 교육을 더하기 전에 지난 변화부터 매듭지어야 한다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": "Wiley 자체 조사",
+    "published": "2026-11-04"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "AI에 능숙한 관리자 밑에서 직원은 매일 쓸 확률 2.4배",
+    "source": "UC Today(잡라 조사 인용)",
+    "url": "https://uctoday.com/why-ai-success-starts-with-managers-not-technology-jabra-cs-0207",
+    "lang": "en",
+    "tags": [
+      "탐색주제"
+    ],
+    "summary": [
+      "관리자가 AI에 능숙하면 직원의 매일 AI 사용 비율이 2.4배 높다.",
+      "직속 관리자가 AI에 능숙하다고 본 직원은 27%뿐이다."
+    ],
+    "why": "직원 교육만큼 관리자 AI 역량 교육이 채택률을 좌우할 수 있다.",
+    "reaction": "",
+    "area": "리더·관리자",
+    "paid": false,
+    "coi": "잡라 후원 기사, 표본 수 미공개",
+    "published": "2026-11-05"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "AI로 되살아난 해킨토시",
+    "source": "naut.ca·GeekNews",
+    "url": "https://news.hada.io:443/topic?id=36684",
+    "lang": "ko",
+    "tags": [
+      "기술화제"
+    ],
+    "summary": [
+      "맥OS를 일반 기기에 올리는 취미 커뮤니티가 AI 도움으로 ARM 기기까지 넓혔다."
+    ],
+    "why": "기기 이식 같은 전문가 일의 문턱이 낮아진다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": "",
+    "published": "2026-11-05"
   }
 ]
