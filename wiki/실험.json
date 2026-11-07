@@ -1,5 +1,17 @@
 [
  {
+  "brief": "2026-11-08",
+  "date": "2026-11-08",
+  "label": "AI 개인정보 설정 훑기",
+  "text": "내 맥·폰의 AI 기능 중 개인 정보를 모으는 설정 3개를 찾아 끌지 정한다.",
+  "minutes": "30분",
+  "article": "",
+  "done": false,
+  "result": "",
+  "resultDate": "",
+  "private": false
+ },
+ {
   "brief": "2026-11-07",
   "date": "2026-11-07",
   "label": "AI 도구 접근 권한 점검",
