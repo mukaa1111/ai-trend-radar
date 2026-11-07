@@ -27,6 +27,13 @@
       "liked": true,
       "memo": "감독능력 글",
       "private": false
+    },
+    {
+      "date": "2026-11-07",
+      "url": "https://llm-wiki-setup-guide.vercel.app/",
+      "liked": true,
+      "memo": "직접 저장",
+      "private": false
     }
   ],
   "memos": [

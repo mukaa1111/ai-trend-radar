@@ -2423,5 +2423,25 @@
     "paid": false,
     "coi": "",
     "published": "2026-11-05"
+  },
+  {
+    "date": "2026-11-07",
+    "published": "2026-11-07",
+    "title": "나만의 LLM Wiki 설정 가이드: 원본은 raw/, 정리는 wiki/",
+    "source": "일잘러 장피엠 (직접 저장)",
+    "url": "https://llm-wiki-setup-guide.vercel.app/",
+    "lang": "한국어",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "Astro-Han의 karpathy-llm-wiki 저장소로 개인 지식 위키를 만드는 6단계 절차. 원본은 raw/에 보존하고 정리본은 wiki/에 쌓는다.",
+      "자료는 최소 100개 이상 넣고 자동 수집 경로를 만들며, 질문 20개로 답변 근거를 검수하라고 권한다."
+    ],
+    "why": "이 저장소의 위키 방식과 같은 접근이라, 팀 지식 정리에 응용할 때 비교해 볼 만하다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": "게시일 미표기(날짜는 저장일 기준)"
   }
 ]
