@@ -1,5 +1,17 @@
 [
  {
+  "brief": "2026-11-09",
+  "date": "2026-11-09",
+  "label": "AI 권한 점검표",
+  "text": "우리 팀이 쓰는 AI 도구마다 열람·실행 권한을 한 줄씩 적어 본다.",
+  "minutes": "30분",
+  "article": "",
+  "done": false,
+  "result": "",
+  "resultDate": "",
+  "private": false
+ },
+ {
   "brief": "2026-11-08",
   "date": "2026-11-08",
   "label": "AI 개인정보 설정 훑기",

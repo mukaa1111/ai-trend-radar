@@ -2518,5 +2518,81 @@
     "title": "OpenAI, AI로 리눅스 커널 권한 상승 취약점 948개 발견",
     "source": "GeekNews",
     "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/"
+  },
+  {
+    "date": "2026-11-09",
+    "title": "골드만삭스, 은행가·트레이더의 클로드 코드 사용 중단",
+    "source": "State of AI",
+    "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+    "lang": "영어",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "10월 내부 지침으로 코딩 에이전트를 엔지니어에게만 허용했고, 사내 AI 비서는 계속 쓴다.",
+      "직원 4만7천 명 중 엔지니어는 1만2천 명이다. 권한·정보장벽 통제가 이유로 거론된다."
+    ],
+    "why": "비개발자 에이전트 활용 교육에 권한 설계를 함께 넣어야 한다.",
+    "reaction": "\"클라이언트 데이터·메일 접근이 위험\" 對 \"사고가 있었을 것\"(HN 댓글 286개).",
+    "area": "",
+    "paid": false,
+    "coi": "논평 매체"
+  },
+  {
+    "date": "2026-11-09",
+    "title": "아마존, 앱 없이 문자로 쇼핑하는 '알렉사' 출시",
+    "source": "AI타임스",
+    "url": "https://www.aitimes.com//news/articleView.html?idxno=217142",
+    "lang": "한국어",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "비즈니스 번호로 문자를 보내면 상품 비교·주문·배송 조회까지 한다. 사진 검색도 된다.",
+      "미국 초대 고객만 쓸 수 있고, 몇 주 안에 확대한다. 가격은 밝히지 않았다."
+    ],
+    "why": "앱 없이 대화로 일을 맡기는 흐름을 업무 교육 예시로 쓸 만하다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": "기업 발표 보도"
+  },
+  {
+    "date": "2026-11-09",
+    "title": "직원 몰입도 15년 만에 최저, AI 도입 기업 재택·혼합 근무자가 가장 크게 하락",
+    "source": "HR Dive(갤럽 조사)",
+    "url": "https://www.hrdive.com/news/employee-engagement-falls-to-lowest-level-in-15-years-gallup/873459/",
+    "lang": "영어",
+    "tags": [
+      "학습변화관리"
+    ],
+    "summary": [
+      "미국 몰입도는 3분기 29%로 2011년 이후 최저, 적극 이탈자는 18%다.",
+      "갤럽은 관리자 지원이 AI 도입 속도를 못 따라간다고 본다."
+    ],
+    "why": "AI 교육만큼 관리자의 기대 설정·돌봄 지원이 변화관리의 열쇠다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": "언론 보도"
+  },
+  {
+    "date": "2026-11-09",
+    "title": "메타 '뮤즈 스페이스', 말로 설명하면 맞춤 앱이 생긴다",
+    "source": "AI타임스",
+    "url": "https://www.aitimes.com//news/articleView.html?idxno=217128",
+    "lang": "한국어",
+    "tags": [
+      "기술화제"
+    ],
+    "summary": [
+      "여행 계획표·일정 추적기 같은 작업 공간을 문장으로 만들고, Gmail·캘린더·노션과 연결한다.",
+      "메타 발표는 11월 6일(현지), 뮤즈가 제공되는 지역에서 쓸 수 있고 가격은 기사에 없다."
+    ],
+    "why": "비개발자도 업무 도구를 직접 만드는 시대가 된다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": ""
   }
 ]
