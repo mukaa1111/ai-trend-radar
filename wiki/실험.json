@@ -1,5 +1,17 @@
 [
  {
+  "brief": "2026-11-10",
+  "date": "2026-11-10",
+  "label": "절약 시간 용처 기록",
+  "text": "이번 주 AI로 아낀 시간이 어디에 쓰였는지 팀원 3명에게 한 줄씩 물어본다.",
+  "minutes": "30분",
+  "article": "",
+  "done": false,
+  "result": "",
+  "resultDate": "",
+  "private": false
+ },
+ {
   "brief": "2026-11-09",
   "date": "2026-11-09",
   "label": "AI 권한 점검표",

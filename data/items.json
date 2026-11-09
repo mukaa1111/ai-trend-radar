@@ -2594,5 +2594,101 @@
     "area": "",
     "paid": false,
     "coi": ""
+  },
+  {
+    "date": "2026-11-10",
+    "title": "앤트로픽, 클로드 '페이블 5.2' 공개",
+    "source": "Anthropic 공식",
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "lang": "영어",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "입력 100만 토큰당 8달러, 출력 40달러. 주요 클라우드에서 쓸 수 있다.",
+      "업무 자동화 벤치마크는 51.4%로 오퍼스 5.5(42.5%)보다 높다."
+    ],
+    "why": "에이전트가 맡는 일이 커져 교육은 '검토하는 힘'이 중심이 된다.",
+    "reaction": "\"성능 저하(너프)\" 논란 對 \"표본 20개는 노이즈\"(HN 댓글 431개).",
+    "area": "",
+    "paid": false,
+    "coi": "Anthropic 자사 발표"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "AI 두뇌 과부하, 에이전트 여러 개 돌리다 지친 개발자의 대처법",
+    "source": "Sergey Kuhne 블로그",
+    "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+    "lang": "영어",
+    "tags": [
+      "AI트렌드",
+      "해볼것"
+    ],
+    "summary": [
+      "터미널 AI 세션 약 20개를 돌리다 맥락을 못 따라가 티켓 보드를 만들었다.",
+      "사람 판단이 필요한 일만 '오너 인박스'에 모으고 배포는 직접 한다."
+    ],
+    "why": "AI 활용 교육에 '동시에 몇 개까지'라는 한계 설정을 넣을 만하다.",
+    "reaction": "\"병렬은 2~3개로 제한\", \"병목은 생성이 아니라 검토\"(HN 댓글 207개).",
+    "area": "",
+    "paid": false,
+    "coi": ""
+  },
+  {
+    "date": "2026-11-10",
+    "title": "학습 문화는 하나의 시스템, 지도로 그려 보자",
+    "source": "Chief Learning Officer",
+    "url": "https://www.chieflearningofficer.com/2026/11/09/a-learning-culture-is-a-system-heres-how-to-map-yours/",
+    "lang": "영어",
+    "tags": [
+      "학습변화관리"
+    ],
+    "summary": [
+      "학습 행동을 정하고 '왜 안 하나'를 묻고 인과 지도로 영향 요인을 그린다.",
+      "심리적 안전감·인센티브·루틴·구조 네 조건을 점검하고 스폰서와 함께 한다."
+    ],
+    "why": "AI 교육 뒤 \"안 쓴다\"를 개인 탓 아닌 시스템 문제로 볼 수 있다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": ""
+  },
+  {
+    "date": "2026-11-10",
+    "title": "가트너: AI에 돈을 써도 비용 절감은 없다",
+    "source": "HR Dive(가트너 조사)",
+    "url": "https://www.hrdive.com/news/companies-are-not-saving-money-with-ai/873110/",
+    "lang": "영어",
+    "tags": [
+      "탐색주제"
+    ],
+    "summary": [
+      "직원 1,800여 명 조사에서 AI로 번 시간 중 혁신 업무로 간 것은 21%뿐이다.",
+      "리더 78%는 AI가 일터에 어떻게 도움 되는지 의견이 갈린다."
+    ],
+    "why": "교육 성과를 '절약 시간'이 아닌 시간의 용처로 재야 한다.",
+    "reaction": "",
+    "area": "측정",
+    "paid": false,
+    "coi": "자문업 조사"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "GPU 없이 2840억 개 모델을 64GB 램 PC에서 돌린다",
+    "source": "GitHub·Hacker News",
+    "url": "https://github.com/synchopate/llama-modchip",
+    "lang": "영어",
+    "tags": [
+      "기술화제"
+    ],
+    "summary": [
+      "모델을 극단적으로 압축해 일반 PC 메모리만으로 돌린다.",
+      "속도는 초당 9~15 토큰, 개발자 자체 측정이다."
+    ],
+    "why": "사내망 안에서 돌리는 AI도 현실적 선택지가 된다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": ""
   }
 ]
