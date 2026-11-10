@@ -2690,5 +2690,105 @@
     "area": "",
     "paid": false,
     "coi": ""
+  },
+  {
+    "date": "2026-11-11",
+    "title": "아마존, 티켓 분류를 LLM 대신 소형 모델로 비용 98% 절감",
+    "source": "Strands Agents 블로그",
+    "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+    "lang": "en",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "티켓 약 20개 분류에서 소네트 4.6을 전용 소형 모델로 바꿨다.",
+      "건당 비용 0.0222→0.0005달러, 응답 4.2초→0.9초. 모두 자체 측정이다."
+    ],
+    "why": "반복 분류 업무는 큰 모델이 아니어도 된다. 도입 비용 논의에 쓸 만하다.",
+    "reaction": "\"전통 ML이 더 싸다\" 對 \"LLM으로 분 단위 구축이 장점\"(HN 댓글 237개).",
+    "area": "",
+    "paid": false,
+    "coi": "아마존 자사 제품 홍보",
+    "published": "2026-11-09"
+  },
+  {
+    "date": "2026-11-11",
+    "title": "메타 '뮤즈 엠버' 공개, 에이전트용 초소형 모델",
+    "source": "Meta AI 블로그",
+    "url": "https://research.meta.ai/blog/muse-ember",
+    "lang": "en",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "입력 100만 토큰당 0.10달러, 출력 0.50달러. 메타 API와 구글·오라클 클라우드에서 쓴다.",
+      "자사 비교에서 업무 자동화 벤치마크 37.8%로 하이쿠 5.5(13.9%)보다 높다."
+    ],
+    "why": "에이전트 단가가 내려가면 현업이 직접 돌려 볼 일이 늘어난다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": "자사 발표",
+    "published": "2026-11-09"
+  },
+  {
+    "date": "2026-11-11",
+    "title": "시스코의 학습 전환, 80,000명을 AI 기반 스킬 체계로",
+    "source": "Josh Bersin 팟캐스트",
+    "url": "https://joshbersin.com/podcast/hr-pacesetter-story-ciscos-edge-up-learning-transformation/",
+    "lang": "en",
+    "tags": [
+      "학습변화관리"
+    ],
+    "summary": [
+      "흩어진 옛 학습 체계를 하나의 AI 기반 스킬 환경으로 묶었다.",
+      "평생 학습 마인드, 핵심 역량, 상시 학습, 통합 환경의 네 축이다."
+    ],
+    "why": "도구 교체보다 '무엇을 배우게 할지'의 축을 먼저 세운 사례다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": "Bersin 자문업 병행",
+    "published": "2026-11-06"
+  },
+  {
+    "date": "2026-11-11",
+    "title": "몰릭, '클로드 5.2'로 강의를 통째로 다시 설계해 봤다",
+    "source": "One Useful Thing(Ethan Mollick)",
+    "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+    "lang": "en",
+    "tags": [
+      "탐색주제"
+    ],
+    "summary": [
+      "1941년 오든의 6,000쪽 분량 수업을 AI가 새로 짰다. 첫 설계는 \"정확하지만 재미없었다\".",
+      "AI는 자기 결과물이 지루하거나 부풀었다는 것을 스스로 알아채지 못했다."
+    ],
+    "why": "교육자 역할은 만들기보다 '기준 세우고 판정하기'로 옮겨 간다.",
+    "reaction": "",
+    "area": "학습 방식의 변화",
+    "paid": false,
+    "coi": "저자는 AI 기업 후원 없음, 사전 접근권 받음",
+    "published": "2026-11-09"
+  },
+  {
+    "date": "2026-11-11",
+    "title": "삼촌이 조카의 낙서를 하룻밤 만에 4인용 게임으로",
+    "source": "Notes by Lex(개인 블로그)",
+    "url": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game",
+    "lang": "en",
+    "tags": [
+      "기술화제"
+    ],
+    "summary": [
+      "조카가 그린 가족 영웅 5명과 악당 12명을 AI가 하룻밤에 게임으로 만들었다. 약 600번 요청했다.",
+      "아이디어를 말로 설명하는 힘이 만드는 힘만큼 중요해진다."
+    ],
+    "why": "아이디어를 말로 설명하는 힘이 만드는 힘만큼 중요해진다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": "",
+    "published": "2026-11-10"
   }
 ]

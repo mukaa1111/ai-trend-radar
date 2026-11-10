@@ -1,5 +1,17 @@
 [
  {
+  "brief": "2026-11-11",
+  "date": "2026-11-11",
+  "label": "AI 설계안에 '재미' 기준 달기",
+  "text": "우리 과정 하나를 AI로 설계시키고, 지루한 곳 3군데를 표시해 되묻는다.",
+  "minutes": "30분",
+  "article": "",
+  "done": false,
+  "result": "",
+  "resultDate": "",
+  "private": false
+ },
+ {
   "brief": "2026-11-10",
   "date": "2026-11-10",
   "label": "절약 시간 용처 기록",
