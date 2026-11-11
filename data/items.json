@@ -2790,5 +2790,65 @@
     "paid": false,
     "coi": "",
     "published": "2026-11-10"
+  },
+  {
+    "date": "2026-11-11",
+    "title": "베르셀, AI 에이전트가 데스크톱 앱을 조작하는 CLI 공개",
+    "source": "GeekNews·GitHub(Vercel Labs)",
+    "url": "https://github.com/vercel-labs/agent-desktop",
+    "lang": "en",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "화면 좌표가 아니라 OS 접근성 정보로 버튼·메뉴를 찾아 맥·윈도·리눅스 앱을 조작한다.",
+      "아파치 2.0 라이선스, npm으로 설치한다. 스냅샷·클립보드에 개인 화면 내용이 담길 수 있다고 경고한다."
+    ],
+    "why": "웹이 아닌 사내 데스크톱 앱도 에이전트가 만질 수 있게 된다.",
+    "reaction": "지원 앱이 적고 워드·엑셀은 안 되며 포커스를 뺏는다는 후기(GeekNews 댓글).",
+    "area": "",
+    "paid": false,
+    "coi": "Vercel Labs 자사 제품",
+    "published": "2026-11-11"
+  },
+  {
+    "date": "2026-11-11",
+    "title": "구글 '제미나이 4 카본' 정식 출시, 가격은 페이블 5.2의 4분의 1",
+    "source": "AI타임스",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=217249",
+    "lang": "ko",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "100만 토큰당 입력 2달러·출력 10달러. 11월 30일까지이고 12월 1일부터 4·20달러다.",
+      "자동화 벤치마크 성공률 53.88%(건당 2.12달러), 페이블 5.2는 51.45%(4.64달러)로 보도됐다."
+    ],
+    "why": "같은 업무를 절반 비용으로 돌리는 선택지가 생긴다. 도입 비용 비교에 쓴다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": "가격·성능은 구글 발표 인용",
+    "published": "2026-11-11"
+  },
+  {
+    "date": "2026-11-11",
+    "title": "신입 채용을 줄이면 10년 뒤 '중간 허리'가 비는 문제",
+    "source": "HR Dive",
+    "url": "https://www.hrdive.com/news/lack-of-hiring-now-will-create-a-missing-rung-that-may-topple-growth/874253/",
+    "lang": "en",
+    "tags": [
+      "탐색주제"
+    ],
+    "summary": [
+      "신입 채용이 느려지면 리더 후보 층에 '빠진 단'이 생긴다는 Guild 분석이다.",
+      "자동화가 신입 업무를 맡는다고 보고, 신입 직무는 판단 중심으로 바뀐다고 한다. 통계 수치는 없다."
+    ],
+    "why": "신입 육성 경로(코호트·학습 경로)를 지금 설계해야 한다는 근거다.",
+    "reaction": "",
+    "area": "신입·주니어 육성",
+    "paid": false,
+    "coi": "분석은 Guild(교육 사업) 소속 경제학자",
+    "published": "2026-11-10"
   }
 ]

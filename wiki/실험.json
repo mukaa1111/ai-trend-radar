@@ -1,5 +1,19 @@
 [
  {
+  "brief": "2026-11-11-2",
+  "date": "2026-11-11",
+  "label": "신입 업무 3칸 나누기",
+  "text": "우리 팀 신입이 하는 일 3가지를 적고 'AI가 가져감/함께/직접 배워야'로 표시한다.",
+  "minutes": "15분",
+  "article": "",
+  "done": false,
+  "keep": false,
+  "stale": false,
+  "result": "",
+  "resultDate": "",
+  "private": false
+ },
+ {
   "brief": "2026-11-11",
   "date": "2026-11-11",
   "label": "AI 설계안에 '재미' 기준 달기",
