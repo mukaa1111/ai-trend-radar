@@ -91,9 +91,9 @@ Simon Willison 블로그 · 영어 · [유료] · 이해관계: …
 | 그 외 글 | memos에 보관 |
 
 ## 루틴 처리 순서 (매일 아침 루틴 9단계가 읽는 부분)
-브리프를 보낸 뒤에 한다. 여기서 막혀도 브리프·커밋에는 영향이 없다.
+브리프를 보낸 뒤에 한다. 여기서 막혀도 브리프·커밋에는 영향이 없다. 답장은 하루 한 번, 이 아침 루틴만 읽는다(저녁 루틴은 2026-11-11에 뺌).
 
-a. `python3 scripts/read_replies.py` → 봇에 온 내 답장이 `wiki/inbox/YYYY-MM-DD.md`의 "## 처리 전"에 쌓인다 ("replies: n건 기록"). 네트워크 오류면 한 번 더, 그래도 안 되면 요약에 '답장 못 읽음: (오류)'라고 적고 b는 건너뛴다. "getUpdates" 409 오류는 다른 곳에서 동시에 읽는 것이니 요약에 적고 c만 한다.
+a. `python3 scripts/read_replies.py` (루틴 1단계에서 이미 한 번 받았어도 다시 실행한다) → 봇에 온 내 답장이 `wiki/inbox/YYYY-MM-DD.md`의 "## 처리 전"에 쌓인다 ("replies: n건 기록"). 네트워크 오류면 한 번 더, 그래도 안 되면 요약에 '답장 못 읽음: (오류)'라고 적고 b는 건너뛴다. "getUpdates" 409 오류는 다른 곳에서 동시에 읽는 것이니 요약에 적고 c만 한다.
 
 b. `wiki/inbox/`의 모든 파일에서 "## 처리 전" 아래 줄을 위 '텔레그램 답장 규칙' 표대로 처리한다.
    ① `4 좋음 팀공유`처럼 번호로 시작 → 그 답장 날짜의 `briefs/` 파일에서 그 번호 글의 🔗 url을 찾아 `data/notes.json` reactions에 `{date, url, liked, memo, private}` 추가. "어제 2번"이면 전날 브리프. "별로"·👎는 liked false. 번호 뒤 말은 memo.
@@ -106,3 +106,5 @@ b. `wiki/inbox/`의 모든 파일에서 "## 처리 전" 아래 줄을 위 '텔�
 c. `python3 scripts/build_wiki.py` → "wiki ok" 확인. JSON 오류면 notes.json·items.json을 고쳐 다시. 답장이 0건이어도 실행한다(오늘 글이 위키에 들어가야 한다). `wiki/주제/`, `index.md`, `실험.md`, `메모.md`는 스크립트가 그리므로 손으로 고치지 않는다.
 
 d. 커밋에 `data/notes.json`, `data/telegram_offset.json`, `wiki/`를 포함한다. 요약에 "위키: 답장 n건 읽음·처리 n건·못 한 줄 n, build_wiki 결과"를 적는다.
+
+e. b에서 처리한 답장이 1건 이상이면, 푸시한 뒤 확인 메시지를 한 통 보낸다: `python3 scripts/tg_say.py "✅ 반응 반영 · 11/11 3번 👍 (글 제목 앞부분) · … ⭐ 모아 보기: https://mukaa1111.github.io/ai-trend-radar/"`. 처리한 게 없으면 보내지 않는다.

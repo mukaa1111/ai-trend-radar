@@ -295,7 +295,7 @@
       var it = byUrl[normUrl(r.url)];
       var title = it ? '<a href="#topic=' + encodeURIComponent(topicsOf(it)[0]) + '">' + esc(it.title) + '</a>' : '<a href="' + esc(r.url) + '" target="_blank" rel="noopener">' + esc(r.url) + '</a>';
       return '<div class="row"><span class="d">' + esc(short(r.date)) + '</span>' + (r.liked === false ? "👎 " : "👍 ") + title + (r.memo ? '<span class="sub">' + esc(r.memo) + '</span>' : "") + '</div>';
-    }).join("") : '<p class="empty">아직 없어요. 봇에 "3 좋았음"처럼 답하면 여기 모여요.</p>';
+    }).join("") : '<p class="empty">아직 없어요. 봇에 "3 좋았음"처럼 답하면 다음 날 아침 브리프 때 여기 모여요.</p>';
     $("list").innerHTML = html;
     $("count").textContent = "메모 " + memos.length + " · 해볼 것 " + todo.length + " · 해 본 것 " + done.length + " · 반응 " + rs.length;
   }
