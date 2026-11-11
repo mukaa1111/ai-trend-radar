@@ -53,6 +53,10 @@
   .row .d { color: var(--muted); font-size: 13px; margin-right: 6px; }
   .row .sub { display: block; color: var(--muted); font-size: 13px; margin-top: 3px; }
   .row.done { opacity: .6; }
+  .hint { font-size: 13px; color: var(--muted); margin: 0 0 8px; }
+  details.old { margin-top: 14px; }
+  details.old summary { cursor: pointer; font-size: 14px; color: var(--muted); padding: 8px 0; }
+  details.old .row { opacity: .75; }
   .row.done b { text-decoration: line-through; }
   .row .res { display: block; font-size: 13px; margin-top: 4px; background: var(--accent-soft); border-radius: 6px; padding: 4px 8px; }
   .row a { color: var(--text); text-decoration: none; }
@@ -141,7 +145,15 @@
     if (m) { view = "topic"; topic = decodeURIComponent(m[1]); }
   })();
 
-  function normUrl(u) { return String(u || "").trim().replace(/\/+$/, "").toLowerCase().replace(/^https?:\/\/(www\.)?/, "").replace(/[?#].*$/, ""); }
+  // scripts/urlnorm.py 와 같은 규칙: ? 뒤 글 번호는 살리고 추적용 꼬리표만 무시
+  function normUrl(u) {
+    u = String(u || "").trim().toLowerCase().replace(/#.*$/, "").replace(/^https?:\/\//, "").replace(/^(www\.|m\.)/, "")
+      .replace(/^([^\/?]+):(443|80)(?=[\/?]|$)/, "$1");
+    var i = u.indexOf("?"), path = (i >= 0 ? u.slice(0, i) : u).replace(/\/+$/, "");
+    if (i < 0) return path;
+    var keep = u.slice(i + 1).split("&").filter(function (p) { return p && !/^(utm_[^=]*|fbclid|gclid|ref|ref_src|source)(=|$)/.test(p); });
+    return keep.length ? path + "?" + keep.join("&") : path;
+  }
   function topicsOf(it) {
     var out = [], area = (it.area || "").trim(), tags = it.tags || [];
     if (area) { var a = /^work[ _]redesign$/i.test(area) ? "Work redesign" : area; if (TOPIC_NAMES.indexOf(a) >= 0) out.push(a); }
@@ -262,17 +274,20 @@
                          : '<p class="empty">아직 메모가 없어요. 봇에 아무 말이나 보내면 여기 쌓여요.</p>';
     // 2) 실험
     var ex = exps.filter(function (e) { return !e.private; });
-    var todo = ex.filter(function (e) { return !e.done; }), done = ex.filter(function (e) { return e.done; });
+    var todo = ex.filter(function (e) { return !e.done && !e.stale; }), done = ex.filter(function (e) { return e.done; });
+    var stale = ex.filter(function (e) { return !e.done && e.stale; });
     function expRow(e) {
-      return '<div class="row' + (e.done ? " done" : "") + '"><span class="d">' + esc(short(e.date)) + '</span><b>' + esc(e.label || e.text.slice(0, 30) + "…") + '</b>' +
+      return '<div class="row' + (e.done ? " done" : "") + '"><span class="d">' + esc(short(e.date)) + '</span>' + (e.keep ? "📌 " : "") + '<b>' + esc(e.label || e.text.slice(0, 30) + "…") + '</b>' +
         (e.minutes ? ' <span class="d">· ' + esc(e.minutes) + '</span>' : "") +
         '<span class="sub">' + esc(e.text) + (e.article ? " (글: " + esc(e.article) + ")" : "") + '</span>' +
         (e.result ? '<span class="res">→ 결과' + (e.resultDate ? " (" + esc(e.resultDate) + ")" : "") + ': ' + esc(e.result) + '</span>' : "") + '</div>';
     }
-    html += '<div class="sec">🧪 해볼 것 (' + todo.length + ') · 봇에 "실험 했음: 결과…"라고 답하면 아래 "해 본 것"으로 내려가요</div>';
+    html += '<div class="sec">🧪 해볼 것 (' + todo.length + ') · 최근 7일 것과 📌 찜한 것만 보여요</div>';
+    html += '<p class="hint">봇에 <b>"실험 찜"</b>이라고 답하면 일주일이 지나도 남고, <b>"실험 했음: 결과…"</b>라고 답하면 "해 본 것"으로 내려가요.</p>';
     html += todo.length ? todo.map(expRow).join("") : '<p class="empty">없음</p>';
     html += '<div class="sec">✅ 해 본 것 (' + done.length + ')</div>';
     html += done.length ? done.map(expRow).join("") : '<p class="empty">아직 없음</p>';
+    if (stale.length) html += '<details class="old"><summary>🗂 지나간 것 (' + stale.length + ') · 일주일 넘게 안 한 것</summary>' + stale.map(expRow).join("") + '</details>';
     // 3) 반응
     var rs = (notes.reactions || []).filter(function (r) { return !r.private; }).sort(function (a, b) { return a.date < b.date ? 1 : -1; });
     html += '<div class="sec">👍 내가 반응한 글 (' + rs.length + ')</div>';

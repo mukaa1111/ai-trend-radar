@@ -18,11 +18,8 @@ TG_LIMIT = 3000       # 텔레그램 기준 글자 수: 이보다 길면 실패
 TG_WARN = 2300        # 텔레그램 기준: 이보다 길면 경고
 
 
-def norm(u):
-    u = u.strip().rstrip("/").lower()
-    u = re.sub(r"^https?://(www\.)?", "", u)
-    u = re.sub(r"[?#].*$", "", u)          # 추적용 꼬리표는 무시
-    return u
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from urlnorm import norm_url as norm       # ? 뒤 글 번호는 살리고 추적용 꼬리표만 무시 (scripts/urlnorm.py)
 
 
 def main():

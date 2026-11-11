@@ -7,7 +7,8 @@
   - 실험.md 의 [x] 체크와 "→ 결과" 줄은 다시 그릴 때 보존한다 (브리프 파일 이름 기준).
 양식은 docs/wiki/FORMAT.md 에 있다.
 """
-import glob, io, json, os, re
+import sys, glob, io, json, os, re
+from datetime import datetime
 from collections import OrderedDict, defaultdict
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -33,16 +34,17 @@ AREA_ALIAS = {"work redesign": "Work redesign", "work_redesign": "Work redesign"
 LANG = {"en": "영어", "영": "영어", "ko": "한국어", "한": "한국어"}
 
 
+STALE_DAYS = 7            # 이보다 오래된 '해볼 것'은 찜(keep)하지 않았으면 '지나간 것'으로 내린다
+
+
 def read_json(path, default):
     if not os.path.exists(path):
         return default
     return json.load(io.open(path, encoding="utf-8"))
 
 
-def norm_url(u):
-    u = (u or "").strip().rstrip("/").lower()
-    u = re.sub(r"^https?://(www\.)?", "", u)
-    return re.sub(r"[?#].*$", "", u)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from urlnorm import norm_url               # ? 뒤 글 번호는 살리고 추적용 꼬리표만 무시 (scripts/urlnorm.py)
 
 
 def topics_of(item):
@@ -205,7 +207,15 @@ def build_experiments(notes):
             by_brief[e["brief"]] = e
         elif e.get("date"):
             by_date.setdefault(e["date"], e)
-    todo, done_rows, export = [], [], []
+    todo, done_rows, stale_rows, export = [], [], [], []
+    latest_day = max([e["date"] for e in exps] or [""])          # 기준일: 가장 최근 브리프 날짜 (몇 번 돌려도 같은 결과)
+
+    def too_old(day):
+        try:
+            a = datetime.strptime(latest_day, "%Y-%m-%d"); b = datetime.strptime(day, "%Y-%m-%d")
+            return (a - b).days > STALE_DAYS
+        except ValueError:
+            return False
     for e in sorted(exps, key=lambda x: x["brief"], reverse=True):
         n = by_brief.get(e["brief"]) or by_date.get(e["date"])
         prev = existing.get(e["brief"], {})
@@ -216,12 +226,16 @@ def build_experiments(notes):
             result = (short(n.get("done") or ""), n["result"])
         elif prev.get("result"):
             result = prev["result"]
+        keep = bool(n and n.get("keep"))
+        stale = (not done) and (not keep) and too_old(e["date"])
         export.append({"brief": e["brief"], "date": e["date"], "label": label, "text": e["text"], "minutes": e["minutes"],
-                       "article": e["article"], "done": done, "result": result[1] if result else "",
+                       "article": e["article"], "done": done, "keep": keep, "stale": stale, "result": result[1] if result else "",
                        "resultDate": result[0] if result else "", "private": bool(n and n.get("private"))})
         head = "- [%s] %s · **%s**" % ("x" if done else " ", short(e["date"]), label or e["text"][:30] + "…")
         if e["minutes"]:
             head += " · " + e["minutes"]
+        if keep:
+            head += " 📌"
         if n and n.get("private"):
             head += " 🔒"
         head += "  <!-- %s -->" % e["brief"]
@@ -231,15 +245,18 @@ def build_experiments(notes):
         block = [head, sub]
         if result:
             block.append("      → 결과%s: %s" % ((" (%s)" % result[0]) if result[0] else "", result[1]))
-        (done_rows if done else todo).append("\n".join(block))
+        (done_rows if done else stale_rows if stale else todo).append("\n".join(block))
     out = ["# 실험 (오늘 해볼 것)", "",
-           "전체 %d개 · 해 본 것 %d개 · 굵은 글씨만 훑으면 됩니다." % (len(exps), len(done_rows)), "",
-           "브리프 꼬리의 \"🧪 오늘 해볼 것\"을 모았어요. 해 봤으면 `[ ]`를 눌러 `[x]`로 바꾸거나, 봇에 \"실험 했음: 결과…\"라고 답하면 결과가 붙어요.", "",
+           "할 것 %d개 · 해 본 것 %d개 · 지나간 것 %d개 · 굵은 글씨만 훑으면 됩니다." % (len(todo), len(done_rows), len(stale_rows)), "",
+           "브리프 꼬리의 \"🧪 오늘 해볼 것\"을 모았어요. **할 것에는 최근 %d일 것과 📌 찜한 것만** 남기고, 나머지는 맨 아래 \"지나간 것\"으로 내려요." % STALE_DAYS,
+           "봇에 \"실험 찜\"이라고 답하면 📌가 붙어 계속 남고, \"실험 했음: 결과…\"라고 답하거나 `[ ]`를 `[x]`로 바꾸면 해 본 것으로 가요.", "",
            AUTO_NOTE.replace("손으로 고친 내용은 다음 실행 때 사라져요.", "체크 표시와 → 결과 줄은 보존돼요."), "",
            "## 할 것 (%d)" % len(todo), ""]
     out += todo or ["없음"]
     out += ["", "## 해 본 것 (%d)" % len(done_rows), ""]
     out += done_rows or ["아직 없음"]
+    out += ["", "## 지나간 것 (%d)" % len(stale_rows), "", "일주일 넘게 안 한 것. 다시 하고 싶으면 봇에 \"실험 11/3 찜\"처럼 날짜와 함께 답하세요.", ""]
+    out += stale_rows or ["없음"]
     write(path, "\n".join(out))
     # 폰 웹페이지("내 것" 탭)가 읽는 사본. wiki/ 안에 두어 루틴 커밋에 같이 들어가게 한다.
     with io.open(os.path.join(WIKI, "실험.json"), "w", encoding="utf-8", newline="\n") as f:
