@@ -11,7 +11,7 @@
 | 아니오 | 쓰지 않음 |
 
 하루에 같은 출처에서 2건 이상 고르지 않고, 최근 7일에 3건 이상 실린 출처는 다른 출처를 먼저 본다(`python3 scripts/pick_hints.py`가 알려 준다).
-2026-11-11 점검: RSS 주소로 바꾸니 OpenAI·Google AI·DeepMind·McKinsey·Product Hunt·Ben's Bites·요즘IT가 열림. ATD·Gartner·Ars Technica·The Verge·미라클레터는 어느 주소로도 안 열려 "검색"으로 돌림.
+2026-11-11 점검: RSS 주소로 바꾸니 OpenAI·Google AI·DeepMind·McKinsey·Product Hunt·Ben's Bites가 열림. ATD·Gartner·Ars Technica·The Verge·미라클레터·요즘IT는 어느 주소로도 안 열려 "검색"으로 돌림.
 
 ## A. AI 트렌드 (새 모델·기능·서비스 출시, "그래서 뭘 해 볼까"의 재료)
 | 이름 | 주소 | 언어 | 메모 | 방법 |
@@ -54,7 +54,7 @@
 | 이름 | 주소 | 언어 | 메모 | 방법 |
 |---|---|---|---|---|
 | AI타임스 | https://www.aitimes.com/rss/allArticle.xml | 한 | 국내 AI 뉴스, 기업 도입 사례. 주가·투자 기사는 뺀다 | 매일 |
-| 요즘IT | https://yozm.wishket.com/magazine/feed/ | 한 | AI 도구 활용·일하는 방식·"써 봤다" 후기. RSS에 날짜가 없어 고를 글은 본문을 열어 날짜 확인 | 매일 |
+| 요즘IT | yozm.wishket.com | 한 | AI 도구 활용·일하는 방식·"써 봤다" 후기. 클라우드에서는 RSS도 405로 막힘(11/11 시험) → `site:yozm.wishket.com AI` 검색 | 검색 |
 | 디스콰이엇 | https://disquiet.io/ | 한 | 국내 메이커들이 만든 제품 올리는 곳. 한국 새 AI 서비스와 반응 | 매일 |
 | HR Insight | hrinsight.co.kr | 한 | 국내 HR 월간지. 직접 열면 한글이 깨짐 → `site:hrinsight.co.kr AI` 검색 | 검색 |
 | 미라클레터 | mk.co.kr | 한 | 매일경제, 실리콘밸리 AI 소식. 직접 접속 차단 → `미라클레터 + 주제` 검색 | 검색 |
