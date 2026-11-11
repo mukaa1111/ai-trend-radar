@@ -2870,5 +2870,106 @@
     "area": "",
     "paid": true,
     "coi": "하단 Midjourney 프롬프트는 구독자 전용(본문은 무료)"
+  },
+  {
+    "date": "2026-11-12",
+    "published": "2026-11-11",
+    "title": "요거트: 회의를 녹음·요약하는 무료 오픈소스 앱",
+    "source": "Show HN · GitHub",
+    "url": "https://github.com/FrigadeHQ/yogurt",
+    "lang": "en",
+    "tags": [
+      "AI트렌드",
+      "해볼것"
+    ],
+    "summary": [
+      "봇 없이 통화를 녹음해 요약과 사람별 할 일을 만든다. 맥·윈도·리눅스, MIT 라이선스.",
+      "메모리 8GB가 필요하다. 변환·요약은 내 기기의 AI 모델로 처리한다고 소개한다."
+    ],
+    "why": "회의 기록 도구가 무료·로컬로 내려와 보안 부담이 줄어든다.",
+    "reaction": "다국어·화자 구분 호평과 요청, 'YC 후원' 표기는 과장 지적(HN 댓글 62개).",
+    "area": "",
+    "paid": false,
+    "coi": ""
+  },
+  {
+    "date": "2026-11-12",
+    "published": "2026-10-30",
+    "title": "램프: AI에 '회사 맥락'을 주는 7단계",
+    "source": "Ramp 블로그 (GeekNews 소개)",
+    "url": "https://ramp.com/blog/how-to-give-ai-context",
+    "lang": "en",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "신입에게 줄 법한 1~2쪽 맥락 문서를 쓰고, 연결할 도구는 2~3개로 시작한다.",
+      "권한을 먼저 점검하고, 답을 아는 질문 10~20개로 시험하며 담당자를 정한다."
+    ],
+    "why": "AI 교육의 핵심이 '프롬프트'에서 '맥락 정리'로 옮겨 간다.",
+    "reaction": "국내 개발자 커뮤니티 GeekNews에서 34점(댓글은 아직 없음).",
+    "area": "",
+    "paid": false,
+    "coi": "자사 AI 도구 홍보 포함"
+  },
+  {
+    "date": "2026-11-12",
+    "published": "2026-11-11",
+    "title": "학습 리더에게: 위기 전에 '적응력'을 미리 만들자",
+    "source": "Chief Learning Officer",
+    "url": "https://www.chieflearningofficer.com/2026/11/11/ahead-by-design-building-the-prosilient-organization/",
+    "lang": "en",
+    "tags": [
+      "학습변화관리"
+    ],
+    "summary": [
+      "남의 성공 사례 베끼기는 예측 불가한 환경에서 통하지 않는다고 주장한다.",
+      "구조 재설계, 이야기까지 넣은 학습 데이터, 심리적 안전감 등 네 가지 선택을 제안한다."
+    ],
+    "why": "AI 교육 효과를 대시보드 숫자와 현장 이야기로 함께 보게 한다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": ""
+  },
+  {
+    "date": "2026-11-12",
+    "published": "2026-11-06",
+    "title": "코드시그널, 일하는 모습을 보고 스킬을 평가하는 AI 에이전트",
+    "source": "Josh Bersin 블로그",
+    "url": "https://joshbersin.com/2026/11/codesignal-agentic-skills-intelligence-builds-validated-skills-for-real/",
+    "lang": "en",
+    "tags": [
+      "탐색주제"
+    ],
+    "summary": [
+      "일하는 활동을 관찰해 역량을 평가하고 코칭하는 개발 에이전트를 소개한다.",
+      "2,000만 건 넘는 기록으로 비교한다고 하나, 근거는 벤더 설명뿐이다."
+    ],
+    "why": "시험 대신 '일하는 모습' 기반 스킬 측정 시도로 볼 만하다.",
+    "reaction": "",
+    "area": "스킬 기반 조직",
+    "paid": false,
+    "coi": "코드시그널 고객 겸 자문업, 홍보 성격"
+  },
+  {
+    "date": "2026-11-12",
+    "published": "2026-11-11",
+    "title": "AI가 시그널 암호 코드 650만 줄을 수학적으로 검증",
+    "source": "AI타임스 (구글 딥마인드 발표)",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=217275",
+    "lang": "ko",
+    "tags": [
+      "기술화제"
+    ],
+    "summary": [
+      "AI 에이전트가 4주간 증명 코드 650만 줄을 썼고, 사람이 볼 부분은 약 1%로 줄었다.",
+      "사람이 보안 조건을 정하면 AI가 증명을 쓰고 검증기가 통과 여부를 가린다."
+    ],
+    "why": "사람은 '무엇이 안전한가'를 정하고 AI가 증명한다.",
+    "reaction": "",
+    "area": "",
+    "paid": false,
+    "coi": ""
   }
 ]
