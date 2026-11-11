@@ -30,6 +30,11 @@
 - **지시문**: `docs/routine-prompt-evening.txt` (그대로 복사). 새 계정에서는 아침 루틴과 같은 순서로 하나 더 만든다.
 - **현재 루틴 주소**: https://claude.ai/code/routines/trig_017xrAZB41GXd31BpXwjNVw5 (팀 계정, 2026-11-06 생성)
 
+## 루틴에 실제로 넣는 글 (2026-11-11부터 짧은 글)
+루틴에는 긴 지시문을 넣지 않고 **"저장소의 지시문 파일을 읽고 그대로 하라"는 짧은 글**만 넣는다. 그 글은 `docs/routine-trigger.txt`에 아침용·저녁용 두 개가 있다.
+- 지시문을 고치고 싶으면 `docs/routine-prompt.txt`(아침)나 `docs/routine-prompt-evening.txt`(저녁) 파일만 고쳐 GitHub에 올리면 다음 실행부터 반영된다. 루틴 설정은 건드릴 필요가 없다.
+- 새 계정으로 옮길 때는 `docs/routine-trigger.txt`의 두 글을 각각 새 루틴에 붙여 넣으면 된다.
+
 ## 처음 만들 때 / 새 계정에서 다시 만들 때 순서
 1. Claude 계정으로 https://claude.ai/code 로그인 → "저장소"에서 GitHub 연결 (이미 돼 있으면 건너뜀)
 2. **(직접)** https://github.com/apps/claude/installations/select_target 에서 mukaa1111 선택 → 저장소 목록에 **ai-trend-radar 추가** → Save
