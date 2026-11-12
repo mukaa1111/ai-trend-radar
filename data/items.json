@@ -2971,5 +2971,66 @@
     "area": "",
     "paid": false,
     "coi": ""
+  },
+  {
+    "date": "2026-11-12",
+    "lang": "ko",
+    "paid": false,
+    "coi": "",
+    "area": "",
+    "published": "2026-11-12",
+    "title": "오픈MAIC: 주제만 주면 AI 교사와 수업하는 무료 플랫폼",
+    "source": "GeekNews (GitHub THU-MAIC)",
+    "url": "https://news.hada.io/topic?id=37017",
+    "tags": [
+      "AI트렌드",
+      "해볼것"
+    ],
+    "summary": [
+      "주제나 문서를 넣으면 슬라이드·퀴즈·시뮬레이션이 있는 수업이 만들어진다.",
+      "AI 교사가 음성으로 설명하고 AI 학우와 토론한다. MIT 라이선스, 한국어 지원."
+    ],
+    "why": "사내 AI 튜터·롤플레이 수업을 직접 시험해 볼 재료다.",
+    "reaction": "GeekNews 1점, 댓글 아직 없음(11/12 기준). 깃허브 별 4만 3천 개."
+  },
+  {
+    "date": "2026-11-12",
+    "lang": "en",
+    "paid": false,
+    "coi": "",
+    "area": "",
+    "published": "2026-11-11",
+    "title": "유나이티드항공, 외부 AI 에이전트의 항공권 대리 예약 금지",
+    "source": "CBS News",
+    "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "승인 안 된 외부 AI 비서가 승객 대신 예약하는 것을 막는다고 발표했다.",
+      "계정 정보 공유 위험과 의도치 않은 결제를 이유로 들었다. 카약·구글 항공편은 허용."
+    ],
+    "why": "에이전트에게 맡길 일의 권한 설계를 가르칠 사례다.",
+    "reaction": "HN 댓글은 금지가 실효성 있을지 의문이 많다(GeekNews 요약 기준)."
+  },
+  {
+    "date": "2026-11-12",
+    "lang": "en",
+    "paid": false,
+    "coi": "",
+    "area": "",
+    "published": "2026-11-11",
+    "title": "AWS 공식 로컬 테스트 도구, AI 에이전트 떼가 만들었다",
+    "source": "Simon Willison",
+    "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+    "tags": [
+      "기술화제"
+    ],
+    "summary": [
+      "러스트로 쓴 이 도구는 첫 3주에 커밋이 29,684건 쌓였다고 한다.",
+      "대부분 AI 에이전트 떼가 작성했다고 소개된다."
+    ],
+    "why": "개발은 사람이 코딩하기보다 에이전트를 지휘하는 일에 가까워진다.",
+    "reaction": ""
   }
 ]

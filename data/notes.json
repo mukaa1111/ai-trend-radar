@@ -48,6 +48,13 @@
       "liked": true,
       "memo": "",
       "private": false
+    },
+    {
+      "date": "2026-11-12",
+      "url": "https://ramp.com/blog/how-to-give-ai-context",
+      "liked": true,
+      "memo": "기억",
+      "private": false
     }
   ],
   "memos": [
