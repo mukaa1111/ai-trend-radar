@@ -1,5 +1,19 @@
 [
  {
+  "brief": "2026-11-13",
+  "date": "2026-11-13",
+  "label": "내 업무 3개 AI 적합도 매기기",
+  "text": "이번 주 내 업무 3개를 골라 \"AI가 초안까지 가능한가\"를 예/아니오로 적는다.",
+  "minutes": "15분",
+  "article": "",
+  "done": false,
+  "keep": false,
+  "stale": false,
+  "result": "",
+  "resultDate": "",
+  "private": false
+ },
+ {
   "brief": "2026-11-12-2",
   "date": "2026-11-12",
   "label": "AI 수업 하나 맛보기",
@@ -134,7 +148,7 @@
   "article": "",
   "done": false,
   "keep": false,
-  "stale": false,
+  "stale": true,
   "result": "",
   "resultDate": "",
   "private": false

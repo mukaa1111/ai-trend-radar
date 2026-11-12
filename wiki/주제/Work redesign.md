@@ -1,7 +1,7 @@
 ---
 주제: Work redesign
-글 수: 24
-마지막 글: 2026-11-03
+글 수: 25
+마지막 글: 2026-11-13
 ---
 
 # Work redesign
@@ -12,6 +12,12 @@
 
 
 ## 2026년 11월
+
+### 11/13 · [AI, 프리랜서 프로젝트 41.3%를 전문가 수준으로 해냈다](https://www.aitimes.com/news/articleView.html?idxno=217332)
+AI타임스 · 한국어
+- 실제 프리랜서 240건 평가에서 클로드 Fable 5.2가 41.3%로 최고였다. 1년 전은 2.5%.
+- 효과음·보고서 작성은 강했고, 파일 형식 미준수·미완성이 약점이다. 협업은 평가에서 빠졌다.
+→ 왜 중요한가: 직무를 '일' 단위로 쪼개 AI 맡길 몫을 따져 볼 근거다.
 
 ### 11/03 · [일을 먼저 이해해야 AI용으로 다시 짠다: 드라웁 대담](https://joshbersin.com/podcast/draup-ceo-vijay-swami-helps-companies-transform-work-for-ai/)
 Josh Bersin 팟캐스트 · 영어 · 이해관계: Bersin 자문업, 대담 상대 제품 소개

@@ -3032,5 +3032,106 @@
     ],
     "why": "개발은 사람이 코딩하기보다 에이전트를 지휘하는 일에 가까워진다.",
     "reaction": ""
+  },
+  {
+    "date": "2026-11-13",
+    "lang": "en",
+    "paid": false,
+    "coi": "Google 자사 발표",
+    "area": "",
+    "published": "2026-11-12",
+    "title": "구글 제미나이 4 하이드로젠: 업무용 '데일리 모델' 공개",
+    "source": "Google 블로그",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+    "tags": [
+      "AI트렌드",
+      "해볼것"
+    ],
+    "summary": [
+      "코딩·에이전트 작업용 빠른 모델로, 백만 토큰 입력에 백만 출력까지 지원한다.",
+      "제미나이 앱·검색·시트에서 쓸 수 있고, API는 입력 100만 토큰당 1.5달러다."
+    ],
+    "why": "사내 구글 워크스페이스 사용자가 바로 써 볼 수 있다.",
+    "reaction": "HN 댓글은 \"속도 빠름\" 호평과 \"이름이 헷갈리고 가격 비싸다\" 회의가 갈린다."
+  },
+  {
+    "date": "2026-11-13",
+    "lang": "en",
+    "paid": false,
+    "coi": "",
+    "area": "",
+    "published": "2026-11-11",
+    "title": "질문 1,000개를 한 번에 판정하는 제미나이 결정 API",
+    "source": "Simon Willison",
+    "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "파일 하나에 질문 최대 1,000개를 던지면 예/아니오 확률과 점수를 돌려준다.",
+      "입력 100만 토큰당 0.1달러, 출력은 무료다. 문서·영상·음성도 넣을 수 있다."
+    ],
+    "why": "교육 과제·후기 수백 건의 분류를 싸게 자동화할 길이다.",
+    "reaction": "GeekNews가 옮긴 HN 댓글은 태그 분류·검색에 써 봤다는 후기가 많다."
+  },
+  {
+    "date": "2026-11-13",
+    "lang": "en",
+    "paid": false,
+    "coi": "",
+    "area": "",
+    "published": "2026-11-12",
+    "title": "AI 교육 투자 전에 던질 세 가지 질문",
+    "source": "Chief Learning Officer",
+    "url": "https://www.chieflearningofficer.com/2026/11/12/ai-is-exposing-the-impact-problem-3-questions-to-ask-before-any-learning-investment/",
+    "tags": [
+      "학습변화관리"
+    ],
+    "summary": [
+      "사람들이 무엇을 다르게 해야 하나, 무엇이 막고 있나, 무엇이 보이면 멈출까를 묻는다.",
+      "한 미디어사의 AI 필수 과정은 수료율 95%였다. 저자 계획은 4주차 점검, 60일 성과 보고다."
+    ],
+    "why": "수료율이 아닌 행동 변화로 AI 교육을 설계하게 한다.",
+    "reaction": ""
+  },
+  {
+    "date": "2026-11-13",
+    "lang": "ko",
+    "paid": false,
+    "coi": "",
+    "area": "Work redesign",
+    "published": "2026-11-12",
+    "title": "AI, 프리랜서 프로젝트 41.3%를 전문가 수준으로 해냈다",
+    "source": "AI타임스",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=217332",
+    "tags": [
+      "탐색주제"
+    ],
+    "summary": [
+      "실제 프리랜서 240건 평가에서 클로드 Fable 5.2가 41.3%로 최고였다. 1년 전은 2.5%.",
+      "효과음·보고서 작성은 강했고, 파일 형식 미준수·미완성이 약점이다. 협업은 평가에서 빠졌다."
+    ],
+    "why": "직무를 '일' 단위로 쪼개 AI 맡길 몫을 따져 볼 근거다.",
+    "reaction": ""
+  },
+  {
+    "date": "2026-11-13",
+    "lang": "en",
+    "paid": false,
+    "coi": "",
+    "area": "",
+    "published": "2026-11-12",
+    "title": "Humble Bundle 새 사이트, '바이브코딩' 논란",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=50463899",
+    "tags": [
+      "기술화제"
+    ],
+    "summary": [
+      "새 사이트에서 2단계 인증이 빠지고 비밀번호 변경 확인이 없다는 제보가 퍼졌다.",
+      "AI 사용 증거는 없고 검증 없는 출시가 문제라는 반론이 많다."
+    ],
+    "why": "AI 사용 증거는 없고, 검증 없는 출시가 문제라는 반론이 많다.",
+    "reaction": ""
   }
 ]
