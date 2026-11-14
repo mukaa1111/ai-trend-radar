@@ -1,5 +1,19 @@
 [
  {
+  "brief": "2026-11-15",
+  "date": "2026-11-15",
+  "label": "우회 지점 3개 묻기",
+  "text": "우리 팀 AI 사용 규칙을 AI에 붙이고 \"직원이 돌아갈 만한 곳 3개\"를 물어본다.",
+  "minutes": "15분",
+  "article": "",
+  "done": false,
+  "keep": false,
+  "stale": false,
+  "result": "",
+  "resultDate": "",
+  "private": false
+ },
+ {
   "brief": "2026-11-14",
   "date": "2026-11-14",
   "label": "회의 후속 정리 맡겨 보기",
@@ -134,7 +148,7 @@
   "article": "",
   "done": false,
   "keep": false,
-  "stale": false,
+  "stale": true,
   "result": "",
   "resultDate": "",
   "private": false

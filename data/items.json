@@ -3214,5 +3214,105 @@
     ],
     "why": "구독 앱 의존이 줄지만, 코드를 모르면 새 의존이 생긴다는 반론도 있다.",
     "reaction": ""
+  },
+  {
+    "date": "2026-11-15",
+    "lang": "ko",
+    "paid": false,
+    "coi": "OpenAI 자사 발표 인용",
+    "area": "",
+    "published": "2026-11-14",
+    "title": "오픈AI, AI 에이전트가 대신 결제하는 '챗GPT 월렛' 출시",
+    "source": "AI타임스",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=217400",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "카드를 한 번 등록하면 에이전트 '닷츠'가 사고, 결제 때 얼굴·지문으로 승인한다.",
+      "미국 18세 이상 프로 구독자부터 단계 출시, 아마존·이베이는 외부 에이전트를 제한한다."
+    ],
+    "why": "에이전트에 권한을 맡기는 교육이 '결제'까지 넓어진다.",
+    "reaction": ""
+  },
+  {
+    "date": "2026-11-15",
+    "lang": "en",
+    "paid": false,
+    "coi": "개인 연구자 분석",
+    "area": "",
+    "published": "2026-11-14",
+    "title": "러버블로 만든 사이트에서 여권·개인 메시지 노출",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=50499017",
+    "tags": [
+      "AI트렌드"
+    ],
+    "summary": [
+      "프로젝트 15만 9천여 개를 분석해 2만 4천여 개가 로그인 없이 DB 기록을 내보냈다.",
+      "연구자는 이메일이 7,403개 사이트에서 보였다고 하며, 자료를 러버블에 넘겼다."
+    ],
+    "why": "비개발자 '바이브코딩' 교육에 보안 점검을 꼭 넣어야 한다.",
+    "reaction": "HN 댓글은 연구자의 데이터 내려받기가 선을 넘었는지, 플랫폼 책임이 큰지로 갈린다."
+  },
+  {
+    "date": "2026-11-15",
+    "lang": "en",
+    "paid": false,
+    "coi": "복지 기술사 Businessolver 조사 인용",
+    "area": "",
+    "published": "2026-11-12",
+    "title": "공감하는 리더가 AI 변화에서도 앞선다는 조사",
+    "source": "HR Dive",
+    "url": "https://www.hrdive.com/news/many-executives-say-they-are-worried-about-leading-with-empathy/874529/",
+    "tags": [
+      "학습변화관리"
+    ],
+    "summary": [
+      "임원 300명·직원 1,000명 조사에서 직원 51%가 AI에 뒤처질까 걱정한다.",
+      "CEO·CHRO 10명 중 4명은 공감을 보이면 존중을 잃을까 두려워한다."
+    ],
+    "why": "AI 불안은 교육보다 리더의 태도에서 먼저 풀릴 수 있다.",
+    "reaction": ""
+  },
+  {
+    "date": "2026-11-15",
+    "lang": "en",
+    "paid": true,
+    "coi": "Deloitte 컨설턴트 기고",
+    "area": "AI 거버넌스·윤리 교육",
+    "published": "2026-11-09",
+    "title": "도입이 더딜수록 통제를 늘리면 오히려 역효과",
+    "source": "HBR",
+    "url": "https://hbr.org/2026/11/why-leaders-need-to-rethink-their-approach-to-ai-oversight",
+    "tags": [
+      "탐색주제"
+    ],
+    "summary": [
+      "도입이 느리면 리더는 감시·의무·규칙을 늘린다.",
+      "실수가 두려운 직원은 승인된 도구를 피해 가고, 이것이 통제 강화의 근거로 읽힌다."
+    ],
+    "why": "가이드라인 교육은 금지 목록보다 안전한 실험 방법을 먼저 알려야 한다.",
+    "reaction": ""
+  },
+  {
+    "date": "2026-11-15",
+    "lang": "ko",
+    "paid": false,
+    "coi": "",
+    "area": "",
+    "published": "2026-11-14",
+    "title": "클라우드 없이 쓰려고 코웨이 공기청정기를 역공학한 이야기",
+    "source": "GeekNews",
+    "url": "https://news.hada.io/topic?id=37119",
+    "tags": [
+      "기술화제"
+    ],
+    "summary": [
+      "구독·서버 의존이 싫어 작성자가 AI로 앱 통신을 풀어 기기를 직접 제어하게 만들었다.",
+      "며칠 걸릴 분석이 20분으로 줄어, 제품 보안의 기준이 바뀐다."
+    ],
+    "why": "며칠 걸릴 분석이 20분으로 줄어, 제품 보안의 기준이 바뀐다.",
+    "reaction": ""
   }
 ]
