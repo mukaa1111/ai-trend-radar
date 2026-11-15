@@ -3314,5 +3314,85 @@
     ],
     "why": "며칠 걸릴 분석이 20분으로 줄어, 제품 보안의 기준이 바뀐다.",
     "reaction": ""
+  },
+  {
+    "date": "2026-11-16",
+    "lang": "ko",
+    "paid": false,
+    "coi": "OpenAI 자사 발표 소개",
+    "area": "",
+    "reaction": "GeekNews 댓글에서 도메인 TXT 인증으로 등록해 보니 언급 수·클릭 수가 보였다고 한다.",
+    "tags": [
+      "AI트렌드"
+    ],
+    "published": "2026-11-15",
+    "title": "챗GPT에 '비즈니스 허브' 베타, 기업이 직접 에이전트 운영",
+    "source": "GeekNews",
+    "url": "https://news.hada.io/topic?id=37183",
+    "summary": [
+      "기업이 소유권을 인증하면 ChatGPT에 보이는 정보·제품 피드를 직접 관리한다.",
+      "기업 에이전트가 고객 질문에 답하고, 유료 게재에는 광고 표시가 붙는다. 에이전트는 미국부터."
+    ],
+    "why": "AI가 '회사 소개 창구'가 되면 교육 과정 정보도 AI에 맞춰 관리해야 한다."
+  },
+  {
+    "date": "2026-11-16",
+    "lang": "en",
+    "paid": false,
+    "coi": "Google 자사 발표",
+    "area": "",
+    "reaction": "",
+    "tags": [
+      "AI트렌드"
+    ],
+    "published": "2026-11-11",
+    "title": "구글 랩스 '테이블톱', 같이 편집하는 AI 협업 공간",
+    "source": "Google 블로그",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+    "summary": [
+      "링크·파일·아이디어를 넣고 @tabletop에 시키면 일정표·투표·정산 도구가 만들어진다.",
+      "초대 링크로 여럿이 한 공간을 동시에 고친다. 미국 18세 이상 대기자 명단제다."
+    ],
+    "why": "비개발자가 말로 작은 도구를 만들어 함께 쓰는 흐름이 보인다."
+  },
+  {
+    "date": "2026-11-16",
+    "lang": "ko",
+    "paid": false,
+    "coi": "필자 겸임교수·교육 업체 대표",
+    "area": "",
+    "reaction": "",
+    "tags": [
+      "학습변화관리"
+    ],
+    "published": "2026-11-15",
+    "title": "채점이 편한 시험은 AI에도 편하다",
+    "source": "AI타임스",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=217423",
+    "summary": [
+      "세무사 1차 수석 합격자가 생성 AI 부정행위를 자백했다. 160문항 중 159문항을 맞혔다.",
+      "필자는 기기 단속보다 답을 설명시키는 구술 확인을 제안한다."
+    ],
+    "why": "사내 교육 평가도 '이해했는지 말로 확인'하는 설계가 필요하다."
+  },
+  {
+    "date": "2026-11-16",
+    "lang": "ko",
+    "paid": false,
+    "coi": "",
+    "area": "",
+    "reaction": "",
+    "tags": [
+      "기술화제"
+    ],
+    "published": "2026-11-14",
+    "title": "'No AI Slop' 선언문",
+    "source": "GeekNews",
+    "url": "https://news.hada.io/topic?id=37128",
+    "summary": [
+      "AIE 코드 서밋 참가자들이 'AI가 만든 검토 안 한 결과물을 내놓지 말자'는 선언을 냈다.",
+      "만들기는 공짜, 검토는 그대로라 '검토 책임'이 핵심 역량이다."
+    ],
+    "why": "만들기는 공짜, 검토는 그대로라 '검토 책임'이 핵심 역량이다."
   }
 ]

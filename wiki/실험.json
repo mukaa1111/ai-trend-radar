@@ -1,5 +1,19 @@
 [
  {
+  "brief": "2026-11-16",
+  "date": "2026-11-16",
+  "label": "답을 설명시켜 보기",
+  "text": "우리 교육의 평가 문항 1개를 AI에 풀게 하고, 풀이 이유를 설명시켜 본다.",
+  "minutes": "15분",
+  "article": "",
+  "done": false,
+  "keep": false,
+  "stale": false,
+  "result": "",
+  "resultDate": "",
+  "private": false
+ },
+ {
   "brief": "2026-11-15",
   "date": "2026-11-15",
   "label": "우회 지점 3개 묻기",
@@ -134,7 +148,7 @@
   "article": "",
   "done": false,
   "keep": false,
-  "stale": false,
+  "stale": true,
   "result": "",
   "resultDate": "",
   "private": false
