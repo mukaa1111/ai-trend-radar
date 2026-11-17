@@ -3474,5 +3474,86 @@
       "4주 '결정 전달 점검'을 제안하나, 검증된 도구는 아니라고 밝힌다."
     ],
     "why": "AI 교육 효과를 '행동'에 더해 '결정'까지 보게 한다."
+  },
+  {
+    "date": "2026-11-18",
+    "lang": "ko",
+    "paid": false,
+    "coi": "OpenAI 자사 발표 보도",
+    "area": "",
+    "reaction": "HN 댓글에서 장시간 작업은 호평, 사무용 결과물은 아쉽다는 의견이 갈렸다.",
+    "tags": [
+      "AI트렌드"
+    ],
+    "published": "2026-11-18",
+    "title": "오픈AI 'GPT-6.2 아스트라' 출시, API 20% 인하",
+    "source": "AI타임스",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=217513",
+    "summary": [
+      "아스트라는 외부 지능지수 62점으로 2위(1위 클로드 페이블 5.2, 65점)다.",
+      "API는 입력 8달러·출력 40달러로 내렸고, 챗GPT 워크·코덱스에 먼저 제공된다."
+    ],
+    "why": "사내 AI 도구를 고를 때 성능보다 비용 변화를 같이 봐야 한다."
+  },
+  {
+    "date": "2026-11-18",
+    "lang": "ko",
+    "paid": false,
+    "coi": "제작자 본인 소개(Show GN)",
+    "area": "",
+    "reaction": "GeekNews 댓글(1개)은 아이디어는 좋으나 화면·데모 완성도가 아쉽다고 했다.",
+    "tags": [
+      "AI트렌드",
+      "해볼것"
+    ],
+    "published": "2026-11-17",
+    "title": "한 번 해 보이면 따라 하는 윈도 자동화 'Taskhand'",
+    "source": "GeekNews",
+    "url": "https://news.hada.io/topic?id=37312",
+    "summary": [
+      "웹 작업을 한 번 녹화하면 그대로 반복하고, 예약 실행과 폴더 백업도 한다.",
+      "전부 무료이고 로컬 AI 내장이다. 윈도 전용이며 코드 서명이 없어 경고가 뜬다."
+    ],
+    "why": "반복 업무를 직접 자동화해 보는 입문용 도구로 볼 만하다."
+  },
+  {
+    "date": "2026-11-18",
+    "lang": "en",
+    "paid": false,
+    "coi": "Hogan(인사 자문업) 조사 인용",
+    "area": "",
+    "reaction": "",
+    "tags": [
+      "학습변화관리"
+    ],
+    "published": "2026-11-17",
+    "title": "AI 역량 교육만으로는 부족, 직무·성향별로 달라야",
+    "source": "HR Dive",
+    "url": "https://www.hrdive.com/news/ai-adoption-skillbuilding-tailored-training/874885/",
+    "summary": [
+      "근로자 648명 조사에서 관리자가 비관리자보다 AI에 더 긍정적이었다.",
+      "5곳 중 1곳 미만만 AI 인력 준비 수준을 '고급' 이상으로 답했다."
+    ],
+    "why": "교육을 직무별로 나누고 관리자를 먼저 준비시켜야 한다."
+  },
+  {
+    "date": "2026-11-18",
+    "lang": "ko",
+    "paid": false,
+    "coi": "필자 Unhyped 창업자",
+    "area": "조직문화·심리적 안전감",
+    "reaction": "",
+    "tags": [
+      "탐색주제"
+    ],
+    "published": "2026-11-09",
+    "title": "직원은 상사보다 AI에게 더 솔직할까",
+    "source": "CIO Korea",
+    "url": "https://www.cio.com/article/4246176/직원은-왜-상사보다-ai에게-더-솔직할까.html",
+    "summary": [
+      "한 연구에서 심리적 안전감은 AI 신뢰를 유의미하게 예측하지 못했다.",
+      "2026년 중국 실험에서 인지 과제는 알고리즘 리더에게 우려를 더 말했다."
+    ],
+    "why": "안전감은 설문 점수보다 반대 의견이 결정을 바꿨는지로 본다."
   }
 ]

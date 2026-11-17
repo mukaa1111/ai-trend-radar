@@ -1,5 +1,19 @@
 [
  {
+  "brief": "2026-11-18",
+  "date": "2026-11-18",
+  "label": "반복 업무 하나 골라 적기",
+  "text": "내가 매주 반복하는 업무 하나를 골라 Taskhand 같은 도구로 자동화할 수 있을지 3단계로 적어 본다.",
+  "minutes": "15분",
+  "article": "",
+  "done": false,
+  "keep": false,
+  "stale": false,
+  "result": "",
+  "resultDate": "",
+  "private": false
+ },
+ {
   "brief": "2026-11-17",
   "date": "2026-11-17",
   "label": "AI 검색에 우리 과정 묻기",
@@ -134,7 +148,7 @@
   "article": "",
   "done": false,
   "keep": false,
-  "stale": false,
+  "stale": true,
   "result": "",
   "resultDate": "",
   "private": false
