@@ -1,7 +1,7 @@
 ---
 주제: AI 트렌드
-글 수: 66
-마지막 글: 2026-11-18
+글 수: 68
+마지막 글: 2026-11-19
 ---
 
 # AI 트렌드
@@ -12,6 +12,19 @@
 
 
 ## 2026년 11월
+
+### 11/19 · [MS 코파일럿에 '알아서 일하는' 오토파일럿 도입](https://www.aitimes.com/news/articleView.html?idxno=217532)
+AI타임스 · 한국어 · 이해관계: MS 자사 발표 보도
+- 오토파일럿은 팀즈·아웃룩에서 메일 후속 조치와 일정 관리를 대신하며, 17일부터 일부 기업에 제공된다.
+- 에이전트마다 담당 관리자를 두고, 중요한 작업은 사람 승인을 거치게 할 수 있다.
+→ 왜 중요한가: 도입 전에 에이전트 권한과 승인 규칙을 가르쳐야 한다.
+
+### 11/19 · [Claude Code 팀은 AI가 쓴 코드를 어떻게 믿나](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)
+Claude Code 블로그(Addy Osmani) · 영어 · 이해관계: Anthropic 자사 글
+- 팀 코드의 약 90%를 Claude가 쓰고, 사람은 실행 결과로 완료 여부를 확인한다.
+- 같은 검사가 3번 연속 실패하면 AI가 멈추고 사람을 부른다.
+→ 왜 중요한가: 일을 AI에 맡길수록 '완료 기준 정하기'가 사람의 핵심 역량이 된다.
+👀 반응: GeekNews(HN 인용)에선 토큰 비용을 모른 척한 마케팅 글이라는 시각도 있었다.
 
 ### 11/18 · [오픈AI 'GPT-6.2 아스트라' 출시, API 20% 인하](https://www.aitimes.com/news/articleView.html?idxno=217513)
 AI타임스 · 한국어 · 이해관계: OpenAI 자사 발표 보도

@@ -1,5 +1,19 @@
 [
  {
+  "brief": "2026-11-19",
+  "date": "2026-11-19",
+  "label": "에이전트 승인 규칙 3줄",
+  "text": "오토파일럿 같은 AI 비서에 맡길 일과 사람이 승인할 일을 각각 3줄 적어 본다.",
+  "minutes": "15분",
+  "article": "",
+  "done": false,
+  "keep": false,
+  "stale": false,
+  "result": "",
+  "resultDate": "",
+  "private": false
+ },
+ {
   "brief": "2026-11-18",
   "date": "2026-11-18",
   "label": "반복 업무 하나 골라 적기",
@@ -120,7 +134,7 @@
   "article": "",
   "done": false,
   "keep": false,
-  "stale": false,
+  "stale": true,
   "result": "",
   "resultDate": "",
   "private": false
@@ -134,7 +148,7 @@
   "article": "",
   "done": false,
   "keep": false,
-  "stale": false,
+  "stale": true,
   "result": "",
   "resultDate": "",
   "private": false
