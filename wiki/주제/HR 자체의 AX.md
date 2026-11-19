@@ -1,7 +1,7 @@
 ---
 주제: HR 자체의 AX
-글 수: 3
-마지막 글: 2026-11-14
+글 수: 4
+마지막 글: 2026-11-20
 ---
 
 # HR 자체의 AX
@@ -12,6 +12,12 @@
 
 
 ## 2026년 11월
+
+### 11/20 · [채용담당자 90%, AI 이력서로 오인해 인재 놓칠까 걱정](https://www.hrdive.com/news/job-candidates-ai-usage-is-obscuring-their-viability-report-finds/875232/)
+HR Dive · 영어 · 이해관계: Greenhouse 채용 플랫폼 조사
+- 채용 담당자 약 1,350명 조사에서 86%가 가짜·AI 지원서 때문에 채용 절차를 바꿨다.
+- 52%가 이미 AI 면접을 쓰지만, 업무 절반 이상이 고부가 업무로 옮겨 갔다는 답은 18%뿐이다.
+→ 왜 중요한가: HR이 AI로 아낀 시간을 어디에 쓰는지 측정하지 않으면 효과가 안 보인다.
 
 ### 11/14 · [AI가 관리자 편향을 걸러 낸다? HR의 승진 재검토](https://www.hrdive.com/news/can-ai-root-out-manager-bias/874657/)
 HR Dive · 영어 · 이해관계: HiBob(HR 소프트웨어사) 조사 인용
