@@ -3676,5 +3676,105 @@
    "52%가 이미 AI 면접을 쓰지만, 업무 절반 이상이 고부가 업무로 옮겨 갔다는 답은 18%뿐이다."
   ],
   "why": "HR이 AI로 아낀 시간을 어디에 쓰는지 측정하지 않으면 효과가 안 보인다."
+ },
+ {
+  "date": "2026-11-21",
+  "lang": "en",
+  "paid": false,
+  "coi": "Google 자사 발표",
+  "area": "",
+  "reaction": "Inc.는 유료 경쟁사 대비 무료가 강점이라 봤고, PPC Land는 업체 전화·저장 비밀번호 로그인을 우려했다.",
+  "tags": [
+   "AI트렌드",
+   "해볼것"
+  ],
+  "published": "2026-11-17",
+  "title": "구글 제미나이 '작업' 모드 무료 개방, 한국 포함",
+  "source": "Google 블로그",
+  "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+  "summary": [
+   "예약·요금 확인·장보기 같은 여러 단계 일을 대신하며, 업체에 전화도 건다.",
+   "미국·일본·한국 등 6개국에서 무료이고, 결제 전엔 확인을 거치고 한도를 정할 수 있다."
+  ],
+  "why": "직원이 개인 업무에 에이전트를 먼저 써 보게 되니 권한·확인 습관 교육이 필요하다."
+ },
+ {
+  "date": "2026-11-21",
+  "lang": "en",
+  "paid": false,
+  "coi": "개인 의견 글",
+  "area": "",
+  "reaction": "",
+  "tags": [
+   "AI트렌드"
+  ],
+  "published": "2026-11-17",
+  "title": "'생산성 찝찝함': AI 에이전트가 만드는 원치 않은 일",
+  "source": "Ben's Bites",
+  "url": "https://www.bensbites.com/p/productiv-icky",
+  "summary": [
+   "에이전트에 '예'라고 답하기는 쉽지만, 뒤따르는 확인·후속 일이 쌓인다고 한다.",
+   "토큰을 다 쓰려는 압박에 결과가 아닌 작업량만 재게 된다고 짚는다."
+  ],
+  "why": "AI 활용률 지표만 보면 일이 늘어난 것을 성과로 착각할 수 있다."
+ },
+ {
+  "date": "2026-11-21",
+  "lang": "en",
+  "paid": false,
+  "coi": "Marsh 자문업 조사",
+  "area": "",
+  "reaction": "",
+  "tags": [
+   "학습변화관리"
+  ],
+  "published": "2026-11-20",
+  "title": "임원 78%는 AI 교육 받았는데 시간제 직원은 20%",
+  "source": "HR Dive",
+  "url": "https://www.hrdive.com/news/executives-get-more-ai-training-than-other-workers-hurting-adoption/875395/",
+  "summary": [
+   "직원 6,700명 조사에서 지난 1년 AI 교육 제공률은 임원 78%, 신입 32%, 시간제 20%다.",
+   "AI를 정기 사용하는 비율은 임원 64%, 신입 20%이고, 전체는 37%다."
+  ],
+  "why": "교육 대상을 위에서부터 채우면 현장 채택이 막힌다."
+ },
+ {
+  "date": "2026-11-21",
+  "lang": "en",
+  "paid": false,
+  "coi": "설문은 iSpring 연계 가능성",
+  "area": "측정",
+  "reaction": "",
+  "tags": [
+   "탐색주제"
+  ],
+  "published": "2026-11-20",
+  "title": "교육 ROI 증명: L&D 11%만 사업 성과와 연결",
+  "source": "Chief Learning Officer",
+  "url": "https://www.chieflearningofficer.com/2026/11/20/using-the-6-layer-roi-playbook-to-prove-trainings-impact/",
+  "summary": [
+   "L&D 140여 명 설문에서 훈련을 성과와 정량 연결한 곳은 11%뿐이다.",
+   "BI 대시보드를 쓰면 ROI 증명 43%, LMS 데이터만 쓰면 8%였다."
+  ],
+  "why": "시작 전 KPI와 기준선을 정해야 AI 교육 효과를 말할 수 있다."
+ },
+ {
+  "date": "2026-11-21",
+  "lang": "ko",
+  "paid": false,
+  "coi": "",
+  "area": "",
+  "reaction": "",
+  "tags": [
+   "기술화제"
+  ],
+  "published": "2026-11-19",
+  "title": "LLM을 활용한 리버스 엔지니어링",
+  "source": "GeekNews",
+  "url": "https://news.hada.io/topic?id=37466",
+  "summary": [
+   "20년 경력자가 AI 에이전트로 낡은 기기 펌웨어·드라이버 분석을 크게 줄였다고 밝혔다."
+  ],
+  "why": "전문가 판단은 남지만 입문 장벽은 빠르게 낮아진다."
  }
 ]

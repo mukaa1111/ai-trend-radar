@@ -1,5 +1,19 @@
 [
  {
+  "brief": "2026-11-21",
+  "date": "2026-11-21",
+  "label": "구멍 세기",
+  "text": "이번 주 AI에 맡긴 일을 적어 보고 '원하지 않았던 일'에 표시한다.",
+  "minutes": "15분",
+  "article": "",
+  "done": false,
+  "keep": false,
+  "stale": false,
+  "result": "",
+  "resultDate": "",
+  "private": false
+ },
+ {
   "brief": "2026-11-20",
   "date": "2026-11-20",
   "label": "빈틈만 짚게 하기",
@@ -106,7 +120,7 @@
   "article": "",
   "done": false,
   "keep": false,
-  "stale": false,
+  "stale": true,
   "result": "",
   "resultDate": "",
   "private": false
