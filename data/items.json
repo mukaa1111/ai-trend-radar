@@ -3776,5 +3776,105 @@
    "20년 경력자가 AI 에이전트로 낡은 기기 펌웨어·드라이버 분석을 크게 줄였다고 밝혔다."
   ],
   "why": "전문가 판단은 남지만 입문 장벽은 빠르게 낮아진다."
+ },
+ {
+  "date": "2026-11-22",
+  "lang": "en",
+  "paid": false,
+  "coi": "개발사 자사 발표",
+  "area": "",
+  "reaction": "GeekNews는 구조에 감탄했으나, 실사용에선 도구 호출이 반복됐다는 후기도 있었다.",
+  "tags": [
+   "AI트렌드"
+  ],
+  "published": "2026-11-20",
+  "title": "노트북에서 도는 오픈 모델 '잉클링 2 미니' 공개",
+  "source": "Thinking Machines Lab",
+  "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+  "summary": [
+   "총 264억(활성 34억) 파라미터 모델로, 약 20GB 메모리의 노트북에서 돈다.",
+   "1,000억 미만 오픈 모델 중 코딩 에이전트 평가 선두(48.2%)지만 복잡한 지시는 약하다."
+  ],
+  "why": "사내 자료를 밖으로 내보내지 않는 로컬 AI 교육·실습의 선택지가 된다."
+ },
+ {
+  "date": "2026-11-22",
+  "lang": "en",
+  "paid": false,
+  "coi": "제작자 자사 소개 · 신생 서비스",
+  "area": "",
+  "reaction": "Product Hunt 댓글은 승인 단계를 칭찬했고, 후기는 아직 없다.",
+  "tags": [
+   "AI트렌드",
+   "해볼것"
+  ],
+  "published": "2026-11-19",
+  "title": "일 시키면 알아서 하는 아이폰 'AI 팀' 앱 스토미",
+  "source": "Product Hunt",
+  "url": "https://www.producthunt.com/products/stormi",
+  "summary": [
+   "이름·역할이 다른 봇을 두고, 폰이 꺼져도 서버에서 일하는 iOS 앱이다.",
+   "보내기·결제·삭제 전엔 승인을 묻고, 무료로 공개돼 있다."
+  ],
+  "why": "개인용 에이전트가 늘수록 '무엇을 승인할지' 교육이 먼저다."
+ },
+ {
+  "date": "2026-11-22",
+  "lang": "en",
+  "paid": false,
+  "coi": "개인 블로그",
+  "area": "",
+  "reaction": "GeekNews 요약에는 '승진이 아니라 책임만 늘었다'는 반응이 있다.",
+  "tags": [
+   "학습변화관리"
+  ],
+  "published": "2026-11-20",
+  "title": "개발자를 아키텍트로 승진시키고 알리지 않았다",
+  "source": "Developer forever(Mani Doraisamy)",
+  "url": "https://manidoraisamy.com/developer-to-architect.html",
+  "summary": [
+   "AI가 코딩을 맡자 개발자의 일이 요구 반박·설계·검토로 옮겨 간다고 한다.",
+   "AI가 만든 로그 코드 탓에 환영 화면이 15초 걸린 사례를 든다."
+  ],
+  "why": "역할이 바뀐다는 설명이 없으면 혼란과 반발이 생긴다."
+ },
+ {
+  "date": "2026-11-22",
+  "lang": "en",
+  "paid": false,
+  "coi": "",
+  "area": "학습 방식의 변화",
+  "reaction": "",
+  "tags": [
+   "탐색주제"
+  ],
+  "published": "2026-11-17",
+  "title": "카네기멜런, 컴퓨터 강의를 유튜브에 무료 공개",
+  "source": "CMU CS Learn",
+  "url": "https://www.cs.cmu.edu/learn/",
+  "summary": [
+   "AI 에이전트 등 8개 강의를 공개했고, 내년 1월 5개가 더 열린다.",
+   "다음엔 즉각 피드백·배지가 있는 자습 과정, 이어서 AI 튜터를 붙인다고 한다."
+  ],
+  "why": "강의 영상만으로는 부족해 실습·피드백 설계가 관건이다."
+ },
+ {
+  "date": "2026-11-22",
+  "lang": "ko",
+  "paid": false,
+  "coi": "",
+  "area": "",
+  "reaction": "",
+  "tags": [
+   "기술화제"
+  ],
+  "published": "2026-11-21",
+  "title": "Anthropic 수학자, Claude와 리만 가설 증명 주장",
+  "source": "GeekNews",
+  "url": "https://news.hada.io/topic?id=37529",
+  "summary": [
+   "Anthropic 소속 수학자가 Claude와 증명을 찾았다고 밝혔으나 독립 검증은 아직이다."
+  ],
+  "why": "검증 능력이 만드는 능력만큼 중요해진다."
  }
 ]
