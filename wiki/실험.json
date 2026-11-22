@@ -1,5 +1,19 @@
 [
  {
+  "brief": "2026-11-23",
+  "date": "2026-11-23",
+  "label": "바꿀 행동 한 줄 쓰기",
+  "text": "지금 맡은 AI 교육 하나에 '끝난 뒤 달라져야 할 행동'을 한 줄로 적는다.",
+  "minutes": "15분",
+  "article": "",
+  "done": false,
+  "keep": false,
+  "stale": false,
+  "result": "",
+  "resultDate": "",
+  "private": false
+ },
+ {
   "brief": "2026-11-22",
   "date": "2026-11-22",
   "label": "역할 변화 한 줄",
@@ -106,7 +120,7 @@
   "article": "",
   "done": false,
   "keep": false,
-  "stale": false,
+  "stale": true,
   "result": "",
   "resultDate": "",
   "private": false

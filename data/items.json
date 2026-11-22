@@ -3876,5 +3876,84 @@
    "Anthropic 소속 수학자가 Claude와 증명을 찾았다고 밝혔으나 독립 검증은 아직이다."
   ],
   "why": "검증 능력이 만드는 능력만큼 중요해진다."
+ },
+ {
+  "date": "2026-11-23",
+  "lang": "ko",
+  "paid": false,
+  "coi": "",
+  "area": "",
+  "reaction": "",
+  "tags": [
+   "AI트렌드"
+  ],
+  "published": "2026-11-22",
+  "title": "ChatGPT·Claude 모바일 앱 개편, 에이전트가 전면에",
+  "source": "AI타임스",
+  "url": "https://www.aitimes.com/news/articleView.html?idxno=217654",
+  "summary": [
+   "ChatGPT는 개인 에이전트 '닷츠' 탭을 만들었고, 채팅 뒤에도 클라우드에서 계속 일한다.",
+   "닷츠는 프로부터 열리고 한국은 초기 제외다. 클로드 앱은 코드 메뉴를 앞에 뒀고 iOS 먼저다."
+  ],
+  "why": "직원이 폰으로 에이전트에 일을 맡기게 되니 권한·확인 교육이 필요하다."
+ },
+ {
+  "date": "2026-11-23",
+  "lang": "en",
+  "paid": false,
+  "coi": "MS 자사 발표",
+  "area": "",
+  "reaction": "",
+  "tags": [
+   "AI트렌드"
+  ],
+  "published": "2026-11-17",
+  "title": "MS·세일즈포스 '코파일럿포스', 영업 스킬 38개를 코파일럿에",
+  "source": "Microsoft 뉴스룸",
+  "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/",
+  "summary": [
+   "영업 스킬 38개 이상을 코파일럿에 붙인 플러그인이 11/17부터 공개 시험판이다.",
+   "CRM에 기록을 쓰기 전엔 사용자 확인이 필수이고, 액센추어가 설계·시범을 맡는다."
+  ],
+  "why": "직무별 '스킬 묶음'과 쓰기 전 확인이 사내 에이전트 도입의 본보기다."
+ },
+ {
+  "date": "2026-11-23",
+  "lang": "en",
+  "paid": false,
+  "coi": "",
+  "area": "",
+  "reaction": "",
+  "tags": [
+   "학습변화관리"
+  ],
+  "published": "2026-11-19",
+  "title": "학습기술은 도구 선택이 아니라 사업 전략 문제",
+  "source": "Chief Learning Officer",
+  "url": "https://www.chieflearningofficer.com/2026/11/19/learning-technology-management-in-2027/",
+  "summary": [
+   "IT·HR·보안과 함께 AI 도구의 공동 거버넌스를 짜야 한다고 짚는다.",
+   "참여·수료·만족도로는 부족해, 사기 전에 바꿀 행동과 성과를 정하라고 한다."
+  ],
+  "why": "AI 교육도 도입 전에 '무엇이 달라져야 하나'부터 못 박아야 한다."
+ },
+ {
+  "date": "2026-11-23",
+  "lang": "ko",
+  "paid": false,
+  "coi": "",
+  "area": "",
+  "reaction": "",
+  "tags": [
+   "기술화제"
+  ],
+  "published": "2026-11-22",
+  "title": "싱킹머신즈 '잉클링 2 미니', 노트북에서 도는 264억 매개변수 모델",
+  "source": "AI타임스",
+  "url": "https://www.aitimes.com/news/articleView.html?idxno=217656",
+  "summary": [
+   "11/20 가중치를 공개했고 메모리 약 20GB라 32GB 이상 맥북에서 돌며, 상업 이용도 된다."
+  ],
+  "why": "사내 자료를 밖으로 보내지 않는 AI 실습이 쉬워진다."
  }
 ]

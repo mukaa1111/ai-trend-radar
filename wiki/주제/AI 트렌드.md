@@ -1,7 +1,7 @@
 ---
 주제: AI 트렌드
-글 수: 74
-마지막 글: 2026-11-22
+글 수: 76
+마지막 글: 2026-11-23
 ---
 
 # AI 트렌드
@@ -12,6 +12,18 @@
 
 
 ## 2026년 11월
+
+### 11/23 · [ChatGPT·Claude 모바일 앱 개편, 에이전트가 전면에](https://www.aitimes.com/news/articleView.html?idxno=217654)
+AI타임스 · 한국어
+- ChatGPT는 개인 에이전트 '닷츠' 탭을 만들었고, 채팅 뒤에도 클라우드에서 계속 일한다.
+- 닷츠는 프로부터 열리고 한국은 초기 제외다. 클로드 앱은 코드 메뉴를 앞에 뒀고 iOS 먼저다.
+→ 왜 중요한가: 직원이 폰으로 에이전트에 일을 맡기게 되니 권한·확인 교육이 필요하다.
+
+### 11/23 · [MS·세일즈포스 '코파일럿포스', 영업 스킬 38개를 코파일럿에](https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/)
+Microsoft 뉴스룸 · 영어 · 이해관계: MS 자사 발표
+- 영업 스킬 38개 이상을 코파일럿에 붙인 플러그인이 11/17부터 공개 시험판이다.
+- CRM에 기록을 쓰기 전엔 사용자 확인이 필수이고, 액센추어가 설계·시범을 맡는다.
+→ 왜 중요한가: 직무별 '스킬 묶음'과 쓰기 전 확인이 사내 에이전트 도입의 본보기다.
 
 ### 11/22 · [노트북에서 도는 오픈 모델 '잉클링 2 미니' 공개](https://thinkingmachines.ai/news/inkling-2-mini/)
 Thinking Machines Lab · 영어 · 이해관계: 개발사 자사 발표
