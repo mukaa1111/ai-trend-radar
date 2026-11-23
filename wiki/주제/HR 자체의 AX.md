@@ -1,7 +1,7 @@
 ---
 주제: HR 자체의 AX
-글 수: 4
-마지막 글: 2026-11-20
+글 수: 5
+마지막 글: 2026-11-24
 ---
 
 # HR 자체의 AX
@@ -12,6 +12,13 @@
 
 
 ## 2026년 11월
+
+### 11/24 · [HR 시스템의 숨은 계산 규칙을 AI로 읽어내기(REA)](https://www.linkedin.com/posts/duckjungkim_github-morlutorea-reverse-engineer-anything-activity-7523646340367568896--MQ6)
+김덕중 LinkedIn (직접 저장) · 한국어
+- 오픈소스 REA로 평가 점수·결재 흐름·LMS 진도 계산 같은 기존 시스템의 논리를 분석하자고 제안한다.
+- 클라우드 SaaS 내부는 볼 수 없고 권한·개인정보 보호가 필요하다고 한계를 밝힌다.
+→ 왜 중요한가: HR 시스템을 바꾸기 전에 지금 규칙부터 파악하는 방법이다.
+👍 내 반응 (11/24): 직접 저장
 
 ### 11/20 · [채용담당자 90%, AI 이력서로 오인해 인재 놓칠까 걱정](https://www.hrdive.com/news/job-candidates-ai-usage-is-obscuring-their-viability-report-finds/875232/)
 HR Dive · 영어 · 이해관계: Greenhouse 채용 플랫폼 조사
