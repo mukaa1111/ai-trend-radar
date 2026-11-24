@@ -1,7 +1,7 @@
 ---
 주제: AI 트렌드
-글 수: 79
-마지막 글: 2026-11-24
+글 수: 81
+마지막 글: 2026-11-25
 ---
 
 # AI 트렌드
@@ -12,6 +12,19 @@
 
 
 ## 2026년 11월
+
+### 11/25 · [앤트로픽 '클로드 십': PR 점검부터 승인까지 맡긴다](https://www.aitimes.com/news/articleView.html?idxno=217729)
+AI타임스 · 한국어 · 이해관계: Anthropic 자사 발표 소개
+- 코드 리뷰에 CI 실패·병합 충돌 처리(PR Steward)와 정책 기반 승인(Claude Approvals)을 더했다.
+- Team·Enterprise 대상, 승인 기능은 공개 베타이며 병합·승인 권한은 팀 설정에 달렸다.
+→ 왜 중요한가: AI에게 어디까지 승인권을 줄지가 교육 주제가 된다.
+
+### 11/25 · [AI 65종에 12.8만 번 물었더니 같은 조언만 나왔다](https://a90.com/experiments/same-advice/)
+a90.com 실험 (GeekNews 소개) · 영어
+- 인생 책 질문의 73%가 '죽음의 수용소에서', 1만 달러 투자처 98%가 지수 펀드였다.
+- 내 상황을 구체적으로 알리면 겹침이 34%→4%로 줄고, '독창적으로'는 효과가 없었다.
+→ 왜 중요한가: AI 리터러시 교육에 '내 맥락 먼저 주기'를 넣을 근거다.
+👀 반응: GeekNews 댓글 — "분산 투자는 합의된 답" vs "기본값 의존은 획일화" 의견이 갈림.
 
 ### 11/24 · [구글 검색 AI 모드, 이제 지갑·메일·캘린더를 읽는다](https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/)
 Google 블로그 · 영어 · 이해관계: 구글 자사 발표

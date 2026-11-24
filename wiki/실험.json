@@ -1,5 +1,19 @@
 [
  {
+  "brief": "2026-11-25",
+  "date": "2026-11-25",
+  "label": "내 상황 3줄 먼저 주기",
+  "text": "자주 하는 AI 질문 하나를 '내 상황 3줄' 없이/있이 두 번 물어 답을 비교한다.",
+  "minutes": "15분",
+  "article": "",
+  "done": false,
+  "keep": false,
+  "stale": false,
+  "result": "",
+  "resultDate": "",
+  "private": false
+ },
+ {
   "brief": "2026-11-24",
   "date": "2026-11-24",
   "label": "모순 문서 찾기",
@@ -106,7 +120,7 @@
   "article": "",
   "done": false,
   "keep": false,
-  "stale": false,
+  "stale": true,
   "result": "",
   "resultDate": "",
   "private": false
