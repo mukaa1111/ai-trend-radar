@@ -1,5 +1,19 @@
 [
  {
+  "brief": "2026-11-26",
+  "date": "2026-11-26",
+  "label": "에이전트 권한 확인",
+  "text": "내가 쓰는 AI 도구 하나가 파일·메일 중 어디까지 만질 수 있는지 설정에서 보고 적는다.",
+  "minutes": "15분",
+  "article": "",
+  "done": false,
+  "keep": false,
+  "stale": false,
+  "result": "",
+  "resultDate": "",
+  "private": false
+ },
+ {
   "brief": "2026-11-25",
   "date": "2026-11-25",
   "label": "내 상황 3줄 먼저 주기",
@@ -106,7 +120,7 @@
   "article": "",
   "done": false,
   "keep": false,
-  "stale": false,
+  "stale": true,
   "result": "",
   "resultDate": "",
   "private": false

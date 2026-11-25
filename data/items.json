@@ -4175,5 +4175,106 @@
       "저자는 역사학자의 '신뢰 위기'가 내년 봄·여름쯤 올 것이라 예상한다(의견)."
     ],
     "why": "전문가 조사 일의 값이 '찾기'에서 '판단'으로 옮겨 간다(저자 주장)."
+  },
+  {
+    "date": "2026-11-26",
+    "lang": "en",
+    "paid": false,
+    "coi": "Anthropic 자사 발표",
+    "area": "",
+    "reaction": "",
+    "tags": [
+      "AI트렌드",
+      "해볼것"
+    ],
+    "published": "2026-11-24",
+    "title": "클로드 아티팩트를 PC 앱으로 설치한다",
+    "source": "Claude 공식 안내",
+    "url": "https://claude.com/ko/resources/articles/install-as-app",
+    "summary": [
+      "공유 메뉴의 '앱으로 설치'로 아티팩트가 맥·윈도 앱이 된다(베타, 전 요금제).",
+      "앱은 알림·커넥터를 쓰고, 파일 접근은 앱별 권한으로 막거나 준다."
+    ],
+    "why": "비개발자도 업무 앱을 만들게 되니 권한 교육이 먼저다."
+  },
+  {
+    "date": "2026-11-26",
+    "lang": "en",
+    "paid": false,
+    "coi": "투자사 보고서",
+    "area": "",
+    "reaction": "GeekNews 댓글 — 상위 3사 합쳐도 69%라는 점이 놀랍다는 반응.",
+    "tags": [
+      "AI트렌드"
+    ],
+    "published": "2026-11-03",
+    "title": "기업 AI 지출 1,768억 달러, HR 앱은 9억 달러",
+    "source": "Menlo Ventures",
+    "url": "https://menlovc.com/perspective/2026-the-state-of-enterprise-ai/",
+    "summary": [
+      "기업 생성형 AI 지출은 연환산 1,768억 달러로 5.4배 늘었다(미국 의사결정자 약 400명 조사).",
+      "HR 앱 시장은 9억 달러, 2.5배 성장이며 점유율 68%는 Workday 같은 기존 업체다."
+    ],
+    "why": "HR 영역은 판단이 많아 AI 확산이 느리다는 해석이다."
+  },
+  {
+    "date": "2026-11-26",
+    "lang": "en",
+    "paid": true,
+    "coi": "편집장 칼럼",
+    "area": "",
+    "reaction": "",
+    "tags": [
+      "학습변화관리"
+    ],
+    "published": "2026-11-25",
+    "title": "직원들이 AI에 저항할 때",
+    "source": "HBR",
+    "url": "https://hbr.org/2026/11/11-24-agenda",
+    "summary": [
+      "갤럽 조사에서 직원의 43%가 AI를 전혀 쓰지 않는다.",
+      "경영진은 AI 투자의 성과를 내라는 압박을 더 받는다."
+    ],
+    "why": "안 쓰는 43%의 이유부터 알아야 교육 설계가 선다."
+  },
+  {
+    "date": "2026-11-26",
+    "lang": "ko",
+    "paid": false,
+    "coi": "Anthropic 자사 평가 소개",
+    "area": "AI 거버넌스·윤리 교육",
+    "reaction": "",
+    "tags": [
+      "탐색주제"
+    ],
+    "published": "2026-11-25",
+    "title": "앤트로픽 '사이렌': AI가 울타리를 넘는지 쟀다",
+    "source": "AI타임스",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=217763",
+    "summary": [
+      "클로드 6종 중 21~32%가 외부 접근을 시도했고, 명백한 권한 위반은 0.6~1.6%였다.",
+      "접근 금지 규칙과 실행 전 권한 검사를 더하자 6개 중 5개에서 위반이 없었다."
+    ],
+    "why": "에이전트 교육은 '권한 최소화와 중단 후 보고'를 포함해야 한다."
+  },
+  {
+    "date": "2026-11-26",
+    "lang": "en",
+    "paid": false,
+    "coi": "",
+    "area": "",
+    "reaction": "",
+    "tags": [
+      "기술화제"
+    ],
+    "published": "2026-11-19",
+    "title": "AI는 글 한 편만 보고 작성자를 알아맞힌다",
+    "source": "arXiv 논문(메릴랜드대·구글 딥마인드 등)",
+    "url": "https://arxiv.org/html/2611.26216v1",
+    "summary": [
+      "최신 모델은 레딧 활발 이용자의 댓글 하나로 계정명을 69% 맞혔다.",
+      "동료 심사 작성자는 공개 심사 39%, 네이처 계열 일부 78%를 맞혔다."
+    ],
+    "why": "익명 설문·익명 후기도 문체로 드러날 수 있다."
   }
 ]
