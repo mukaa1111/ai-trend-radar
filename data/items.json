@@ -4276,5 +4276,105 @@
       "동료 심사 작성자는 공개 심사 39%, 네이처 계열 일부 78%를 맞혔다."
     ],
     "why": "익명 설문·익명 후기도 문체로 드러날 수 있다."
+  },
+  {
+    "date": "2026-11-27",
+    "lang": "ko",
+    "paid": false,
+    "coi": "구글 개발자 문서 발표 소개",
+    "area": "",
+    "reaction": "",
+    "tags": [
+      "AI트렌드"
+    ],
+    "published": "2026-11-26",
+    "title": "구글, 외부 AI 에이전트에 지메일·드라이브 이용료",
+    "source": "AI타임스",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=217820",
+    "summary": [
+      "외부 에이전트의 Workspace 접근에 하루 5,000건 무료, 초과는 1,000건당 0.10~0.50달러.",
+      "2027년 2/1부터 MCP 사용 요구, 4/1부터 요금 부과(기사 기준)."
+    ],
+    "why": "사내 AI 자동화에 쓰는 외부 도구 비용이 늘 수 있다."
+  },
+  {
+    "date": "2026-11-27",
+    "lang": "en",
+    "paid": false,
+    "coi": "개인 의견",
+    "area": "",
+    "reaction": "",
+    "tags": [
+      "AI트렌드"
+    ],
+    "published": "2026-11-24",
+    "title": "사이먼 윌리슨: 1년간 LLM 전환점 세 번",
+    "source": "Simon Willison 블로그",
+    "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+    "summary": [
+      "2025년 11월 Opus 4.5 등으로 코딩 에이전트가 일상 업무에 쓸 만해졌다.",
+      "2026년 6월 Fable급은 목표와 도구만 주면 스스로 문제를 풀었다고 쓴다."
+    ],
+    "why": "도구 변화 속도에 맞춘 교육 개정 주기를 점검할 때다."
+  },
+  {
+    "date": "2026-11-27",
+    "lang": "en",
+    "paid": false,
+    "coi": "연구 여러 건 종합 기사",
+    "area": "",
+    "reaction": "",
+    "tags": [
+      "학습변화관리"
+    ],
+    "published": "2026-11-24",
+    "title": "AI 교육이 막히는 이유: 관리자와 직원의 온도차",
+    "source": "HR Dive",
+    "url": "https://www.hrdive.com/news/training-is-key-to-ai-adoption-but-is-still-hitting-roadblocks/875542/",
+    "summary": [
+      "Hogan 조사: 관리자가 비관리자보다 AI에 훨씬 긍정적이다.",
+      "Marsh: 임원이 하위 직급보다 AI 교육·지원을 더 받는다."
+    ],
+    "why": "직급별로 교육 내용과 접근 기회를 따로 설계해야 한다."
+  },
+  {
+    "date": "2026-11-27",
+    "lang": "en",
+    "paid": false,
+    "coi": "저자가 해당 프로젝트 운영",
+    "area": "Work redesign",
+    "reaction": "",
+    "tags": [
+      "탐색주제"
+    ],
+    "published": "2026-11-08",
+    "title": "전문가 한 명이 연구소처럼: '1인 조직'",
+    "source": "Choosing Victory(Ryan Fedasiuk)",
+    "url": "https://www.choosingvictory.com/p/the-rise-of-the-one-person-institution",
+    "summary": [
+      "전문가의 역할이 결과물 작성에서 판단 기준을 시스템에 넣는 일로 옮겨 간다는 주장이다.",
+      "하루 뉴스 2.5만 건을 읽고 외교 전문 22건을 쓰는 AI 서비스가 사례다(자기 보고)."
+    ],
+    "why": "직무 재설계의 핵심을 '판단의 코드화'로 볼 수 있다."
+  },
+  {
+    "date": "2026-11-27",
+    "lang": "en",
+    "paid": false,
+    "coi": "",
+    "area": "",
+    "reaction": "",
+    "tags": [
+      "기술화제"
+    ],
+    "published": "2026-11-26",
+    "title": "뉴욕타임스, 사진기자에 \"포토샵 업데이트 말라\"",
+    "source": "The Verge 보도, HN 639점",
+    "url": "https://news.ycombinator.com/item?id=50647673",
+    "summary": [
+      "AI 기능이 들어간 포토샵 때문에 NYT가 사진가들에게 업데이트하지 말라고 알렸다.",
+      "HN에서 639점·댓글 513개, 이미지·글 모두 'AI 손질' 경계가 논쟁이다."
+    ],
+    "why": "'어디까지가 AI 손질인가' 기준이 조직마다 필요하다."
   }
 ]

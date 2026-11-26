@@ -1,7 +1,7 @@
 ---
 주제: Work redesign
-글 수: 25
-마지막 글: 2026-11-13
+글 수: 26
+마지막 글: 2026-11-27
 ---
 
 # Work redesign
@@ -12,6 +12,12 @@
 
 
 ## 2026년 11월
+
+### 11/27 · [전문가 한 명이 연구소처럼: '1인 조직'](https://www.choosingvictory.com/p/the-rise-of-the-one-person-institution)
+Choosing Victory(Ryan Fedasiuk) · 영어 · 이해관계: 저자가 해당 프로젝트 운영
+- 전문가의 역할이 결과물 작성에서 판단 기준을 시스템에 넣는 일로 옮겨 간다는 주장이다.
+- 하루 뉴스 2.5만 건을 읽고 외교 전문 22건을 쓰는 AI 서비스가 사례다(자기 보고).
+→ 왜 중요한가: 직무 재설계의 핵심을 '판단의 코드화'로 볼 수 있다.
 
 ### 11/13 · [AI, 프리랜서 프로젝트 41.3%를 전문가 수준으로 해냈다](https://www.aitimes.com/news/articleView.html?idxno=217332)
 AI타임스 · 한국어
