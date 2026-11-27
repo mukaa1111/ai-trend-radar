@@ -4376,5 +4376,105 @@
       "HN에서 639점·댓글 513개, 이미지·글 모두 'AI 손질' 경계가 논쟁이다."
     ],
     "why": "'어디까지가 AI 손질인가' 기준이 조직마다 필요하다."
+  },
+  {
+    "date": "2026-11-28",
+    "lang": "en",
+    "paid": false,
+    "coi": "저자가 벤치마크 서비스 운영",
+    "area": "",
+    "reaction": "GeekNews에서 코딩 품질 하락 체감과 \"벤치마크 지표 못 믿는다\"는 반박이 갈렸다.",
+    "tags": [
+      "AI트렌드"
+    ],
+    "published": "2026-11-26",
+    "title": "OpenAI 6.2, 생각을 덜 하게 튜닝됐나",
+    "source": "micjm 블로그",
+    "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
+    "summary": [
+      "한 벤치마크 자료에서 Astra·Sol 6.2는 출력·추론 토큰이 같은 작업 대비 줄었다.",
+      "6.1까지는 정상이었고, 비용 절감 튜닝이라는 추정은 저자 해석이다."
+    ],
+    "why": "모델 업데이트 뒤 사내 업무 품질을 다시 확인할 이유다."
+  },
+  {
+    "date": "2026-11-28",
+    "lang": "ko",
+    "paid": false,
+    "coi": "",
+    "area": "",
+    "reaction": "",
+    "tags": [
+      "AI트렌드"
+    ],
+    "published": "2026-11-27",
+    "title": "피클 AI 전화, 통신사·네이버가 제한",
+    "source": "AI타임스",
+    "url": "https://www.aitimes.com/news/articleView.html?idxno=217817",
+    "summary": [
+      "SKT·KT·LG U+·네이버가 AI 비서의 고객센터 전화를 대리 권한 불명확 등으로 제한했다.",
+      "SKT는 본인 확인 없는 예약 조율 등으로 '에이전트콜' 범위를 좁힐 계획이다."
+    ],
+    "why": "AI 대행에 맡길 일의 권한 범위를 정해야 한다."
+  },
+  {
+    "date": "2026-11-28",
+    "lang": "en",
+    "paid": false,
+    "coi": "단일 기업 자기 보고",
+    "area": "",
+    "reaction": "",
+    "tags": [
+      "학습변화관리"
+    ],
+    "published": "2026-11-24",
+    "title": "학습자 96%가 직원이 아닐 때: 이수보다 현장 행동",
+    "source": "Chief Learning Officer",
+    "url": "https://www.chieflearningofficer.com/2026/11/24/96-of-our-learners-dont-work-for-us/",
+    "summary": [
+      "제빵 가맹망 학습자 약 3,500명 중 본사 직원은 약 120명(4% 미만)이다.",
+      "이수는 강제할 수 있어도 행동은 못 해, 현장 관찰로 점검하고 코칭 도구를 줬다."
+    ],
+    "why": "이수율 대신 현장 행동 지표로 학습 효과를 봐야 한다."
+  },
+  {
+    "date": "2026-11-28",
+    "lang": "en",
+    "paid": false,
+    "coi": "HR 소프트웨어사",
+    "area": "스킬 기반 조직",
+    "reaction": "",
+    "tags": [
+      "탐색주제"
+    ],
+    "published": "",
+    "title": "HiBob 조사: AI 스킬이 승진 기준으로",
+    "source": "HiBob 리서치",
+    "url": "https://www.hibob.com/research/ai-skills-2026-report/",
+    "summary": [
+      "AI 의사결정자 1,200명 중 67%는 AI 스킬을 승진 기준에, 50%는 성과 평가에 연결한다.",
+      "관리자의 AI 역량 육성 준비도는 36%만 높다고 본다."
+    ],
+    "why": "직무별 AI 스킬 기준과 관리자 지원이 함께 필요하다."
+  },
+  {
+    "date": "2026-11-28",
+    "lang": "en",
+    "paid": false,
+    "coi": "",
+    "area": "",
+    "reaction": "",
+    "tags": [
+      "기술화제"
+    ],
+    "published": "2026-11-25",
+    "title": "Scott Aaronson: AI 수학 증명이 쏟아진다",
+    "source": "Shtetl-Optimized, GeekNews·HN 반응",
+    "url": "https://scottaaronson.blog/?p=10379",
+    "summary": [
+      "OpenAI·Anthropic·Google이 난제 증명을 잇달아 발표했고, 다수는 Lean 검증 파일이 붙었다(주장 단계).",
+      "GeekNews·HN에선 Lean 검증의 신뢰와 수학자 역할 변화를 두고 의견이 갈린다."
+    ],
+    "why": "AI 결과물은 '검증하는 힘'이 핵심 스킬이 된다."
   }
 ]

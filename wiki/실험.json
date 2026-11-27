@@ -1,5 +1,19 @@
 [
  {
+  "brief": "2026-11-28",
+  "date": "2026-11-28",
+  "label": "두 AI에 같은 일 시키기",
+  "text": "내 반복 업무 하나를 두 AI에 같은 지시로 넣고 결과를 비교한다.",
+  "minutes": "15분",
+  "article": "",
+  "done": false,
+  "keep": false,
+  "stale": false,
+  "result": "",
+  "resultDate": "",
+  "private": false
+ },
+ {
   "brief": "2026-11-27",
   "date": "2026-11-27",
   "label": "판단 기준 3줄 쓰기",
@@ -106,7 +120,7 @@
   "article": "",
   "done": false,
   "keep": false,
-  "stale": false,
+  "stale": true,
   "result": "",
   "resultDate": "",
   "private": false
